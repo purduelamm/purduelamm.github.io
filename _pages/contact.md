@@ -1,9 +1,15 @@
 ---
+title: ""
 permalink: /contact/
-title: "Contact"
 last_modified_at: 2022-05-27T11:59:26-04:00
-author_profile: false
 toc: true
+defaults:
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: single
+      author_profile: true
 ---
 
 {% include title-script.html title="Contact | Hojun Lee" %}
