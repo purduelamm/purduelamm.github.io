@@ -11,13 +11,13 @@ author_profile: false
 <ul class="contacts__entry-div">
     <li>
         <a href="tel:+17343555366">
-            <i class="far fa-phone"></i>
+            <i class="fab fa-fw fa-phone"></i>
             <span class="label">(734)355-5366</span>
         </a>
     </li>
     <li>
         <a href="mailto:hjunlee@umich.edu">
-            <i class="fas fa-envelope"></i>
+            <i class="fab fa-fw fa-envelope"></i>
             <span class="label">hjunlee@umich.edu</span>
         </a>
     </li>
