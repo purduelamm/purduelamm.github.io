@@ -1,12 +1,18 @@
 ---
 permalink: /contact/
-title: ""
+title: "Contact"
+header:
+  overlay_image: https://source.unsplash.com/random
+  overlay_filter: 0.4
+  caption: "Photo credit: [**Unsplash Source Random**](https://source.unsplash.com)"
 last_modified_at: 2022-11-13T11:59:26-04:00
 ---
 
-{% include title-script.html title="Contact | Hojun Lee" %}
+Most images in the website are from <a href="https://unsplash.com">Unsplash</a> while some of them 
+are provided by <a href="https://source.unsplash.com/">Unsplash Source</a>'s search service.
+{: .notice--info}
 
-# Contact
+{% include title-script.html title="Contact | Hojun Lee" %}
 
 <ul class="contacts__entry-div">
     <li>
