@@ -25,5 +25,5 @@ Hojun is currently focusing on single/multi modal based servoing. In his latest 
 
 ![alt]({{ site.url }}{{ site.baseurl }}/assets/images/amCharts.png){: .full}
 
-Hojun is an **explorer** of his life. Just like how he has been exploring a broad field of robotics, his great interest in history and culture has led him travel more than 25 countries in the world. Since his first traveling in early 2000 when Google map wasn't available. his journey is still ongoing. 
+Hojun is an **explorer** of his life. Just like how he has been exploring a broad field of robotics, his great interest in history and culture has led him travel more than 25 countries in the world. Since his first traveling in early 2000 when Google map wasn't available, his journey is still ongoing. 
 
