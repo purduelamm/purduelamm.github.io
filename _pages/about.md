@@ -16,7 +16,7 @@ are provided by <a href="https://source.unsplash.com/">Unsplash Source</a>'s sea
 
 ## Career Story
 
-Hojun is a roboticist specifically interested in robotic manipulation. He has majorly explored such interests through smart manufacturing which combines robotics, IoT, and machine learning to make manufacturing systems more flexible to unforeseeable events.
+Hojun is a roboticist specifically interested in manipulation. He has majorly explored such interests through smart manufacturing which combines robotics, IoT, and machine learning to make manufacturing systems more flexible to unforeseeable events.
 
 Hojun is currently focusing on single/multi modal based servoing. In his latest work, Hojun fused deep learning with other classical algorithms and deployed them on a mobile robot to achieve real-time multi-sensor aided object pose tracking and grasping.
 
