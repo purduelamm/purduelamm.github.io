@@ -116,8 +116,8 @@ author:
       icon: "fab fa-fw fa-linkedin"
       url: "https://www.linkedin.com/in/hjunlee94/"
     - label: "CV"
-      icon: "fab fa-fw fa-file-pdf"
-      url: "https://drive.google.com/drive/u/2/my-drive"
+      icon: "fas fa-fw fa-user-tie"
+      url: "https://drive.google.com/file/d/1pQlAsNTxha5LvPFjZZ33Dc194sMqUKq-/view?usp=sharing"
 
 # Site Footer
 footer:
