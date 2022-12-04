@@ -17,7 +17,7 @@ are provided by <a href="https://source.unsplash.com/">Unsplash Source</a>'s sea
 <ul class="contacts__entry-div">
     <li>
         <a href="tel:+17343555366">
-            <i class="far fa-phone"></i>
+            <i class="fas fa-phone"></i>
             <span class="label">(734)355-5366</span>
         </a>
     </li>

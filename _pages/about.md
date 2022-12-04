@@ -28,5 +28,3 @@ When I was fourteen, my dad and I went on a backpacking trip to Shiraz, a small 
 With ample enthusiasm and body language, our taxi driver drove us around the city and introduced the history behind the monuments in Persepolis. Our taxi tour of the city was a panoramic dive into the history of Iran, as we cross-checked in our heads what we had learned from ancient historical documents. Our driver then invited us for dinner with his family. Munching on Koobideh Kabab, we learned about the Iranian family structure, educational system, and home-cooking, all of which gave us an intimate peek into everyday Iranian life. 
 
 Growing up as an avid traveler, I cultivated a joy for exploring new and foreign terrains with curiosity and an appreciation for the unanticipated discoveries along the way. I also learned that such discoveries often came from encounters with other minds. Over time, my knack for exploration encouraged me to venture abroad from South Korea and move to the United States for college to become a robotics researcher.
-
-
