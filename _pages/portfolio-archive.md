@@ -1,15 +1,16 @@
 ---
-title: "Portfolio"
-permalink: /portfolio/
+title: Portfolio
 layout: collection
+permalink: /portfolio/
 collection: portfolio
 sort_by: order
 sort_order: reverse
 entries_layout: grid
 header:
-  overlay_image: https://source.unsplash.com/random
+  overlay_image: https://source.unsplash.com/featured/?portfolio
   overlay_filter: 0.4
-  caption: "Photo credit: [**Unsplash Source Random**](https://source.unsplash.com)"
+  caption: "Photo credit: [**Unsplash**](https://source.unsplash.com/featured/?portfolio)"
+excerpt: 지금까지 상업용으로 개발해 왔던 주요 프로그램들을 정리하였습니다.
 classes: wide
 last_modified_at: 2022-12-04T11:59:26-04:00
 ---

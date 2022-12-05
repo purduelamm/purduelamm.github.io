@@ -1,13 +1,13 @@
 ---
 order: 70
 title: "MS-DPT (Multi-Sensor aided Deep Pose Tracking)"
-# excerpt: "범용 금형해석 프로그램 전/후 처리기 신제품 개발 컨설팅 및 기술 지원"
-# header:
-#   teaser: /assets/images/bio/map.png
-# gallery:
-#   - url: /assets/images/bio/map.png
-#     image_path: /assets/images/bio/map.png
-#     alt: "MS-DPT"
+excerpt: "범용 금형해석 프로그램 전/후 처리기 신제품 개발 컨설팅 및 기술 지원"
+header:
+  teaser: /assets/images/bio/map.png
+gallery:
+  - url: /assets/images/bio/map.png
+    image_path: /assets/images/bio/map.png
+    alt: "MS-DPT"
 ---
 
 # AFDEX 신버전 개발 (2019.1 ~ 2021.4)
