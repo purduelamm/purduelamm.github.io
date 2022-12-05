@@ -6,7 +6,7 @@ header:
   teaser: /assets/images/porfolio/MS-DPT.png
 gallery:
   - url: /assets/images/porfolio/MS-DPT.png
-    image_path: /assets/images/porfolio/mMS-DPT.png
+    image_path: /assets/images/porfolio/MS-DPT.png
     alt: "MS-DPT"
 ---
 
