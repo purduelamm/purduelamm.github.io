@@ -189,7 +189,7 @@ kramdown:
 
 # Collections
 collections:
-  docs:
+  portfolio:
     output: true
     permalink: /:collection/:path/
 
