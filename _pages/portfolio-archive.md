@@ -1,6 +1,7 @@
 ---
 permalink: /portfolio/
 title: "Portfolio"
+collection: portfolio
 sort_by: order
 sort_order: reverse
 entries_layout: grid
