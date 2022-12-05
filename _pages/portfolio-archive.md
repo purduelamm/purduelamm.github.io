@@ -1,6 +1,7 @@
 ---
-permalink: /portfolio/
 title: "Portfolio"
+permalink: /portfolio/
+layout: collection
 collection: portfolio
 sort_by: order
 sort_order: reverse
@@ -12,7 +13,3 @@ header:
 classes: wide
 last_modified_at: 2022-12-04T11:59:26-04:00
 ---
-
-Most images in the website are from <a href="https://unsplash.com">Unsplash</a> while some of them 
-are provided by <a href="https://source.unsplash.com/">Unsplash Source</a>'s search service.
-{: .notice--info}

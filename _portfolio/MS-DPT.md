@@ -1,6 +1,6 @@
 ---
 order: 70
-title: "AFDEX (MFRC)"
+title: "MS-DPT (Multi-Sensor aided Deep Pose Tracking)"
 excerpt: "범용 금형해석 프로그램 전/후 처리기 신제품 개발 컨설팅 및 기술 지원"
 header:
   teaser: /assets/images/bio/map.png
