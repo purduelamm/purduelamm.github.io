@@ -14,6 +14,3 @@ gallery:
 A hybrid approach of analytical model and deep learning for online object pose estimation and tracking
 
 {% include gallery caption="" %}
-
-# 사용 기술
-MFC, VTK, XTP
