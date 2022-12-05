@@ -1,17 +1,17 @@
 ---
 order: 70
-title: "MS-DPT (Multi-Sensor aided Deep Pose Tracking)"
-excerpt: "범용 금형해석 프로그램 전/후 처리기 신제품 개발 컨설팅 및 기술 지원"
+title: "MS-DPT"
+excerpt: "Multi-Sensor aided Deep Pose Tracking"
 header:
-  teaser: /assets/images/bio/map.png
+  teaser: /assets/images/bio/MS-DPT.gif
 gallery:
-  - url: /assets/images/bio/map.png
-    image_path: /assets/images/bio/map.png
+  - url: /assets/images/bio/MS-DPT.gif
+    image_path: /assets/images/bio/mMS-DPT.gif
     alt: "MS-DPT"
 ---
 
-# AFDEX 신버전 개발 (2019.1 ~ 2021.4)
-범용 금형해석 프로그램 전/후 처리기 신제품 개발 컨설팅 및 기술 지원
+# Multi-Sensor aided Deep Pose Tracking (2021.1 ~ 2022.5)
+A hybrid approach of analytical model and deep learning for online object pose estimation and tracking
 
 {% include gallery caption="" %}
 
