@@ -21,7 +21,7 @@ I am a roboticist specifically interested in manipulation. I have majorly explor
 
 ## Personal Story
 
-![alt]({{ site.url }}{{ site.baseurl }}/assets/images/amCharts.png){: .full}
+![alt]({{ site.url }}{{ site.baseurl }}/assets/images/bio/map.png){: .full}
 
 When I was fourteen, my dad and I went on a backpacking trip to Shiraz, a small city in south-central Iran. As we were both fanatics of history and ancient civilizations, Shiraz was the tenth destination on our excavatory journey around the world. On a hot sunny morning, we set out to visit the historical sites of the Mesopotamian civilization, located miles out from the city center. But absent the advent of Google Maps, we struggled to find our way. Holding scrappy paper maps in our hands and scrambling to get hold of locals who barely spoke English, we stood in the steaming Persian heat, stranded. Then, a taxi came by.
 

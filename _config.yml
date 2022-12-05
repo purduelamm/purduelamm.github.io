@@ -104,7 +104,7 @@ analytics:
 # Site Author
 author:
   name             : "Hojun Lee"
-  avatar           : "/assets/images/bio-photo.JPG"
+  avatar           : "/assets/images/bio/bio-photo.jpg"
   bio              : "Robotics Enthusiast"
   location         : "Ann Arbor, MI"
   email            :
