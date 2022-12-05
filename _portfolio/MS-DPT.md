@@ -3,10 +3,10 @@ order: 70
 title: "MS-DPT"
 excerpt: "Multi-Sensor aided Deep Pose Tracking"
 header:
-  teaser: /assets/images/bio/MS-DPT.png
+  teaser: /assets/images/porfolio/MS-DPT.png
 gallery:
-  - url: /assets/images/bio/MS-DPT.png
-    image_path: /assets/images/bio/mMS-DPT.png
+  - url: /assets/images/porfolio/MS-DPT.png
+    image_path: /assets/images/porfolio/mMS-DPT.png
     alt: "MS-DPT"
 ---
 
