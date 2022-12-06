@@ -2,15 +2,43 @@
 order: 70
 title: "MS-DPT"
 excerpt: "Multi-Sensor aided Deep Pose Tracking"
+tags: Robotics AI State_Estimation
 header:
   teaser: /assets/images/porfolio/MS-DPT.png
+  overlay_image: https://drive.google.com/file/d/1jj_TA6Xfpwz_0lbh-OYjvzRnK9xxL5i3/view
+  overlay_filter: 0.4
 gallery:
   - url: /assets/images/porfolio/MS-DPT.png
     image_path: /assets/images/porfolio/MS-DPT.png
     alt: "MS-DPT"
+last_modified_at: 2022-12-05T11:59:26-04:00
+toc: true
+toc_sticky: true
 ---
 
-# Multi-Sensor aided Deep Pose Tracking (2021.1 ~ 2022.5)
-A hybrid approach of analytical model and deep learning for online object pose estimation and tracking
+# Abstract
+Accurate pose estimation of nearby objects is critical for robots to dynamically
+interact with their surroundings. The complexity of this task has led researchers to explore deep
+learning methods. Nowadays, many works have solely focused on developing complicated neural
+network architectures to estimate pose from a simple monocular camera. However, most of these
+methods struggle with inherent limitations of a single sensor system, like occlusion, which are
+commonly encountered in mobile robotics applications. Online, occlusion-robust pose estimation
+is extremely important in such cases, as mobility of a robot introduces major uncertainty that
+complicates manipulation. 
 
 {% include gallery caption="" %}
+
+Hence, we present Multi-Sensor aided Deep Pose Tracking (MS-DPT), a 
+framework for online object pose estimation to enable robust mobile manipulation. A Convolutional 
+Neural Network (CNN) identifies key objects in an RGB-D image, from which object pose estimates 
+are generated using a variant of the Iterative Closest Point (ICP) algorithm. An extended Kalman 
+filter is used to fuse this pose estimate with onboard motion sensors to compensate for occlusion 
+and robot motion during manipulation. This three stage method focuses on cohering different modalities 
+and algorithms to improve the pose tracking stability and continuity in cases where the target 
+object becomes heavily occluded by an obstacle or a mobile robot itself. The proposed approach 
+accurately tracks textureless objects with high symmetries while operating at 10 FPS during experiments.
+
+# Conference
+<iframe src="https://drive.google.com/file/d/1LQyA4sq_oKebqDFc3Gnt5M3VG4GPoY-2/preview" width="640" height="480" allow="autoplay"></iframe>
+
+Original paper is available at [here](https://reader.elsevier.com/reader/sd/pii/S2405896322028488?token=6933D11580712EA983392FF588C6275CBFB077F5361E78B9BF76C2B0EFDA450AD64D1EAB9D5AAD63D0B44494618DF960&originRegion=us-east-1&originCreation=20221206002854)
