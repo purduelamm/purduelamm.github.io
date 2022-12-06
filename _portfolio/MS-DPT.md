@@ -1,11 +1,12 @@
 ---
-order: 70
-title: "MS-DPT"
-excerpt: "Multi-Sensor aided Deep Pose Tracking"
+order: 1
+title: "MS-DPT: Multi-Sensor aided Deep Pose Tracking"
+excerpt: "A hybrid approach of deep learning and analytical model-based algorithms for online object 6D pose estimation"
+tagline: "Hojun Lee, Tyler Toner, Dawn Tilbury, Kira Barton"
 tags: Robotics AI State_Estimation
 header:
   teaser: /assets/images/porfolio/MS-DPT.png
-  overlay_image: https://drive.google.com/file/d/1jj_TA6Xfpwz_0lbh-OYjvzRnK9xxL5i3/view
+  overlay_image: /assets/images/porfolio/Log2.gif
   overlay_filter: 0.4
 gallery:
   - url: /assets/images/porfolio/MS-DPT.png
