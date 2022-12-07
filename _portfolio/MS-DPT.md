@@ -46,4 +46,5 @@ accurately tracks textureless objects with high symmetries while operating at 10
 # Conference
 <iframe src="https://drive.google.com/file/d/1LQyA4sq_oKebqDFc3Gnt5M3VG4GPoY-2/preview" width="640" height="480" allow="autoplay"></iframe>
 
-Original paper is available at [here](https://reader.elsevier.com/reader/sd/pii/S2405896322028488?token=6933D11580712EA983392FF588C6275CBFB077F5361E78B9BF76C2B0EFDA450AD64D1EAB9D5AAD63D0B44494618DF960&originRegion=us-east-1&originCreation=20221206002854)
+{: .text-center}
+<a href="https://reader.elsevier.com/reader/sd/pii/S2405896322028488?token=6933D11580712EA983392FF588C6275CBFB077F5361E78B9BF76C2B0EFDA450AD64D1EAB9D5AAD63D0B44494618DF960&originRegion=us-east-1&originCreation=20221206002854" class="btn btn--primary btn--large">Original Paper</a>
