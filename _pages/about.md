@@ -8,6 +8,7 @@ header:
 last_modified_at: 2022-11-13T11:59:26-04:00
 toc: true
 toc_sticky: true
+author_profile: true
 ---
 
 Most images in the website are from <a href="https://unsplash.com">Unsplash</a> while some of them 

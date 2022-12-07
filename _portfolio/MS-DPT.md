@@ -15,6 +15,7 @@ gallery:
 last_modified_at: 2022-12-05T11:59:26-04:00
 toc: true
 toc_sticky: true
+author_profile: true
 ---
 
 # Abstract
