@@ -15,7 +15,6 @@ gallery:
 last_modified_at: 2022-12-05T11:59:26-04:00
 toc: true
 toc_sticky: true
-author_profile: true
 ---
 
 # Abstract
@@ -28,7 +27,11 @@ commonly encountered in mobile robotics applications. Online, occlusion-robust p
 is extremely important in such cases, as mobility of a robot introduces major uncertainty that
 complicates manipulation. 
 
-{% include gallery caption="" %}
+{% include gallery caption="The MS-DPT architecture: The system detects symmetrical objects without any texture using ASUS Xtion Pro
+Live on the Human Support Robot (HSR). Masks generated from a CNN with an RGB image are overlaid on a
+depth image to construct partial point clouds with labels. Each point cloud goes through a registration process to
+estimate poses of the objects with respect to the robot’s base. These poses are fused with the robot’s odometry to
+enhance their accuracy." %}
 
 Hence, we present Multi-Sensor aided Deep Pose Tracking (MS-DPT), a 
 framework for online object pose estimation to enable robust mobile manipulation. A Convolutional 
