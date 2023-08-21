@@ -105,8 +105,8 @@ analytics:
 author:
   name             : "Hojun Lee"
   avatar           : "/assets/images/bio/bio-photo.jpg"
-  bio              : "Robotics Enthusiast / Incoming PhD Student at Purdue University"
-  location         : "Ann Arbor, MI"
+  bio              : "Robotics Enthusiast / PhD Student at Purdue University"
+  location         : "West Lafayette, IN"
   email            :
   links:
     - label: "GitHub"
