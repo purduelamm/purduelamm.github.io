@@ -21,9 +21,9 @@ All images in the website are from <a href="[https://unsplash.com](https://githu
         </a>
     </li>
     <li>
-        <a href="mailto:hjunlee@umich.edu">
+        <a href="mailto:lee1764@purdue.edu">
             <i class="fas fa-envelope"></i>
-            <span class="label">hjunlee@umich.edu</span>
+            <span class="label">lee1764@purdue.edu</span>
         </a>
     </li>
 </ul>
