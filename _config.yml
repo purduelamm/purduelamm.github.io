@@ -107,7 +107,7 @@ author:
   avatar           : "/assets/images/bio/bio-photo.jpg"
   bio              : "Robotics Enthusiast / Ph.D. Student at Purdue University"
   location         : "West Lafayette, IN"
-  email            :
+  email            : "lee1764@purdue.edu"
   links:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
