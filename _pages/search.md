@@ -1,5 +1,5 @@
 ---
-title: "fa fa-search"
+title: "Search"
 layout: search
 permalink: /search/
 ---
