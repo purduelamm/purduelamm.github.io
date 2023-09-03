@@ -4,8 +4,6 @@ main:
     url: /about/
   - title: "Portfolio"
     url: /portfolio/  
-  - title: "Search"
-    url: /search/
   # - title: "Sample Collections"
   #   url: /collection-archive/
   # - title: "Sitemap"
