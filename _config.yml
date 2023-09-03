@@ -13,7 +13,7 @@
 # theme                  : "minimal-mistakes-jekyll"
 remote_theme             : "mmistakes/minimal-mistakes@4.24.0"
 minimal_mistakes_skin    : "dirt" # "default", "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
-minimal_mistakes_skin2   : "dark"
+minimal_mistakes_skin2   : "neon"
 
 # Site Settings
 locale                   : "en-US"
@@ -92,7 +92,7 @@ og_image                 : # Open Graph/Twitter default site image
 social:
   type                   : # Person or Organization (defaults to Person)
   name                   : # If the user or organization name differs from the site's name
-  links: # An array of links to social media profiles
+  links                  : # An array of links to social media profiles
 
 # Analytics
 analytics:
@@ -106,7 +106,7 @@ analytics:
 author:
   name             : "Hojun Lee"
   avatar           : "/assets/images/bio/bio-photo.jpg"
-  bio              : "Robotics Enthusiast / Ph.D. Student at Purdue University"
+  bio              : "Robotics Enthusiast / Ph.D. Student @ Purdue University"
   location         : "West Lafayette, IN"
   email            : "lee1764@purdue.edu"
   links:
