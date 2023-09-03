@@ -120,14 +120,14 @@ author:
       url: "https://drive.google.com/file/d/1pV9FvpgRMEYaEtRUSUE5-SnOvjk3J03p/view?usp=sharing"
 
 # Site Footer
-footer:
-  links:
-    - label: "GitHub"
-      icon: "fab fa-fw fa-github"
-      url: "https://github.com/kidpaul94"
-    - label: "LinkedIn"
-      icon: "fab fa-fw fa-linkedin"
-      url: "https://www.linkedin.com/in/hjunlee94/"
+# footer:
+#   links:
+#     - label: "GitHub"
+#       icon: "fab fa-fw fa-github"
+#       url: "https://github.com/kidpaul94"
+#     - label: "LinkedIn"
+#       icon: "fab fa-fw fa-linkedin"
+#       url: "https://www.linkedin.com/in/hjunlee94/"
 
 
 # Reading Files

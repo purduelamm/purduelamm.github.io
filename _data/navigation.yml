@@ -4,9 +4,9 @@ main:
     url: /about/
   - title: "Portfolio"
     url: /portfolio/  
-  - title: "fa fa-search"
+  - title: "Search"
     url: /search/
   # - title: "Sample Collections"
   #   url: /collection-archive/
-  # - title: "Sitemap"
-  #   url: /sitemap/
+  - title: "Sitemap"
+    url: /sitemap/
