@@ -43,5 +43,9 @@ and algorithms to improve the pose tracking stability and continuity in cases wh
 object becomes heavily occluded by an obstacle or a mobile robot itself. The proposed approach 
 accurately tracks textureless objects with high symmetries while operating at 10 FPS during experiments.
 
-# Conference
-<iframe src="https://drive.google.com/file/d/1LQyA4sq_oKebqDFc3Gnt5M3VG4GPoY-2/preview" width="640" height="480" allow="autoplay"></iframe>
+<!-- # Conference
+<iframe src="https://drive.google.com/file/d/1LQyA4sq_oKebqDFc3Gnt5M3VG4GPoY-2/preview" width="640" height="480" allow="autoplay"></iframe> -->
+
+{: .text-center}
+<a href="https://reader.elsevier.com/reader/sd/pii/S2405896322028488?token=6933D11580712EA983392FF588C6275CBFB077F5361E78B9BF76C2B0EFDA450AD64D1EAB9D5AAD63D0B44494618DF960&originRegion=us-east-1&originCreation=20221206002854" class="btn btn--primary btn--large"><button class="btn"><i class="fas fa-file-pdf"></i></button> IFAC</a>
+<a href="https://drive.google.com/file/d/1LQyA4sq_oKebqDFc3Gnt5M3VG4GPoY-2/preview" class="btn btn--primary btn--large"><button class="btn"><i class="fa fa-file-video-o"></i></button> Conference</a>
