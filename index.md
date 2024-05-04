@@ -2,7 +2,7 @@
 title: "Portfolio"
 layout: collection
 classes: wide
-permalink: /portfolio/
+permalink: /
 collection: portfolio
 sort_by: order
 sort_order: reverse
