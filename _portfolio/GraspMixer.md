@@ -17,6 +17,11 @@ toc: true
 toc_sticky: true
 ---
 
+{: .text-center}
+<!-- <a href="https://www.sciencedirect.com/science/article/pii/S2405896322028488" class="btn btn--primary btn--large"><i class="fas fa-file-pdf" style="font-size:36px"></i> Paper</a> &emsp;
+<a href="https://drive.google.com/file/d/1LQyA4sq_oKebqDFc3Gnt5M3VG4GPoY-2/preview" class="btn btn--primary btn--large"><i class="fas fa-video" style="font-size:36px"></i> IFAC Conference</a> &emsp; -->
+<a href="https://github.com/kidpaul94/GraspMixer" class="btn btn--primary btn--large"><i class="fab fa-github" style="font-size:36px"></i> Code</a>
+
 # Abstract
 Coming Soon....
 
