@@ -44,7 +44,7 @@ object becomes heavily occluded by an obstacle or a mobile robot itself. The pro
 accurately tracks textureless objects with high symmetries while operating at 10 FPS during experiments.
 
 <p align="center">
-<img src="/assets/images/porfolio/Log1.gif" width=38% height=38%> <img src="/assets/images/porfolio/Log2.gif" width=38% height=38%>
+<img src="/assets/images/porfolio/Log1.gif" width="38%" height="38%" /> <img src="/assets/images/porfolio/Log2.gif" width="38%" height="38%" />
 </p>
 
 <p align="center">
@@ -53,7 +53,7 @@ accurately tracks textureless objects with high symmetries while operating at 10
 
 # IFAC Conference
 <p align="center">
-<iframe align="center" src="https://drive.google.com/file/d/1LQyA4sq_oKebqDFc3Gnt5M3VG4GPoY-2/preview" width="640" height="480" allow="autoplay"></iframe>
+<iframe src="https://drive.google.com/file/d/1LQyA4sq_oKebqDFc3Gnt5M3VG4GPoY-2/preview" width="640" height="480" allow="autoplay"></iframe>
 </p>
 
 # Citation
