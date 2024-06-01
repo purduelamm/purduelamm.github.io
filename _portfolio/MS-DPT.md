@@ -18,7 +18,7 @@ toc_sticky: true
 
 {: .text-center}
 <a href="https://www.sciencedirect.com/science/article/pii/S2405896322028488" class="btn btn--primary btn--large"><i class="fas fa-file-pdf" style="font-size:36px"></i> Paper</a> &emsp;
-<a href="https://drive.google.com/file/d/1LQyA4sq_oKebqDFc3Gnt5M3VG4GPoY-2/preview" class="btn btn--primary btn--large"><i class="fas fa-video" style="font-size:36px"></i> IFAC Conference</a> &emsp;
+<a href="https://drive.google.com/file/d/1LQyA4sq_oKebqDFc3Gnt5M3VG4GPoY-2/preview" class="btn btn--primary btn--large"><i class="fas fa-video" style="font-size:36px"></i> MECC Conference</a> &emsp;
 <a href="https://github.com/kidpaul94/MS-DPT" class="btn btn--primary btn--large"><i class="fab fa-github" style="font-size:36px"></i> Code</a>
 
 {% include gallery caption="The MS-DPT architecture: The system detects symmetrical objects without any texture using ASUS Xtion Pro
@@ -40,7 +40,7 @@ Accurate pose estimation of nearby objects is critical for robots to dynamically
 <img src="/assets/images/porfolio/Log3.gif" width="41.2%" height="41.2%" /> <img src="/assets/images/porfolio/Log4.gif" width="55%" height="55%" />
 </p>
 
-# IFAC Conference
+# MECC Conference
 <p align="center">
 <iframe src="https://drive.google.com/file/d/1LQyA4sq_oKebqDFc3Gnt5M3VG4GPoY-2/preview" width="640" height="480" allow="autoplay"></iframe>
 </p>
