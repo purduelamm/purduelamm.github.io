@@ -24,21 +24,25 @@ toc_sticky: true
 {% include gallery caption="The MS-DPT architecture: The system detects symmetrical objects without any texture using ASUS Xtion Pro
 Live on the Human Support Robot (HSR). Masks generated from a CNN with an RGB image are overlaid on a depth image to construct partial point clouds with labels. Each point cloud goes through a registration process to estimate poses of the objects with respect to the robot’s base. These poses are fused with the robot’s odometry to enhance their accuracy." %}
 
-# Abstract
-Accurate pose estimation of nearby objects is critical for robots to dynamically interact with their surroundings. The complexity of this task has led researchers to explore deep learning methods. Nowadays, many works have solely focused on developing complicated neural network architectures to estimate pose from a simple monocular camera. However, most of these methods struggle with inherent limitations of a single sensor system, like occlusion, which are commonly encountered in mobile robotics applications. Online, occlusion-robust pose estimation is extremely important in such cases, as mobility of a robot introduces major uncertainty that complicates manipulation. Hence, we present Multi-Sensor aided Deep Pose Tracking (MS-DPT), a framework for online object pose estimation to enable robust mobile manipulation. A Convolutional Neural Network (CNN) identifies key objects in an RGB-D image, from which object pose estimates are generated using a variant of the Iterative Closest Point (ICP) algorithm. An extended Kalman filter is used to fuse this pose estimate with onboard motion sensors to compensate for occlusion and robot motion during manipulation. This three stage method focuses on cohering different modalities and algorithms to improve the pose tracking stability and continuity in cases where the target object becomes heavily occluded by an obstacle or a mobile robot itself. The proposed approach accurately tracks textureless objects with high symmetries while operating at 10 FPS during experiments.
+# Introduction
+Accurate pose estimation of nearby objects is critical for robots to dynamically interact with their surroundings. The complexity of this task has led researchers to explore deep learning methods. Nowadays, many works have solely focused on developing complicated neural network architectures to estimate pose from a simple monocular camera. However, most of these methods struggle with inherent limitations of a single sensor system, like occlusion, which are commonly encountered in mobile robotics applications. Online, occlusion-robust pose estimation is extremely important in such cases, as mobility of a robot introduces major uncertainty that complicates manipulation. Hence, we present Multi-Sensor aided Deep Pose Tracking (MS-DPT), a framework for online object pose estimation to enable robust mobile manipulation. 
 
 # Performance of MS-DPT
-## Naive Pose Estimation vs. Fused Estimation
+## Single Camera-based Estimation vs. Fused Estimation (OURS)
 {: .text-center}
 <p align="center">
 <img src="/assets/images/porfolio/Log1.gif" width="45%" height="45%" /> <img src="/assets/images/porfolio/Log2.gif" width="45%" height="45%" />
 </p>
+
+In MS-DPT, a Convolutional Neural Network (CNN) identifies key objects in an RGB-D image, from which object pose estimates are generated using a variant of the Iterative Closest Point (ICP) algorithm. An extended Kalman filter is used to fuse this pose estimate with onboard motion sensors to compensate for *occlusion* and *robot motion* during manipulation. 
 
 ## Heavy Occlusion & Robotic Grasping
 {: .text-center}
 <p align="center">
 <img src="/assets/images/porfolio/Log3.gif" width="41.2%" height="41.2%" /> <img src="/assets/images/porfolio/Log4.gif" width="55%" height="55%" />
 </p>
+
+This three stage method focuses on *cohering different modalities and algorithms* to improve the pose tracking stability and continuity in cases where the target object becomes heavily occluded by an obstacle or a mobile robot itself. The proposed approach accurately tracks textureless objects with high symmetries while operating at 10 FPS during experiments.
 
 # MECC Conference
 <p align="center">
