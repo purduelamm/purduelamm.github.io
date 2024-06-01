@@ -3,7 +3,7 @@ order: 1
 title: "MS-DPT: Multi-Sensor aided Deep Pose Tracking"
 excerpt: "A hybrid approach for online object 6D pose estimation"
 tagline: "[Hojun Lee](https://scholar.google.com/citations?user=SLpPgLYAAAAJ&hl=en&oi=sra)<sup>1</sup>, [Tyler Toner](https://scholar.google.com/citations?user=NKTX6H4AAAAJ&hl=en)<sup>1</sup>, [Dawn Tilbury](https://scholar.google.com/citations?user=8P0XsUgAAAAJ&hl=en)<sup>1</sup>, [Kira Barton](https://scholar.google.com/citations?user=RXmPJqsAAAAJ&hl=en)<sup>1</sup> <br/> <sup>1</sup> University of Michigan, Ann Arbor" 
-tags: Robotics AI State_Estimation
+tags: Robotics AI Computer Vision State_Estimation
 header:
   teaser: /assets/images/porfolio/MS-DPT.png
   overlay_image: /assets/images/porfolio/Log2.gif
