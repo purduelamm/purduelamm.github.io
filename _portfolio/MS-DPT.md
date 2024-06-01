@@ -18,9 +18,9 @@ toc_sticky: true
 ---
 
 {: .text-center}
-<a href="https://www.sciencedirect.com/science/article/pii/S2405896322028488" class="btn btn-outline-primary"><i class="fas fa-file-pdf" style="font-size:36px"></i> Paper</a> &emsp;
-<a href="https://drive.google.com/file/d/1LQyA4sq_oKebqDFc3Gnt5M3VG4GPoY-2/preview" class="btn btn-outline-primary"><i class="fas fa-video" style="font-size:36px"></i> IFAC Conference</a> &emsp;
-<a href="https://github.com/kidpaul94/MS-DPT"><i class="fab fa-github" style="font-size:36px"></i> Code</a>
+<a href="https://www.sciencedirect.com/science/article/pii/S2405896322028488" class="btn btn--primary btn--large"><i class="fas fa-file-pdf" style="font-size:36px"></i> Paper</a> &emsp;
+<a href="https://drive.google.com/file/d/1LQyA4sq_oKebqDFc3Gnt5M3VG4GPoY-2/preview" class="btn btn--primary btn--large"><i class="fas fa-video" style="font-size:36px"></i> IFAC Conference</a> &emsp;
+<a href="https://github.com/kidpaul94/MS-DPT" class="btn btn--primary btn--large"><i class="fab fa-github" style="font-size:36px"></i> Code</a>
 
 {% include gallery caption="The MS-DPT architecture: The system detects symmetrical objects without any texture using ASUS Xtion Pro
 Live on the Human Support Robot (HSR). Masks generated from a CNN with an RGB image are overlaid on a
