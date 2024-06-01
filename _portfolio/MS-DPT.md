@@ -23,10 +23,7 @@ toc_sticky: true
 <a href="https://github.com/kidpaul94/MS-DPT" class="btn btn--primary btn--large"><i class="fab fa-github" style="font-size:36px"></i> Code</a>
 
 {% include gallery caption="The MS-DPT architecture: The system detects symmetrical objects without any texture using ASUS Xtion Pro
-Live on the Human Support Robot (HSR). Masks generated from a CNN with an RGB image are overlaid on a
-depth image to construct partial point clouds with labels. Each point cloud goes through a registration process to
-estimate poses of the objects with respect to the robot’s base. These poses are fused with the robot’s odometry to
-enhance their accuracy." %}
+Live on the Human Support Robot (HSR). Masks generated from a CNN with an RGB image are overlaid on a depth image to construct partial point clouds with labels. Each point cloud goes through a registration process to estimate poses of the objects with respect to the robot’s base. These poses are fused with the robot’s odometry to enhance their accuracy." %}
 
 # Abstract
 Accurate pose estimation of nearby objects is critical for robots to dynamically
@@ -47,8 +44,7 @@ object becomes heavily occluded by an obstacle or a mobile robot itself. The pro
 accurately tracks textureless objects with high symmetries while operating at 10 FPS during experiments.
 
 # IFAC Conference
-{: .text-center}
-<iframe src="https://drive.google.com/file/d/1LQyA4sq_oKebqDFc3Gnt5M3VG4GPoY-2/preview" width="640" height="480" allow="autoplay"></iframe>
+<iframe src="https://drive.google.com/file/d/1LQyA4sq_oKebqDFc3Gnt5M3VG4GPoY-2/preview" width="640" height="480" align="middle" allow="autoplay"></iframe>
 
 # Citation
 
