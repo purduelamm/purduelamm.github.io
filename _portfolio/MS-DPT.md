@@ -38,7 +38,7 @@ Accurate pose estimation of nearby objects is critical for robots to dynamically
 ## Heavy Occlusion & Robotic Grasping
 {: .text-center}
 <p align="center">
-<img src="/assets/images/porfolio/Log3.gif" width="40%" height="40%" /> <img src="/assets/images/porfolio/Log4.gif" width="55%" height="55%" />
+<img src="/assets/images/porfolio/Log3.gif" width="41%" height="41%" /> <img src="/assets/images/porfolio/Log4.gif" width="55%" height="55%" />
 </p>
 
 # IFAC Conference
