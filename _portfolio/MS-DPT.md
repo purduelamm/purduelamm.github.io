@@ -2,7 +2,7 @@
 order: 1
 title: "MS-DPT: Multi-Sensor aided Deep Pose Tracking"
 excerpt: "A hybrid approach of deep learning and analytical model-based algorithms for online object 6D pose estimation"
-tagline: "Hojun Lee, Tyler Toner, Dawn Tilbury, Kira Barton"
+tagline: "[Hojun Lee](https://scholar.google.com/citations?user=SLpPgLYAAAAJ&hl=en&oi=sra), Tyler Toner, Dawn Tilbury, Kira Barton"
 tags: Robotics AI State_Estimation
 header:
   teaser: /assets/images/porfolio/MS-DPT.png
