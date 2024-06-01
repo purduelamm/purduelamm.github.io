@@ -44,11 +44,11 @@ object becomes heavily occluded by an obstacle or a mobile robot itself. The pro
 accurately tracks textureless objects with high symmetries while operating at 10 FPS during experiments.
 
 <p align="center">
-<img src=https://github.com/kidpaul94/kidpaul94.github.io/assets/images/porfolio/Log1.gif width=38% height=38%> <img src=https://github.com/kidpaul94/kidpaul94.github.io/assets/images/porfolio/Log2.gif width=38% height=38%>
+<img src="/assets/images/porfolio/Log1.gif" width=38% height=38%> <img src="/assets/images/porfolio/Log2.gif" width=38% height=38%>
 </p>
 
 <p align="center">
-<img src=https://github.com/kidpaul94/kidpaul94.github.io/assets/images/porfolio/Log3.gif width=38% height=38%> <img src=https://github.com/kidpaul94/kidpaul94.github.io/assets/images/porfolio/Log4.gif width=38% height=38%>
+<img src="https://github.com/kidpaul94/kidpaul94.github.io/assets/images/porfolio/Log3.gif" width=38% height=38%> <img src="https://github.com/kidpaul94/kidpaul94.github.io/assets/images/porfolio/Log4.gif" width=38% height=38%>
 </p>
 
 # IFAC Conference
