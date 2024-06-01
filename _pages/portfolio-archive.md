@@ -6,7 +6,7 @@ permalink: /portfolio/
 collection: portfolio
 sort_by: order
 sort_order: reverse
-# entries_layout: grid
+entries_layout: grid
 header:
   overlay_image: https://minimalistic-wallpaper.demolab.com/?random
   overlay_filter: 0.4
