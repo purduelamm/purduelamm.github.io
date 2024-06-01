@@ -6,6 +6,10 @@ tagline: "[Hojun Lee](https://scholar.google.com/citations?user=SLpPgLYAAAAJ&hl=
 tags: Robotics AI State_Estimation
 header:
   teaser: /assets/images/porfolio/MS-DPT.png
+    tag:
+      - txt: "Paper"
+        link: "https://www.sciencedirect.com/science/article/pii/S2405896322028488"
+        ic: "fas fa-file-pdf"
   overlay_image: /assets/images/porfolio/Log2.gif
   overlay_filter: 0.4
 gallery:
