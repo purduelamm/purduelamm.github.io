@@ -12,10 +12,14 @@ gallery:
   - url: /assets/images/porfolio/MS-DPT.png
     image_path: /assets/images/porfolio/MS-DPT.png
     alt: "MS-DPT"
-last_modified_at: 2022-12-05T11:59:26-04:00
+last_modified_at: 2024-06-01T11:59:26-04:00
 toc: true
 toc_sticky: true
 ---
+
+{: .text-center}
+<a href="https://www.sciencedirect.com/science/article/pii/S2405896322028488"><i class="fas fa-file-pdf"></i> IFAC</a>
+<a href="https://drive.google.com/file/d/1LQyA4sq_oKebqDFc3Gnt5M3VG4GPoY-2/preview"><i class="fas fa-video"></i> Conference</a>
 
 # Abstract
 Accurate pose estimation of nearby objects is critical for robots to dynamically
@@ -45,7 +49,3 @@ accurately tracks textureless objects with high symmetries while operating at 10
 
 <!-- # Conference
 <iframe src="https://drive.google.com/file/d/1LQyA4sq_oKebqDFc3Gnt5M3VG4GPoY-2/preview" width="640" height="480" allow="autoplay"></iframe> -->
-
-{: .text-center}
-<a href="https://www.sciencedirect.com/science/article/pii/S2405896322028488" class="btn btn--primary btn--large"><i class="fas fa-file-pdf"></i> IFAC</a>
-<a href="https://drive.google.com/file/d/1LQyA4sq_oKebqDFc3Gnt5M3VG4GPoY-2/preview" class="btn btn--primary btn--large"><i class="fa-caret-square-o-right"></i> Conference</a>
