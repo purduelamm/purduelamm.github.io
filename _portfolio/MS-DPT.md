@@ -20,7 +20,7 @@ toc_sticky: true
 {: .text-center}
 <a href="https://www.sciencedirect.com/science/article/pii/S2405896322028488"><i class="fas fa-file-pdf" style="font-size:36px"></i> IFAC</a> &emsp;
 <a href="https://drive.google.com/file/d/1LQyA4sq_oKebqDFc3Gnt5M3VG4GPoY-2/preview"><i class="fas fa-video" style="font-size:36px"></i> Conference</a> &emsp;
-<a href="https://github.com/kidpaul94/MS-DPT"><i class="fa fa-github" style="font-size:36px"></i> Code</a>
+<a href="https://github.com/kidpaul94/MS-DPT"><i class="fab fa-github" style="font-size:36px"></i> Code</a>
 
 # Abstract
 Accurate pose estimation of nearby objects is critical for robots to dynamically
