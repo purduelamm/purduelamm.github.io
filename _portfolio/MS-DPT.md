@@ -42,7 +42,7 @@ In MS-DPT, a Convolutional Neural Network (CNN) identifies key objects in an RGB
 <img src="/assets/images/porfolio/Log3.gif" width="41.2%" height="41.2%" /> <img src="/assets/images/porfolio/Log4.gif" width="55%" height="55%" />
 </p>
 
-This three stage method focuses on \textcolor{blue}{*cohering different modalities and algorithms*} to improve the pose tracking stability and continuity in cases where the target object becomes heavily occluded by an obstacle or a mobile robot itself. The proposed approach accurately tracks textureless objects with high symmetries while operating at 10 FPS during experiments.
+This three stage method focuses on <font color='blue'>*cohering different modalities and algorithms*</font> to improve the pose tracking stability and continuity in cases where the target object becomes heavily occluded by an obstacle or a mobile robot itself. The proposed approach accurately tracks textureless objects with high symmetries while operating at 10 FPS during experiments.
 
 # MECC Conference
 <p align="center">
