@@ -8,7 +8,7 @@ header:
   teaser: /assets/images/porfolio/MS-DPT.png
   overlay_image: /assets/images/porfolio/Log2.gif
   overlay_filter: 0.4
-gallery:
+gallery1:
   - url: /assets/images/porfolio/MS-DPT.png
     image_path: /assets/images/porfolio/MS-DPT.png
     alt: "MS-DPT"
@@ -22,7 +22,7 @@ toc_sticky: true
 <a href="https://drive.google.com/file/d/1LQyA4sq_oKebqDFc3Gnt5M3VG4GPoY-2/preview" class="btn btn--primary btn--large"><i class="fas fa-video" style="font-size:36px"></i> IFAC Conference</a> &emsp;
 <a href="https://github.com/kidpaul94/MS-DPT" class="btn btn--primary btn--large"><i class="fab fa-github" style="font-size:36px"></i> Code</a>
 
-{% include gallery caption="The MS-DPT architecture: The system detects symmetrical objects without any texture using ASUS Xtion Pro
+{% include gallery1 caption="The MS-DPT architecture: The system detects symmetrical objects without any texture using ASUS Xtion Pro
 Live on the Human Support Robot (HSR). Masks generated from a CNN with an RGB image are overlaid on a depth image to construct partial point clouds with labels. Each point cloud goes through a registration process to estimate poses of the objects with respect to the robot’s base. These poses are fused with the robot’s odometry to enhance their accuracy." %}
 
 # Abstract
