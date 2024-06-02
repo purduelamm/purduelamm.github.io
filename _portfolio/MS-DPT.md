@@ -46,7 +46,7 @@ This three stage method focuses on <font color='blue' style><em>cohering differe
 
 # MECC Conference
 <p align="center">
-<iframe src="https://drive.google.com/file/d/1LQyA4sq_oKebqDFc3Gnt5M3VG4GPoY-2/preview" width="100%" allow="autoplay"></iframe>
+<iframe src="https://drive.google.com/file/d/1LQyA4sq_oKebqDFc3Gnt5M3VG4GPoY-2/preview" width="960" height="720" allow="autoplay"></iframe>
 </p>
 
 # Citation
