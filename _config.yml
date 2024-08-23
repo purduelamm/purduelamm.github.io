@@ -193,7 +193,7 @@ kramdown:
 
 # Collections
 collections:
-  research:
+  portofolio:
     output: true
     permalink: /:collection/:path/
 
