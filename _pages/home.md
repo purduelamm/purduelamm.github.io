@@ -1,6 +1,6 @@
 ---
-title: "About"
-permalink: /about/
+title: "Home"
+permalink: /home/
 header: 
   overlay_image: https://minimalistic-wallpaper.demolab.com/?random
   overlay_filter: 0.4
