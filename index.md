@@ -1,9 +1,9 @@
 ---
-title: "Portfolio"
+title: "Research"
 layout: collection
 classes: wide
 permalink: /
-collection: portfolio
+collection: research
 sort_by: order
 sort_order: reverse
 entries_layout: grid
