@@ -17,10 +17,10 @@ minimal_mistakes_skin2   : "neon"
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Hojun Lee"
+title                    : "LAMM"
 title_separator          : "|"
-subtitle                 : "The Dreamer" # site tagline that appears below site title in masthead
-name                     : "Hojun Lee"
+subtitle                 : "Laboratory for Advanced Multiscale Manufacturing" # site tagline that appears below site title in masthead
+name                     : "Martin Byung-Guk Jun"
 url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
@@ -95,43 +95,43 @@ social:
   links                  : # An array of links to social media profiles
 
 # Analytics
-analytics:
-  provider               : google-gtag # false (default), "google", "google-universal", "google-gtag", "custom"
-  google:
-    tracking_id          : G-HDZNXS5MYE 
-    anonymize_ip         : false # true, false (default)
+# analytics:
+#   provider               : google-gtag # false (default), "google", "google-universal", "google-gtag", "custom"
+#   google:
+#     tracking_id          : 
+#     anonymize_ip         : false # true, false (default)
 
 
 # Site Author
 author:
   name             : "Hojun Lee"
-  avatar           : "/assets/images/bio/bio-photo.jpg"
-  bio              : "Robotics Enthusiast / Ph.D. Student @ Purdue University"
+  avatar           : ""
+  bio              : ""
   location         : "West Lafayette, IN"
-  email            : "lee1764@purdue.edu"
+  email            : "mbgjun@purdue.edu"
   links:
     - label: "Google Scholar"
       icon: "fa fa-graduation-cap"
-      url: "https://scholar.google.com/citations?user=SLpPgLYAAAAJ&hl=en&oi=sra"
+      url: "https://scholar.google.com/citations?user=ROylyrwAAAAJ&hl=en&oi=ao"
     - label: "LinkedIn"
       icon: "fab fa-fw fa-linkedin"
-      url: "https://www.linkedin.com/in/hjunlee94/"
+      url: ""
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/kidpaul94"
+      url: "https://github.com/orgs/purduelamm/repositories"
     - label: "CV"
       icon: "fas fa-fw fa-user-tie"
-      url: "https://drive.google.com/file/d/18KXmJTUvriwTyuH7oezPvmhMjC0wjtGH/view?usp=sharing"
+      url: ""
 
 # Site Footer
 footer:
   links:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/kidpaul94"
+      url: "https://github.com/orgs/purduelamm/repositories"
     - label: "LinkedIn"
       icon: "fab fa-fw fa-linkedin"
-      url: "https://www.linkedin.com/in/hjunlee94/"
+      url: ""
 
 
 # Reading Files
