@@ -1,6 +1,10 @@
 # main links
 main:
-  - title: "About"
-    url: /about/
+  - title: "Home"
+    url: /home/
   - title: "Research"
-    url: /research/  
+    url: /research/
+  - title: "Member"
+    url: /member/    
+  - title: "Contact"
+    url: /contact/ 
