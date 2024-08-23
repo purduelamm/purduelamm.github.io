@@ -104,7 +104,7 @@ social:
 
 # Site Author
 author:
-  name             : "Hojun Lee"
+  name             : "Martin Byung-Guk Jun"
   avatar           : ""
   bio              : ""
   location         : "West Lafayette, IN"
@@ -193,7 +193,7 @@ kramdown:
 
 # Collections
 collections:
-  portfolio:
+  research:
     output: true
     permalink: /:collection/:path/
 
@@ -287,7 +287,7 @@ defaults:
   # _portfolio
   - scope:
       path: ""
-      type: portfolio
+      type: research
     values:
       layout: single
       author_profile: true
