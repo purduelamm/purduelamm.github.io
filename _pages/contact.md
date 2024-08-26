@@ -32,6 +32,7 @@ Highly motivated students with the following interests and skills are needed. Pl
 
 ## Location on Purdue LAMM
 
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12143.302455451134!2d-86.93757119139256!3d40.45699651575115!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8812fde7c6f77755%3A0xed68c22fc8cbc4d9!2sPurdue%20University!5e0!3m2!1sen!2sus!4v1724705069039!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 
 Manufacturing and Materials Research Laboratories (MMRL)  
 2550 Northwestern Ave.  
