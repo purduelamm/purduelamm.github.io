@@ -10,18 +10,15 @@ toc: true
 toc_sticky: true
 ---
 
-All images in the website are from <a href="https://github.com/DenverCoder1/minimalistic-wallpaper-collection">DenverCoder1</a>.
-{: .notice--info}
-
 ## Contact
-Martin Byung-Guk Jun, PhD
+Martin Byung-Guk Jun, Ph.D. <br>
 Associate Professor
 School of Mechanical Engineering
 Purdue University
 585 Purdue Mall, Room 3061D
 West Lafayette, IN, 47907-2088
 Phone: 765-494-3376
-Email: <a href="mbgjun@purdue.edu">mbgjun@purdue.edu</a>
+Email: mbgjun@purdue.edu
 
 ## Open Positions
 Highly motivated students with the following interests and skills are needed. Please contact Dr. Jun directly after submitting your application to Purdue.
