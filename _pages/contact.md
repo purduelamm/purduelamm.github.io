@@ -13,7 +13,7 @@ toc_sticky: true
 ## Contact  
 
 Martin Byung-Guk Jun, Ph.D.  
-Associate Professor  
+Professor  
 School of Mechanical Engineering  
 Purdue University  
 585 Purdue Mall, Room 3061D  
