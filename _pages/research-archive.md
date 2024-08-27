@@ -17,6 +17,9 @@ toc_sticky: true
 ---
 
 ## Researches
+
 {% for item in site.research %}
-- [{{ item.title }}]({{ item.url }})
+- ![{{ item.title }}]({{ item.image_url }})  
+  **[{{ item.title }}]({{ item.url }})**  
+  {{ item.description }}
 {% endfor %}
