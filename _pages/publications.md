@@ -13,7 +13,7 @@ toc_sticky: true
 All images in the website are from <a href="https://github.com/DenverCoder1/minimalistic-wallpaper-collection">DenverCoder1</a>.
 {: .notice--info}
 
-1. Functionally graded structure of a nitride-strengthened Mg2Si-based hybrid composite, Journal of Magnesium and Alloys 12 (3), 1239-1256, 2024
+1. [Functionally graded structure of a nitride-strengthened Mg2Si-based hybrid composite, Journal of Magnesium and Alloys 12 (3), 1239-1256, 2024](https://www.sciencedirect.com/science/article/pii/S2213956724000951)
 2. Numerical studies on cold spray gas dynamics and powder flow in circular and rectangular nozzles, Journal of Manufacturing Processes 114, 232-246, 2024
 3. A predictive modeling approach for cold spray metallization on polymers, Surface and Coatings Technology 483, 130711, 2024
 4. Real-time monitoring of the interelectrode gap during electrochemical machining processes using a smart machine tool equipped with an optical fiber Fabry-Pérot interferometer …, Mechanical Systems and Signal Processing 211, 111245, 2024
