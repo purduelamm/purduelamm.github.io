@@ -113,9 +113,9 @@ author:
     - label: "Google Scholar"
       icon: "fa fa-graduation-cap"
       url: "https://scholar.google.com/citations?user=ROylyrwAAAAJ&hl=en&oi=ao"
-    - label: "LinkedIn"
-      icon: "fab fa-fw fa-linkedin"
-      url: ""
+    - label: "X-Twitter"
+      icon: "fa-brands fa-x-twitter"
+      url: "https://x.com/mbgjun"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/orgs/purduelamm/repositories"
@@ -129,9 +129,9 @@ footer:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/orgs/purduelamm/repositories"
-    - label: "LinkedIn"
-      icon: "fab fa-fw fa-linkedin"
-      url: ""
+    - label: "X-Twitter"
+      icon: "fa-brands fa-x-twitter"
+      url: "https://x.com/mbgjun"
 
 
 # Reading Files
