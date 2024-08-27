@@ -18,8 +18,8 @@ School of Mechanical Engineering
 Purdue University  
 585 Purdue Mall, Room 3061D  
 West Lafayette, IN, 47907-2088  
-<i class="fa fa-phone" style="font-size:24px"></i> 765-494-3376  
-<i class="fa fa-envelope" style="font-size:24px"></i> mbgjun@purdue.edu  
+Phone: 765-494-3376  
+Email: mbgjun@purdue.edu  
 
 ## Open Positions
 
