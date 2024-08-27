@@ -1,8 +1,8 @@
 ---
-order: 1
+order: 2
 title: "Example_1"
 excerpt: "Example_2"
-tagline: "[Hojun Lee](https://scholar.google.com/citations?user=SLpPgLYAAAAJ&hl=en&oi=sra)<sup>1</sup>"
+tagline: "[Hojun Lee_2](https://scholar.google.com/citations?user=SLpPgLYAAAAJ&hl=en&oi=sra)<sup>1</sup>"
 header:
   teaser: /assets/images/research/sample_img.jpeg
   overlay_image: /assets/images/research/sample_img.jpeg
@@ -16,4 +16,4 @@ toc: true
 toc_sticky: true
 ---
 
-## TBD
+## TBD other research
