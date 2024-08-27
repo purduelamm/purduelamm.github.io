@@ -1,6 +1,6 @@
 ---
-title: "Member"
-permalink: /member/
+title: "Publications"
+permalink: /publications/
 header: 
   overlay_image: https://minimalistic-wallpaper.demolab.com/?random
   overlay_filter: 0.4
