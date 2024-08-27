@@ -114,7 +114,7 @@ author:
       icon: "fa fa-graduation-cap"
       url: "https://scholar.google.com/citations?user=ROylyrwAAAAJ&hl=en&oi=ao"
     - label: "X-Twitter"
-      icon: "fa fa-twitter"
+      icon: "fab fa-fw fa-twitter-square"
       url: "https://x.com/mbgjun"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
@@ -130,7 +130,7 @@ footer:
       icon: "fab fa-fw fa-github"
       url: "https://github.com/orgs/purduelamm/repositories"
     - label: "X-Twitter"
-      icon: "fa fa-twitter"
+      icon: "fab fa-fw fa-twitter-square"
       url: "https://x.com/mbgjun"
 
 
