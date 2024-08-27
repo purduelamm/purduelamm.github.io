@@ -4,7 +4,9 @@ main:
     url: /home/
   - title: "Research"
     url: /research/
-  - title: "Member"
-    url: /member/    
+  - title: "Members"
+    url: /members/    
+  - title: "Publications"
+    url: /publications/  
   - title: "Contact"
     url: /contact/ 
