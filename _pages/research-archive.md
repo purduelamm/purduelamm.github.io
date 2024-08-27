@@ -16,4 +16,7 @@ toc: true
 toc_sticky: true
 ---
 
-## TBD
+## Researches
+{% for item in site.research %}
+- [{{ item.title }}]({{ item.url }})
+{% endfor %}
