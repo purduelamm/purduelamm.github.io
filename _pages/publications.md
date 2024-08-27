@@ -13,6 +13,8 @@ toc_sticky: true
 All images in the website are from <a href="https://github.com/DenverCoder1/minimalistic-wallpaper-collection">DenverCoder1</a>.
 {: .notice--info}
 
+## 2024
+
 1. [Functionally graded structure of a nitride-strengthened Mg2Si-based hybrid composite, Journal of Magnesium and Alloys 12 (3), 1239-1256, 2024](https://www.sciencedirect.com/science/article/pii/S2213956724000951)
 2. [Numerical studies on cold spray gas dynamics and powder flow in circular and rectangular nozzles, Journal of Manufacturing Processes 114, 232-246, 2024](https://www.sciencedirect.com/science/article/pii/S1526612524001300)
 3. [A predictive modeling approach for cold spray metallization on polymers, Surface and Coatings Technology 483, 130711, 2024](https://www.sciencedirect.com/science/article/pii/S0257897224003426)
@@ -31,6 +33,9 @@ All images in the website are from <a href="https://github.com/DenverCoder1/mini
 16. [Visual coating inspection framework via self-labeling and multi-stage deep learning strategies, Journal of Intelligent Manufacturing, 1-18, 2024](https://link.springer.com/content/pdf/10.1007/s10845-024-02372-9.pdf)
 17. [Obtaining Optimum Cutting Parameters of Carbon Fiber Reinforced Polymer Composite (CFRP) Material by Using GA and SA Methods during Drilling](https://assets-eu.researchsquare.com/files/rs-3797971/v1/e90c4bf7-ad20-4184-87ec-3a92564060ec.pdf?c=1711311276)
 18. 3D Profile Reconstruction and Internal Defect Detection of Silicon Wafers Using Cascaded Fiber Optic Fabry-Pérot Interferometer and Leaky Field Detection Technologies, Journal of Manufacturing Science and Engineering, 1-11, 2024
+
+## 2023
+
 19. Autoencoder-based anomaly detection of industrial robot arm using stethoscope based internal sound sensor, Journal of Intelligent Manufacturing 34 (3), 1427-1444, 2023
 20. Machine learning for object recognition in manufacturing applications, International Journal of Precision Engineering and Manufacturing 24 (4), 683-712, 2023
 21. Fiber optic sensor for smart manufacturing, International Journal of Precision Engineering and Manufacturing-Smart …, 2023
@@ -62,6 +67,9 @@ All images in the website are from <a href="https://github.com/DenverCoder1/mini
 47. ENGINEERING TECHNOLOGY, Journal of Engineering Technology, 7, 2023
 48. Sound Monitoring and Applications for Smart Manufacturing Using MTConnect Framework and Artificial Intelligence, International Conference on Precision Engineering and Sustainable …, 2023
 49. Real-time Machine State Monitoring using Sound and Machine Learning, The 9th International Conference on Manufacturing, Machine Design and …, 2023
+
+## 2022
+
 50. Topography‐supported nanoarchitectonics of hybrid scaffold for systematically modulated bone regeneration and remodeling, Advanced Functional Materials 32 (51), 2206863, 2022
 51. Development of robotic bin picking platform with cluttered objects using human guidance and convolutional neural network (CNN), Journal of Manufacturing Systems 63, 539-549, 2022
 52. Immersive and interactive cyber-physical system (I2CPS) and virtual reality interface for human involved robotic manufacturing, Journal of Manufacturing Systems 62, 234-248, 2022
@@ -85,6 +93,9 @@ All images in the website are from <a href="https://github.com/DenverCoder1/mini
 70. A Study on the Effect of Nozzle Geometrical Parameters on Supersonic Cold Spraying of Droplets, International Manufacturing Science and Engineering Conference 85802 …, 2022
 71. Development of Autonomous Robotic Bin Picking System Using Convolutional Neural Network (CNN) Initially Trained by Human Skills, International Manufacturing Science and Engineering Conference 85819 …, 2022
 72. A Programmable Dual‐Regime Spray for Large‐Scale and Custom‐Designed Electronic Textiles (Adv. Mater. 9/2022), Advanced Materials 34 (9), 2270069, 2022
+
+## 2021
+
 73. Polarization effect on hole evolution and periodic microstructures in femtosecond laser drilling of thermal barrier coated superalloys, Applied Surface Science 537, 148001, 2021
 74. Establishing a cold spray particle deposition window on polymer substrate, Journal of Thermal Spray Technology 30, 1069-1080, 2021
 75. Thrust force-based tool wear estimation using discrete wavelet transformation and artificial neural network in CFRP drilling, International Journal of Precision Engineering and Manufacturing 22, 1527-1536, 2021
@@ -107,6 +118,9 @@ All images in the website are from <a href="https://github.com/DenverCoder1/mini
 92. Geometrical Simulation Model for Milling of Carbon Fiber Reinforced Polymer (CFRP) Composites
 93. Manufacturing Letters
 94. Experimental Investigation on Dry Routing of CFRP Composite: Temperature, Forces, Tool Wear, and Fine Dust Emission. Materials 2021, 14, 5697, s Note: MDPI stays neutral with regard to jurisdictional claims in published …, 2021
+
+## 2020
+
 95. Ultrafast laser applications in manufacturing processes: A state-of-the-art review, Journal of Manufacturing Science and Engineering 142 (3), 031005, 2020
 96. Deep learning based approach for identifying conventional machining processes from CAD data, Procedia Manufacturing 48, 915-925, 2020
 97. Hollow-core photonic crystal fiber Mach–Zehnder interferometer for gas sensing, Sensors 20 (10), 2807, 2020
@@ -124,6 +138,9 @@ All images in the website are from <a href="https://github.com/DenverCoder1/mini
 109. Comparative analysis and monitoring of tool wear in carbon fiber reinforced plastics drilling, Journal of the Korean Society for Precision Engineering 37 (11), 813-818, 2020
 110. Numerical Investigation of Various Coaxial Nozzle Designs for Direct Laser Deposition, International Manufacturing Science and Engineering Conference 84263 …, 2020
 111. The influence of Bi2O3 glass powder in silver paste on the fabrication of ohmic contacts and its potential effectiveness in solar cells and integrated circuits on p-type …, arXiv preprint arXiv:2008.10067, 2020
+
+## 2019
+
 112. Predictive maintenance of machine tool systems using artificial intelligence techniques applied to machine condition data, Procedia Cirp 80, 506-511, 2019
 113. Tapered fiber-optic Mach-Zehnder interferometer for ultra-high sensitivity measurement of refractive index, Sensors 19 (7), 1652, 2019
 114. Facile fabrication of flexible glutamate biosensor using direct writing of platinum nanoparticle-based nanocomposite ink, Biosensors and Bioelectronics 131, 257-266, 2019
@@ -137,6 +154,9 @@ All images in the website are from <a href="https://github.com/DenverCoder1/mini
 122. MicroMilling Operations, Modern Manufacturing Processes, 411-434, 2019
 123. Micro-scale fiber cutting geometry predictions during milling of carbon fiber reinforced polymers (CFRP) composites, International Manufacturing Science and Engineering Conference 58752 …, 2019
 124. Special Section on Recent Advancements in Micro-and Nano‐manufacturing From the WCMNM2018—Part 1, Journal of Micro-and Nano-Manufacturing 7 (1), 010301, 2019
+
+## 2018
+
 125. A review on optical fiber sensors for environmental monitoring, International journal of precision engineering and manufacturing-green …, 2018
 126. Significant improvement in visible light photocatalytic activity of Fe doped TiO2 using an acid treatment process, Applied Surface Science 427, 791-799, 2018
 127. Measurement of in-fiber refractive index change using a Mach–Zehnder interferometer, IEEE Photonics Technology Letters 31 (1), 74-77, 2018
@@ -150,6 +170,9 @@ All images in the website are from <a href="https://github.com/DenverCoder1/mini
 135. Antibacterial Activity of Smart (Auxetic) Polyurethane Foams, Nanotechnology-Driven Engineered Materials: New Insights, 241, 2018
 136. Characterization of Long Period Grating With a Screw Shape Fabricated by a Single-Path Scanning of Femtosecond Laser, International Manufacturing Science and Engineering Conference 51388 …, 2018
 137. An Automated Patternator System Development
+
+## 2017
+
 138. Design and fabrication of auxetic PCL nanofiber membranes for biomedical applications, Materials Science and Engineering: C 81, 334-340, 2017
 139. Measurement methods for solubility and diffusivity of gases and supercritical fluids in polymers and its applications, Polymer reviews 57 (4), 695-747, 2017
 140. Fabrication of a screw-shaped long-period fiber grating for refractive index sensing, IEEE Photonics Technology Letters 29 (24), 2242-2245, 2017
@@ -169,6 +192,9 @@ All images in the website are from <a href="https://github.com/DenverCoder1/mini
 154. Smart Predictions and Decisions for Smart Manufacturing, 한국정밀공학회 학술발표대회 논문집, 7-7, 2017
 155. 3 차원 스캐닝을 위한 분무 미립화기반 균질 스프레이 코팅 시스템의성능 평가, 한국정밀공학회지 34 (10), 689-693, 2017
 156. Interferometric measurement of refractive index modification in a single mode microfiber, Ultrafast Phenomena and Nanophotonics XXI 10102, 191-196, 2017
+
+## 2016
+
 157. Biomaterial strategies for delivering stem cells as a treatment for spinal cord injury, Cells Tissues Organs 202 (1-2), 42-51, 2016
 158. A cost-effective method to create physically and thermally stable and storable super-hydrophobic aluminum alloy surfaces, Surface and Coatings Technology 285, 227-234, 2016
 159. Bragg grating embedded in Mach-Zehnder interferometer for refractive index and temperature sensing, IEEE Photonics Technology Letters 28 (18), 1968-1971, 2016
@@ -185,6 +211,9 @@ All images in the website are from <a href="https://github.com/DenverCoder1/mini
 170. Nanoparticle Coating System Development for Surface Functionalization, 한국생산제조학회 학술발표대회 논문집, 7-7, 2016
 171. 탄소섬유복합재 3 축 밀링 알고리즘 개발, 한국정밀공학회지 33 (6), 447-452, 2016
 172. Front & Back Matter, Cells Tissues Organs 202 (1-2), 2016
+
+## 2015
+
 173. Electrospun biomaterial scaffolds with varied topographies for neuronal differentiation of human‐induced pluripotent stem cells, Journal of biomedical materials research Part A 103 (8), 2591-2601, 2015
 174. Design and fabrication of auxetic stretchable force sensor for hand rehabilitation, Smart Materials and Structures 24 (7), 075027, 2015
 175. Fabrication and characterization of nonwoven auxetic polymer stent, Polymer-Plastics Technology and Engineering 54 (15), 1553-1559, 2015
@@ -209,6 +238,9 @@ All images in the website are from <a href="https://github.com/DenverCoder1/mini
 194. 2D Simulation of 3-Axis Milling for Carbon Fiber Reinforced Polymer (CFRP) Composites, 한국정밀공학회 학술발표대회 논문집, 41-42, 2015
 195. Bowtie-shaped hole array for fiber-optic refractive index sensing in telecom-wavelengths, Conference on Lasers and Electro-Optics/Pacific Rim, 26P_62, 2015
 196. Special issue on environmentally conscious technologies in mechanical engineering, Advances in Mechanical Engineering 7 (5), 1687814015585425, 2015
+
+## 2014
+
 197. One-step fabrication of superhydrophobic hierarchical structures by femtosecond laser ablation, Applied Surface Science 313, 411-417, 2014
 198. Fabrication of poly (ϵ-caprolactone) microfiber scaffolds with varying topography and mechanical properties for stem cell-based tissue engineering applications, Journal of Biomaterials Science, Polymer Edition 25 (1), 1-17, 2014
 199. Use of vegetable oil in water emulsion achieved through ultrasonic atomization as cutting fluids in micro-milling, Journal of Manufacturing Processes 16 (3), 405-413, 2014
@@ -229,6 +261,9 @@ All images in the website are from <a href="https://github.com/DenverCoder1/mini
 214. Heated Spray Nanoparticle Deposition System Development, 한국생산제조학회 학술발표대회 논문집, 142-142, 2014
 215. Fabrication of plasmonic nanohole array for fiber-optic chemical sensing, 한국생산제조학회 학술발표대회 논문집, 125-125, 2014
 216. Superhydrophobic Pattern Fabrication using Femtoseond Laser, 한국정밀공학회 학술발표대회 논문집, 1207-1207, 2014
+
+## 2013
+
 217. Influence of negative Poisson’s ratio on stent applications, Adv. Mater 2 (3), 42-47, 2013
 218. Characterization and micromilling of flow induced aligned carbon nanotube nanocomposites, Journal of Micro and Nano-Manufacturing 1 (1), 011009, 2013
 219. Micromechanical machining of soda lime glass, The International Journal of Advanced Manufacturing Technology 67, 1139-1150, 2013
@@ -241,6 +276,9 @@ All images in the website are from <a href="https://github.com/DenverCoder1/mini
 226. Parametric Studies of Melt Electrospinning Poly ε (caprolactone) Fibers for Tissue Engineering Applications, Proc. 8th Int. Conf. MicroManufacturing, 526-531, 2013
 227. Parametric Studies of Melt Electrospinning Poly?(caprolactone) Fibers for Tissue Engineering Applications, 8th International Conference on MicroManufacturing (ICOMM 2013), 2013
 228. Computer-aided manufacturing (CAM) software development for laser machining, ASME International Mechanical Engineering Congress and Exposition 56185 …, 2013
+
+## 2012
+
 229. Modeling of minimum uncut chip thickness in micro machining of aluminum, Journal of Materials Processing Technology 212 (3), 553-559, 2012
 230. A new mechanistic approach for micro end milling force modeling
 231. Probing system for measurement of micro-scale components, Journal of manufacturing processes 14 (2), 174-180, 2012
@@ -251,37 +289,70 @@ All images in the website are from <a href="https://github.com/DenverCoder1/mini
 236. Long period grating inscribed by femtosecond laser for refractive index measurements in aqueous environments, OFS2012 22nd International Conference on Optical Fiber Sensors 8421, 972-975, 2012
 237. Design and Fabrication of a Three Dimensional Commemorative Artistic Plaque, Journal of Mechanics Engineering and Automation 1 (4), 293-297, 2012
 238. Development and application of in-fibre Bragg grating contact force sensors for application to the human hip, 대한기계학회 춘추학술대회, 76-76, 2012
+
+## 2011
+
 239. Colorizing stainless steel surface by femtosecond laser induced micro/nano-structures, Applied surface science 257 (17), 7771-7777, 2011
 240. Fuzzy PWM-PID control of cocontracting antagonistic shape memory alloy muscle pairs in an artificial finger, Mechatronics 21 (7), 1190-1202, 2011
 241. Experimental analysis of an acoustic emission-based tool tip touch-off detection for micro end milling, Journal of Manufacturing Technology Research 3 (3/4), 167, 2011
+
+## 2010
+
 242. Atomic force microscope probe-based nanometric scribing, Journal of Micromechanics and Microengineering 20 (11), 115016, 2010
 243. Understanding the effects of the system parameters of an ultrasonic cutting fluid application system for micro-machining, Journal of Manufacturing Processes 12 (2), 92-98, 2010
 244. Modeling of the thread milling operation in a combined thread/drilling operation: Thrilling
 245. Design and development of cutting fluid system based on ultrasonic atomization for micro-machining, Trans. NAMRI/SME 38 (1), 97-104, 2010
 246. A new mechanistic approach for micro end milling force modeling, ASME International Mechanical Engineering Congress and Exposition 44274, 925-933, 2010
+
+## 2009
+
 247. Modeling of dynamic micro-milling cutting forces, International Journal of Machine Tools and Manufacture 49 (7-8), 586-598, 2009
 248. Tool wear monitoring of micro-milling operations, Journal of Materials Processing Technology 209 (10), 4903-4914, 2009
 249. Investigation of micro scratching and machining of glass, International Manufacturing Science and Engineering Conference 43628, 401-408, 2009
 250. Mechanistic force modeling of micro ball end milling processes, Society of Manufacturing Engineers, Paper No. TP09PUB029, 2009
+
+## 2008
+
 251. An experimental evaluation of an atomization-based cutting fluid application system for micromachining
 252. An acoustic emission-based method for determining contact between a tool and workpiece at the microscale
 253. A submicron multiaxis positioning stage for micro-and nanoscale manufacturing processes
 254. Experimental investigation of machinability and tool wear in micro-endmilling, Transactions of the North American Manufacturing Research Institution of SME …, 2008
 255. Modeling and analysis of the thread milling operation in the combined drilling/thread milling process, International Manufacturing Science and Engineering Conference 48517, 377-386, 2008
 256. Effects of process parameters on surface location errors in micro-endmilling, Transactions of the North American Manufacturing Research Institution of SME …, 2008
+
+## 2007
+
 257. Estimation of effective error parameters in high-speed micro-endmilling, International Journal of Machine Tools and Manufacture 47 (9), 1449-1454, 2007
 258. Experimental Investigation of a Combined Drilling and Thread Milling Process: Thrilling, Thirty-Fifth North American Manufacturing Research Conference-NAMRC 35, 2007
 259. Effect of tool-tip vibration and stability on acoustic emission generation in micro-endmilling, 15th International Symposium on Electromachining, ISEM 2007, 625-630, 2007
+
+## 2006
+
 260. Investigation of the dynamics of microend milling—part I: model development
 261. Investigation of the dynamics of microend milling—part II: model validation and interpretation
 262. A model for thread milling cutting forces, International Journal of Machine Tools and Manufacture 46 (15), 2057-2065, 2006
 263. The effects of process faults and misalignments on the cutting force system and hole quality in reaming, International Journal of Machine Tools and Manufacture 46 (12-13), 1281-1290, 2006
 264. An acoustic emission-based method for determining relative orientation between a tool and workpiece at the micro-scale, International Manufacturing Science and Engineering Conference 47624, 1033-1042, 2006
+
+## 2005
+
 265. Modeling and analysis of micro-end milling dynamics, University of Illinois at Urbana-Champaign, 2005
+
+## 2004
+
 266. Cutting mechanisms and their influence on dynamic forces, vibrations and stability in micro-endmilling, ASME International Mechanical Engineering Congress and Exposition 47136, 583-592, 2004
 267. The effects of end mill alignment errors on vibrations at high spindle speeds, Transactions of the North American Manufacturing Research Institute of SME …, 2004
+
+## 2002
+
 268. Evaluation of a spindle-based force sensor for monitoring and fault diagnosis of machining operations, International Journal of Machine Tools and Manufacture 42 (6), 741-751, 2002
+
+## 2001
+
 269. A fast tool servo design for precision turning of shafts on conventional CNC lathes, International Journal of Machine Tools and Manufacture 41 (7), 953-965, 2001
+
+## 2000
+
 270. Precision turning of shafts with piezoelectric actuator tool, University of British Columbia, 2000
 271. An FEA surrogate model with boundary oriented graph embedding approach for rapid design, Journal of Computational Design and Engineering, 0
 272. Multifunctional Cold Spray Hybrid Coatings on Flexible Polymers for Improved Surface Properties, Martin Byung-Guk, Multifunctional Cold Spray Hybrid Coatings on Flexible …, 0
@@ -291,4 +362,3 @@ All images in the website are from <a href="https://github.com/DenverCoder1/mini
 276. Miniaturized Tapered Photonic Crystal Fiber Mach-Zehnder Interferometer for Enhanced Refractive Index Sensing Index Sensing
 277. Machinability of Aligned CNT Nanocomposites ICOMM, composites 12, 14, 0
 278. International Workshop on SMART MATERIALS, STRUCTURES & SHM NDT in Canada 2013 Conference & NDT for the Energy Industry
-
