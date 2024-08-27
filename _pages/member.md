@@ -15,4 +15,3 @@ All images in the website are from <a href="https://github.com/DenverCoder1/mini
 
 ## TBD
 
------
