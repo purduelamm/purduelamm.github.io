@@ -13,12 +13,12 @@ toc_sticky: true
 ## Principal Investigator
 
 <div style="display: flex; align-items: center;">
-  <img src="https://github.com/purduelamm/purduelamm.github.io/blob/master/assets/images/research/sample_img.jpeg?raw=true" style="width: 200px; height: auto; margin-right: 20px;"/>
+  <img src="https://github.com/purduelamm/purduelamm.github.io/blob/master/assets/Pictures/Professor%20Photos/MartinJun2014.jpg?raw=true" style="width: 200px; height: auto; margin-right: 20px;"/>
   <div>
-    <p>Dr. Martin Byung-Guk Jun</p>
-    <p>Professor</p>
-    <p>Phone: (765) 494-3376</p>
-    <p>Email: <a href="mailto:mbgjun@purdue.edu">mbgjun@purdue.edu</a></p>
+    <div style="margin-bottom: 5px;">Dr. Martin Byung-Guk Jun</div>
+    <div style="margin-bottom: 5px;">Professor</div>
+    <div style="margin-bottom: 5px;">Phone: (765) 494-3376</div>
+    <div>Email: <a href="mailto:mbgjun@purdue.edu">mbgjun@purdue.edu</a></div>
   </div>
 </div>
 
