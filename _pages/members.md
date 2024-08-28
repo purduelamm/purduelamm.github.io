@@ -13,7 +13,7 @@ toc_sticky: true
 ## Principal Investigator
 
 <div style="display: flex; align-items: center;">
-  <img src="https://github.com/purduelamm/purduelamm.github.io/blob/master/assets/Pictures/Professor%20Photos/MartinJun2014.jpg?raw=true" style="width: 157px; height: 200px; margin-right: 20px; object-fit: cover;"/>
+  <img src="https://github.com/purduelamm/purduelamm.github.io/blob/master/assets/images/pictures/professor%20Photos/MartinJun2014.jpg?raw=true" style="width: 157px; height: 200px; margin-right: 20px; object-fit: cover;"/>
   <div>
     <div style="margin-bottom: 5px;">Dr. Martin Byung-Guk Jun</div>
     <div style="margin-bottom: 5px;">Professor</div>
@@ -26,7 +26,7 @@ toc_sticky: true
 
 <div style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 20px;">
   <div style="display: flex; align-items: center;">
-    <img src="https://github.com/purduelamm/purduelamm.github.io/blob/master/assets/Pictures/Student%20Photos/Postdoc/Jiho_Lee.jpeg?raw=true" style="width: 157px; height: 200px; margin-right: 20px; object-fit: cover;"/>
+    <img src="https://github.com/purduelamm/purduelamm.github.io/blob/master/assets/images/pictures/student%20Photos/Postdoc/Jiho_Lee.jpeg?raw=true" style="width: 157px; height: 200px; margin-right: 20px; object-fit: cover;"/>
     <div>
       <div style="margin-bottom: 5px;">Dr. Jiho Lee</div>
       <div style="margin-bottom: 5px;">Postdoctoral Research</div>
@@ -42,7 +42,7 @@ toc_sticky: true
 
 <div style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 20px;">
   <div style="display: flex; align-items: center;">
-    <img src="https://github.com/purduelamm/purduelamm.github.io/blob/master/assets/Pictures/Student%20Photos/PhD/Fengfeng_Zhou.png?raw=true" style="width: 157px; height: 200px; margin-right: 20px; object-fit: cover;"/>
+    <img src="https://github.com/purduelamm/purduelamm.github.io/blob/master/assets/images/pictures/student%20Photos/PhD/Fengfeng_Zhou.png?raw=true" style="width: 157px; height: 200px; margin-right: 20px; object-fit: cover;"/>
     <div>
       <div style="margin-bottom: 5px;">Fengfeng Zhou</div>
       <div style="margin-bottom: 5px;">PhD Student</div>
@@ -51,7 +51,7 @@ toc_sticky: true
   </div>
   
   <div style="display: flex; align-items: center;">
-    <img src="https://github.com/purduelamm/purduelamm.github.io/blob/master/assets/Pictures/Student%20Photos/PhD/Siying_Chen.png?raw=true" style="width: 157px; height: 200px; margin-right: 20px; object-fit: cover;"/>
+    <img src="https://github.com/purduelamm/purduelamm.github.io/blob/master/assets/images/pictures/student%20Photos/PhD/Siying_Chen.png?raw=true" style="width: 157px; height: 200px; margin-right: 20px; object-fit: cover;"/>
     <div>
       <div style="margin-bottom: 5px;">Siying Chen</div>
       <div style="margin-bottom: 5px;">PhD Student</div>
@@ -60,7 +60,7 @@ toc_sticky: true
   </div>
   
   <div style="display: flex; align-items: center;">
-    <img src="https://github.com/purduelamm/purduelamm.github.io/blob/master/assets/Pictures/Student%20Photos/PhD/Changheon_Han.png?raw=true" style="width: 157px; height: 200px; margin-right: 20px; object-fit: cover;"/>
+    <img src="https://github.com/purduelamm/purduelamm.github.io/blob/master/assets/images/pictures/student%20Photos/PhD/Changheon_Han.png?raw=true" style="width: 157px; height: 200px; margin-right: 20px; object-fit: cover;"/>
     <div>
       <div style="margin-bottom: 5px;">Changheon Han</div>
       <div style="margin-bottom: 5px;">PhD Student</div>
@@ -69,16 +69,16 @@ toc_sticky: true
   </div>
 
   <div style="display: flex; align-items: center;">
-    <img src="https://github.com/purduelamm/purduelamm.github.io/blob/master/assets/Pictures/Student%20Photos/PhD/Hojun_Lee.png?raw=true" style="width: 157px; height: 200px; margin-right: 20px; object-fit: cover;"/>
+    <img src="https://github.com/purduelamm/purduelamm.github.io/blob/master/assets/images/pictures/student%20Photos/PhD/Hojun_Lee.png?raw=true" style="width: 157px; height: 200px; margin-right: 20px; object-fit: cover;"/>
     <div>
-      <div style="margin-bottom: 5px;">Hojun Lee</div>
+      <div style="margin-bottom: 5px;">Hojun Lee <a href="https://kidpaul94.github.io/"> </div>
       <div style="margin-bottom: 5px;">PhD Student</div>
       <div>Email: <a href="mailto:lee1764@purdue.edu"> lee1764@purdue.edu</a></div>
     </div>
   </div>
 
   <div style="display: flex; align-items: center;">
-    <img src="https://github.com/purduelamm/purduelamm.github.io/blob/master/assets/Pictures/Student%20Photos/PhD/Yuseop_Sim.png?raw=true" style="width: 157px; height: 200px; margin-right: 20px; object-fit: cover;"/>
+    <img src="https://github.com/purduelamm/purduelamm.github.io/blob/master/assets/images/pictures/student%20Photos/PhD/Yuseop_Sim.png?raw=true" style="width: 157px; height: 200px; margin-right: 20px; object-fit: cover;"/>
     <div>
       <div style="margin-bottom: 5px;">Yuseop Sim</div>
       <div style="margin-bottom: 5px;">PhD Student</div>
@@ -87,7 +87,7 @@ toc_sticky: true
   </div>
 
   <div style="display: flex; align-items: center;">
-    <img src="https://github.com/purduelamm/purduelamm.github.io/blob/master/assets/Pictures/Student%20Photos/PhD/Duju_Lee.png?raw=true" style="width: 157px; height: 200px; margin-right: 20px; object-fit: cover;"/>
+    <img src="https://github.com/purduelamm/purduelamm.github.io/blob/master/assets/images/pictures/student%20Photos/PhD/Duju_Lee.png?raw=true" style="width: 157px; height: 200px; margin-right: 20px; object-fit: cover;"/>
     <div>
       <div style="margin-bottom: 5px;">Duju Lee</div>
       <div style="margin-bottom: 5px;">PhD Student</div>
@@ -102,7 +102,7 @@ toc_sticky: true
 
 <div style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 20px;">
   <div style="display: flex; align-items: center;">
-    <img src="https://github.com/purduelamm/purduelamm.github.io/blob/master/assets/Pictures/Student%20Photos/Master/Dongjun_Yun.jpeg?raw=true" style="width: 157px; height: 200px; margin-right: 20px; object-fit: cover;"/>
+    <img src="https://github.com/purduelamm/purduelamm.github.io/blob/master/assets/images/pictures/student%20Photos/Master/Dongjun_Yun.jpeg?raw=true" style="width: 157px; height: 200px; margin-right: 20px; object-fit: cover;"/>
     <div>
       <div style="margin-bottom: 5px;">Dongjun Yun</div>
       <div style="margin-bottom: 5px;">MS Student</div>
@@ -111,7 +111,7 @@ toc_sticky: true
   </div>
   
   <div style="display: flex; align-items: center;">
-    <img src="https://github.com/purduelamm/purduelamm.github.io/blob/master/assets/Pictures/Student%20Photos/Master/Nobin_Myeong.jpeg?raw=true" style="width: 157px; height: 200px; margin-right: 20px; object-fit: cover;"/>
+    <img src="https://github.com/purduelamm/purduelamm.github.io/blob/master/assets/images/pictures/student%20Photos/Master/Nobin_Myeong.jpeg?raw=true" style="width: 157px; height: 200px; margin-right: 20px; object-fit: cover;"/>
     <div>
       <div style="margin-bottom: 5px;">Nobin Myeong</div>
       <div style="margin-bottom: 5px;">MS Student</div>
@@ -120,7 +120,7 @@ toc_sticky: true
   </div>
   
   <div style="display: flex; align-items: center;">
-    <img src="https://github.com/purduelamm/purduelamm.github.io/blob/master/assets/Pictures/Student%20Photos/Master/Junho_Sohn.jpeg?raw=true" style="width: 157px; height: 200px; margin-right: 20px; object-fit: cover;"/>
+    <img src="https://github.com/purduelamm/purduelamm.github.io/blob/master/assets/images/pictures/student%20Photos/Master/Junho_Sohn.jpeg?raw=true" style="width: 157px; height: 200px; margin-right: 20px; object-fit: cover;"/>
     <div>
       <div style="margin-bottom: 5px;">Junho Sohn</div>
       <div style="margin-bottom: 5px;">MS Student</div>
@@ -129,7 +129,7 @@ toc_sticky: true
   </div>
 
   <div style="display: flex; align-items: center;">
-    <img src="https://github.com/purduelamm/purduelamm.github.io/blob/master/assets/Pictures/Student%20Photos/Master/Hayoung_Jeong.jpeg?raw=true" style="width: 157px; height: 200px; margin-right: 20px; object-fit: cover;"/>
+    <img src="https://github.com/purduelamm/purduelamm.github.io/blob/master/assets/images/pictures/student%20Photos/Master/Hayoung_Jeong.jpeg?raw=true" style="width: 157px; height: 200px; margin-right: 20px; object-fit: cover;"/>
     <div>
       <div style="margin-bottom: 5px;">Hayoung Jeong</div>
       <div style="margin-bottom: 5px;">MS Student</div>
@@ -138,7 +138,7 @@ toc_sticky: true
   </div>
 
   <div style="display: flex; align-items: center;">
-    <img src="https://github.com/purduelamm/purduelamm.github.io/blob/master/assets/Pictures/Student%20Photos/Master/Juri_Kang.jpeg?raw=true" style="width: 157px; height: 200px; margin-right: 20px; object-fit: cover;"/>
+    <img src="https://github.com/purduelamm/purduelamm.github.io/blob/master/assets/images/pictures/student%20Photos/Master/Juri_Kang.jpeg?raw=true" style="width: 157px; height: 200px; margin-right: 20px; object-fit: cover;"/>
     <div>
       <div style="margin-bottom: 5px;">Juri Kang</div>
       <div style="margin-bottom: 5px;">MS Student</div>
@@ -153,42 +153,42 @@ toc_sticky: true
 
 <div style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 20px;">
   <div style="display: flex; align-items: center;">
-    <img src="https://github.com/purduelamm/purduelamm.github.io/blob/master/assets/Pictures/Student%20Photos/Visiting/Jurim_Jeon.jpg?raw=true" style="width: 157px; height: 200px; margin-right: 20px; object-fit: cover;"/>
+    <img src="https://github.com/purduelamm/purduelamm.github.io/blob/master/assets/images/pictures/student%20Photos/Visiting/Jurim_Jeon.jpg?raw=true" style="width: 157px; height: 200px; margin-right: 20px; object-fit: cover;"/>
     <div>
       <div style="margin-bottom: 5px;">Jurim Jeon</div>
     </div>
   </div>
   
   <div style="display: flex; align-items: center;">
-    <img src="https://github.com/purduelamm/purduelamm.github.io/blob/master/assets/Pictures/Student%20Photos/Visiting/Prof_Birhan_Isik.png?raw=true" style="width: 157px; height: 200px; margin-right: 20px; object-fit: cover;"/>
+    <img src="https://github.com/purduelamm/purduelamm.github.io/blob/master/assets/images/pictures/student%20Photos/Visiting/Prof_Birhan_Isik.png?raw=true" style="width: 157px; height: 200px; margin-right: 20px; object-fit: cover;"/>
     <div>
       <div style="margin-bottom: 5px;">Dr. Birhan Isik</div>
     </div>
   </div>
   
   <div style="display: flex; align-items: center;">
-    <img src="https://github.com/purduelamm/purduelamm.github.io/blob/master/assets/Pictures/Student%20Photos/Visiting/Prof_Minsoo_Park.jpg?raw=true" style="width: 157px; height: 200px; margin-right: 20px; object-fit: cover;"/>
+    <img src="https://github.com/purduelamm/purduelamm.github.io/blob/master/assets/images/pictures/student%20Photos/Visiting/Prof_Minsoo_Park.jpg?raw=true" style="width: 157px; height: 200px; margin-right: 20px; object-fit: cover;"/>
     <div>
       <div style="margin-bottom: 5px;">Dr. Minsoo Park</div>
     </div>
   </div>
 
   <div style="display: flex; align-items: center;">
-    <img src="https://github.com/purduelamm/purduelamm.github.io/blob/master/assets/Pictures/Student%20Photos/Visiting/Youngwoon_Choi.jpeg?raw=true" style="width: 157px; height: 200px; margin-right: 20px; object-fit: cover;"/>
+    <img src="https://github.com/purduelamm/purduelamm.github.io/blob/master/assets/images/pictures/student%20Photos/Visiting/Youngwoon_Choi.jpeg?raw=true" style="width: 157px; height: 200px; margin-right: 20px; object-fit: cover;"/>
     <div>
       <div style="margin-bottom: 5px;">Youngwon Choi</div>
     </div>
   </div>
 
   <div style="display: flex; align-items: center;">
-    <img src="https://github.com/purduelamm/purduelamm.github.io/blob/master/assets/Pictures/Student%20Photos/Visiting/Seungjae_Han.jpeg?raw=true" style="width: 157px; height: 200px; margin-right: 20px; object-fit: cover;"/>
+    <img src="https://github.com/purduelamm/purduelamm.github.io/blob/master/assets/images/pictures/student%20Photos/Visiting/Seungjae_Han.jpeg?raw=true" style="width: 157px; height: 200px; margin-right: 20px; object-fit: cover;"/>
     <div>
       <div style="margin-bottom: 5px;">Seungjae Han</div>
     </div>
   </div>
 
   <div style="display: flex; align-items: center;">
-    <img src="https://github.com/purduelamm/purduelamm.github.io/blob/master/assets/Pictures/Student%20Photos/Visiting/Yunjae_Hwang.jpeg?raw=true" style="width: 157px; height: 200px; margin-right: 20px; object-fit: cover;"/>
+    <img src="https://github.com/purduelamm/purduelamm.github.io/blob/master/assets/images/pictures/student%20Photos/Visiting/Yunjae_Hwang.jpeg?raw=true" style="width: 157px; height: 200px; margin-right: 20px; object-fit: cover;"/>
     <div>
       <div style="margin-bottom: 5px;">Yunjae Hwang</div>
     </div>
