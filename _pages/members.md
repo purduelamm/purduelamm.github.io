@@ -214,6 +214,10 @@ Karthik Toppal Dayanand - MS Non-Thesis Graduate 2017-2019
 Dr. Jungsoo Nam - Postdoctoral Research Associate 2016-2017 Now at KITECH, Korea
 Dr. Dong Min Kim - Postdoctoral Research Associate 2017-2018 Now at KITECH, Korea
 Dr. Hangeun Joe - Postdoctoral Research Associate 2017-2019 Now at Samsung electronics, Korea
+Daeseong Mun - MS Thesis Student
+Junyi Yuan - MS Thesis Student
+Dr. Eunseob Kim - PhD Graduate
+Dr. Ted Gabor - PhD Graduate
 
 ## Past Visiting Researchers
 
