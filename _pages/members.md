@@ -10,17 +10,14 @@ toc: true
 toc_sticky: true
 ---
 
-All images in the website are from <a href="https://github.com/DenverCoder1/minimalistic-wallpaper-collection">DenverCoder1</a>.
-{: .notice--info}
-
 ## Principal Investigator
 
 <div style="display: flex; align-items: center;">
-  <img src="http://https://github.com/purduelamm/purduelamm.github.io/tree/master/assets/images/research/sample_img.jpeg" style="width: 200px; height: auto; margin-right: 20px;"/>
-  <p>
-    Dr. Martin Byung-Guk Jun  
-    Professor  
-    Phone: (765) 494-3376  
-    Email: mbgjun@purdue.edu  
-  </p>
+  <img src="https://github.com/purduelamm/purduelamm.github.io/blob/master/assets/images/research/sample_img.jpeg?raw=true" style="width: 200px; height: auto; margin-right: 20px;"/>
+  <div>
+    <p>Dr. Martin Byung-Guk Jun</p>
+    <p>Professor</p>
+    <p>Phone: (765) 494-3376</p>
+    <p>Email: <a href="mailto:mbgjun@purdue.edu">mbgjun@purdue.edu</a></p>
+  </div>
 </div>
