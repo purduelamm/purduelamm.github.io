@@ -71,7 +71,7 @@ toc_sticky: true
   <div style="display: flex; align-items: center;">
     <img src="https://github.com/purduelamm/purduelamm.github.io/blob/master/assets/images/pictures/student%20photos/PhD/Hojun_Lee.png?raw=true" style="width: 157px; height: 200px; margin-right: 20px; object-fit: cover;"/>
     <div>
-      <div style="margin-bottom: 5px;">Hojun Lee <a href="https://kidpaul94.github.io/"> </div>
+      <div style="margin-bottom: 5px;"><a href="https://kidpaul94.github.io/"> Hojun Lee</a></div>
       <div style="margin-bottom: 5px;">PhD Student</div>
       <div>Email: <a href="mailto:lee1764@purdue.edu"> lee1764@purdue.edu</a></div>
     </div>
