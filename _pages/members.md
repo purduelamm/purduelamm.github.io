@@ -205,26 +205,26 @@ toc_sticky: true
 
 ## Past members (Graudate and Post graduate)
 
-Dr. Youngwon Kim - Visiting Postdoctoral Associate 2021-2022 <br/>
-Dr. Hanbit Lee - Visiting Postdoctoral Associate 2022-2023 <br/>
+Dr. Youngwon Kim - Visiting Postdoctoral Associate 2021-2022 Now at KITECH, Korea <br/>
+Dr. Hanbit Lee - Visiting Postdoctoral Associate 2022-2023 Now at LG Electronics <br/>
 Dr. Semih Akin - PhD Graduate 2017-2022 Now at RPI, USA <br/>
 Dr. Jung-Ting (Tim) Tsai - PhD Graduate 2017-2022 Now at NTUST, Taiwan <br/>
 Dr. Kyeongeun Song - PhD Graduate 2017-2022 Now at KITECH, Korea <br/>
-Dr. Xingyu Fu - PhD Graduate 2017-2022 <br/>
+Dr. Xingyu Fu - PhD Graduate 2017-2022 <br/> <!-- Please track his irish Univ. -YS- -->
 Dr. Seunghwan Jo - PhD Graduate 2017-2022 Now at ROK Army, Korea <br/>
 Dr. Huitaek Yun - PhD Graduate 2017-2021 Now at KAIST, Korea <br/>
-Jinho Park - MS Thesis Student <br/>
+Jinho Park - MS Thesis Student Now at ROK Army, Korea <br/>
 Hanjun Kim - MS Graduate 2017-2019 Now at ROK Army <br/>
 Anmol Singh Guram - MS Non-Thesis Graduate 2017-2019 <br/>
-Jongmin Kim - MS Non-Thesis Graduate 2019-2021 Now at ROK Marines <br/>
+Jongmin Kim - MS Non-Thesis Graduate 2019-2021 Now at ROK Marines, Korea <br/>
 Karthik Toppal Dayanand - MS Non-Thesis Graduate 2017-2019 <br/>
 Dr. Jungsoo Nam - Postdoctoral Research Associate 2016-2017 Now at KITECH, Korea <br/>
 Dr. Dong Min Kim - Postdoctoral Research Associate 2017-2018 Now at KITECH, Korea <br/>
 Dr. Hangeun Joe - Postdoctoral Research Associate 2017-2019 Now at Samsung electronics, Korea <br/>
-Daeseong Mun - MS Thesis Student <br/>
-Junyi Yuan - MS Thesis Student <br/>
-Dr. Eunseob Kim - PhD Graduate <br/>
-Dr. Ted Gabor - PhD Graduate <br/>
+Daeseong Mun  - MS Thesis Student Now at ROK Army, Korea <br/> <!-- Please add year -YS- -->
+Junyi Yuan - MS Thesis Student Now at Purdue University, USA <br/> <!-- Please add year -YS- -->
+Dr. Eunseob Kim - PhD Graduate Now at Purdue University, USA <br/> <!-- Please add year -YS- -->
+Dr. Ted Gabor - PhD Graduate <br/> <!-- Please add year -YS- -->
 
 ## Past Visiting Researchers
 
