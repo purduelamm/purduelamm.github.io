@@ -73,7 +73,7 @@ toc_sticky: true
     <div>
       <div style="margin-bottom: 5px;"><a href="https://kidpaul94.github.io/"> Hojun Lee</a></div>
       <div style="margin-bottom: 5px;">PhD Student</div>
-      <div>Email: <a href="mailto:lee1764@purdue.edu"> lee1764@purdue.edu</a></div>
+      <div>Email: <a href="mailto:lee1764@purdue.edu">lee1764@purdue.edu</a></div>
     </div>
   </div>
 
@@ -82,7 +82,7 @@ toc_sticky: true
     <div>
       <div style="margin-bottom: 5px;">Yuseop Sim</div>
       <div style="margin-bottom: 5px;">PhD Student</div>
-      <div>Email: <a href="mailto:sim46@purdue.edu"> sim46@purdue.edu</a></div>
+      <div>Email: <a href="mailto:sim46@purdue.edu">sim46@purdue.edu</a></div>
     </div>
   </div>
 
@@ -91,7 +91,7 @@ toc_sticky: true
     <div>
       <div style="margin-bottom: 5px;">Duju Lee</div>
       <div style="margin-bottom: 5px;">PhD Student</div>
-      <div>Email: <a href="mailto:lee5272@purdue.edu"> lee5272@purdue.edu</a></div>
+      <div>Email: <a href="mailto:lee5272@purdue.edu">lee5272@purdue.edu</a></div>
     </div>
   </div>
 
@@ -133,7 +133,7 @@ toc_sticky: true
     <div>
       <div style="margin-bottom: 5px;">Hayoung Jeong</div>
       <div style="margin-bottom: 5px;">MS Student</div>
-      <div>Email: <a href="mailto:jeong214@purdue.edu"> jeong214@purdue.edu</a></div>
+      <div>Email: <a href="mailto:jeong214@purdue.edu">jeong214@purdue.edu</a></div>
     </div>
   </div>
 
@@ -142,7 +142,7 @@ toc_sticky: true
     <div>
       <div style="margin-bottom: 5px;">Juri Kang</div>
       <div style="margin-bottom: 5px;">MS Student</div>
-      <div>Email: <a href="mailto:kang435@purdue.edu"> kang435@purdue.edu</a></div>
+      <div>Email: <a href="mailto:kang435@purdue.edu">kang435@purdue.edu</a></div>
     </div>
   </div>
 
@@ -170,6 +170,13 @@ toc_sticky: true
     <img src="https://github.com/purduelamm/purduelamm.github.io/blob/master/assets/images/pictures/student%20photos/Visiting/Prof_Minsoo_Park.jpg?raw=true" style="width: 157px; height: 200px; margin-right: 20px; object-fit: cover;"/>
     <div>
       <div style="margin-bottom: 5px;">Dr. Minsoo Park</div>
+    </div>
+  </div>
+
+  <div style="display: flex; align-items: center;">
+    <img src="https://github.com/purduelamm/purduelamm.github.io/blob/master/assets/images/pictures/student%20photos/Visiting/Prof_Seungmo_Kim.jpg?raw=true" style="width: 157px; height: 200px; margin-right: 20px; object-fit: cover;"/>
+    <div>
+      <div style="margin-bottom: 5px;">Dr. Seungmo Kim</div>
     </div>
   </div>
 
