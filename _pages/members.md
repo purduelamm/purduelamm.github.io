@@ -1,5 +1,5 @@
 ---
-title: "Members"
+title: "Lab Members"
 permalink: /members/
 header: 
   overlay_image: https://minimalistic-wallpaper.demolab.com/?random
@@ -21,3 +21,19 @@ toc_sticky: true
     <p>Email: <a href="mailto:mbgjun@purdue.edu">mbgjun@purdue.edu</a></p>
   </div>
 </div>
+
+## Post-Doc
+
+<div style="display: flex; align-items: center;">
+  <img src="https://github.com/purduelamm/purduelamm.github.io/blob/master/assets/Pictures/Student%20Photos/Postdoc/Jiho_Lee.jpeg?raw=true" style="width: 200px; height: auto; margin-right: 20px;"/>
+  <div>
+    <p>Dr. Jiho Lee</p>
+    <p>Postdoctoral Research</p>
+    <p>Associate</p>
+    <p>Email: <a href="mailto:lee4503@purdue.edu">lee4503@purdue.edu</a></p>
+  </div>
+</div>
+
+## Ph.D. Students
+
+
