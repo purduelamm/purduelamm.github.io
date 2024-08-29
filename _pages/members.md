@@ -23,7 +23,7 @@ toc_sticky: true
   </div>
 </div>
 
-## Post-Doc
+## Researchers
 
 <div style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 20px;">
   <div style="display: flex; align-items: center;">
@@ -32,7 +32,8 @@ toc_sticky: true
       <div style="margin-bottom: 5px;">Dr. Jiho Lee</div>
       <div style="margin-bottom: 5px;">Postdoctoral Research</div>
       <div style="margin-bottom: 5px;">Associate</div>
-      <div>Email: <a href="mailto:lee4503@purdue.edu">lee4503@purdue.edu</a></div>
+      <div>Email: </div>
+      <div><a href="mailto:lee4503@purdue.edu">lee4503@purdue.edu</a></div>
     </div>
   </div>
 
@@ -47,7 +48,8 @@ toc_sticky: true
     <div>
       <div style="margin-bottom: 5px;">Fengfeng Zhou</div>
       <div style="margin-bottom: 5px;">PhD Student</div>
-      <div>Email: <a href="mailto:zhou966@purdue.edu">zhou966@purdue.edu</a></div>
+      <div>Email: </a></div>
+      <div><a href="mailto:zhou966@purdue.edu">zhou966@purdue.edu</a></div>
     </div>
   </div>
   
@@ -56,7 +58,8 @@ toc_sticky: true
     <div>
       <div style="margin-bottom: 5px;">Siying Chen</div>
       <div style="margin-bottom: 5px;">PhD Student</div>
-      <div>Email: <a href="mailto:chen2122@purdue.edu">chen2122@purdue.edu</a></div>
+      <div>Email: </div>
+      <div><a href="mailto:chen2122@purdue.edu">chen2122@purdue.edu</a></div>
     </div>
   </div>
   
@@ -65,7 +68,8 @@ toc_sticky: true
     <div>
       <div style="margin-bottom: 5px;">Changheon Han</div>
       <div style="margin-bottom: 5px;">PhD Student</div>
-      <div>Email: <a href="mailto:han711@purdue.edu">han711@purdue.edu</a></div>
+      <div>Email: </div>
+      <div><a href="mailto:han711@purdue.edu">han711@purdue.edu</a></div>
     </div>
   </div>
 
@@ -74,7 +78,8 @@ toc_sticky: true
     <div>
       <div style="margin-bottom: 5px;"><a href="https://kidpaul94.github.io/"> Hojun Lee</a></div>
       <div style="margin-bottom: 5px;">PhD Student</div>
-      <div>Email: <a href="mailto:lee1764@purdue.edu">lee1764@purdue.edu</a></div>
+      <div>Email: </div>
+      <div><a href="mailto:lee1764@purdue.edu">lee1764@purdue.edu</a></div>
     </div>
   </div>
 
@@ -83,7 +88,8 @@ toc_sticky: true
     <div>
       <div style="margin-bottom: 5px;">Yuseop Sim</div>
       <div style="margin-bottom: 5px;">PhD Student</div>
-      <div>Email: <a href="mailto:sim46@purdue.edu">sim46@purdue.edu</a></div>
+      <div>Email: </div>
+      <div><a href="mailto:sim46@purdue.edu">sim46@purdue.edu</a></div>
     </div>
   </div>
 
@@ -92,7 +98,8 @@ toc_sticky: true
     <div>
       <div style="margin-bottom: 5px;">Duju Lee</div>
       <div style="margin-bottom: 5px;">PhD Student</div>
-      <div>Email: <a href="mailto:lee5272@purdue.edu">lee5272@purdue.edu</a></div>
+      <div>Email: </div>
+      <div><a href="mailto:lee5272@purdue.edu">lee5272@purdue.edu</a></div>
     </div>
   </div>
 
@@ -107,7 +114,8 @@ toc_sticky: true
     <div>
       <div style="margin-bottom: 5px;">Dongjun Yun</div>
       <div style="margin-bottom: 5px;">MS Student</div>
-      <div>Email: <a href="mailto:yun115@purdue.edu">yun115@purdue.edu</a></div>
+      <div>Email: </div>
+      <div><a href="mailto:yun115@purdue.edu">yun115@purdue.edu</a></div>
     </div>
   </div>
   
@@ -116,7 +124,8 @@ toc_sticky: true
     <div>
       <div style="margin-bottom: 5px;">Nobin Myeong</div>
       <div style="margin-bottom: 5px;">MS Student</div>
-      <div>Email: <a href="mailto:nmyeong@purdue.edu">nmyeong@purdue.edu</a></div>
+      <div>Email: </div>
+      <div><a href="mailto:nmyeong@purdue.edu">nmyeong@purdue.edu</a></div>
     </div>
   </div>
   
@@ -125,7 +134,8 @@ toc_sticky: true
     <div>
       <div style="margin-bottom: 5px;">Junho Sohn</div>
       <div style="margin-bottom: 5px;">MS Student</div>
-      <div>Email: <a href="mailto:sohn39@purdue.edu">sohn39@purdue.edu</a></div>
+      <div>Email: </div>
+      <div><a href="mailto:sohn39@purdue.edu">sohn39@purdue.edu</a></div>
     </div>
   </div>
 
@@ -134,7 +144,8 @@ toc_sticky: true
     <div>
       <div style="margin-bottom: 5px;">Hayoung Jeong</div>
       <div style="margin-bottom: 5px;">MS Student</div>
-      <div>Email: <a href="mailto:jeong214@purdue.edu">jeong214@purdue.edu</a></div>
+      <div>Email: </div>
+      <div><a href="mailto:jeong214@purdue.edu">jeong214@purdue.edu</a></div>
     </div>
   </div>
 
@@ -143,7 +154,8 @@ toc_sticky: true
     <div>
       <div style="margin-bottom: 5px;">Juri Kang</div>
       <div style="margin-bottom: 5px;">MS Student</div>
-      <div>Email: <a href="mailto:kang435@purdue.edu">kang435@purdue.edu</a></div>
+      <div>Email: </div>
+      <div><a href="mailto:kang435@purdue.edu">kang435@purdue.edu</a></div>
     </div>
   </div>
 
