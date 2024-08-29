@@ -48,7 +48,7 @@ toc_sticky: true
     <div>
       <div style="margin-bottom: 5px;">Fengfeng Zhou</div>
       <div style="margin-bottom: 5px;">PhD Student</div>
-      <div>Email: </a></div>
+      <div>Email: </div>
       <div><a href="mailto:zhou966@purdue.edu">zhou966@purdue.edu</a></div>
     </div>
   </div>
