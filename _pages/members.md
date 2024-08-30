@@ -17,7 +17,7 @@ toc_sticky: true
   <div>
     <div style="margin-bottom: 5px;">Dr. Martin Byung-Guk Jun</div>
     <div style="margin-bottom: 5px;">Professor</div>
-    <div style="margin-bottom: 5px;">Phone: (765) 494-3376</div>
+    <div style="margin-bottom: 5px;">Phone: (765)494-3376 </div>
     <div>Email: </div>
     <div><a href="mailto:mbgjun@purdue.edu">mbgjun@purdue.edu</a></div>
   </div>
