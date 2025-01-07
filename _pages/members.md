@@ -179,12 +179,12 @@ toc_sticky: true
     </div>
   </div>
   
-  <div style="display: flex; align-items: center;">
+  <!-- <div style="display: flex; align-items: center;">
     <img src="https://github.com/purduelamm/purduelamm.github.io/blob/master/assets/images/pictures/student%20photos/Visiting/Prof_Minsoo_Park.jpg?raw=true" style="width: 157px; height: 200px; margin-right: 20px; object-fit: cover;"/>
     <div>
       <div style="margin-bottom: 5px;">Dr. Minsoo Park</div>
     </div>
-  </div>
+  </div> -->
 
   <div style="display: flex; align-items: center;">
     <img src="https://github.com/purduelamm/purduelamm.github.io/blob/master/assets/images/pictures/student%20photos/Visiting/Prof_Seungmo_Kim.jpg?raw=true" style="width: 157px; height: 200px; margin-right: 20px; object-fit: cover;"/>
@@ -193,7 +193,7 @@ toc_sticky: true
     </div>
   </div>
 
-  <div style="display: flex; align-items: center;">
+  <!-- <div style="display: flex; align-items: center;">
     <img src="https://github.com/purduelamm/purduelamm.github.io/blob/master/assets/images/pictures/student%20photos/Visiting/Youngwoon_Choi.jpeg?raw=true" style="width: 157px; height: 200px; margin-right: 20px; object-fit: cover;"/>
     <div>
       <div style="margin-bottom: 5px;">Youngwon Choi</div>
@@ -212,7 +212,7 @@ toc_sticky: true
     <div>
       <div style="margin-bottom: 5px;">Yunjae Hwang</div>
     </div>
-  </div>
+  </div> -->
   <!-- Add more visiting -YS- -->
 </div>
 
@@ -241,16 +241,19 @@ Dr. Ted Gabor - PhD Graduate <br/>
 
 ## Past Visiting Researchers
 
+Dr. Minsoo Park - Professor from Seoul University of Science and Technology, Korea <br/>
 Namho Choe - Director General for Manufacturing Industry, MOTIE, Korea <br/>
 Duygu Ruzgar - Researcher from Bursa Technnical University <br/>
 Dr. Young Hun Jeong - Professor from Kyungpook National University, Korea <br/>
 Dr. Wenqiang Duan - Researcher from Xi'an Jiaotong University, China <br/>
 Dr. Byung Sub Kim - Researcher from Korea Institute of Machinery and Materials (KIMM) <br/>
-Dr. Minsoo Park - Professor from Seoul University of Science and Technology, Korea <br/>
 Dr. Jangyong Lee - Researcher from Korea Institute of Industrial Technology (KITECH), Korea <br/>
 
 ## Past Visiting Students
 
+Youngwon Choi - Visitng PhD Student (Sungkyunkwan University) 2024-2024 <br/>
+Seungjae Han - Visitng PhD Student (Chung-Ang University) 2024-2024 <br/>
+Yunjae Hwang - Visitng PhD Student (UNIST) 2024-2024 <br/>
 Dr. Zhengyang (Kevin) Kang - Visiting PhD Student (Jiangsu U.) 2017-2018 Now at Nanjing Technical University, China <br/>
 Sengul Teke - Visitng PhD Student (Bursa Tech.) 2019-2020 Now at Secant Group <br/>
 Jongmin Lim - Visitng PhD Student (Yonsei University) 2019-2020 <br/>
