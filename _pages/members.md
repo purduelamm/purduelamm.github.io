@@ -184,14 +184,14 @@ toc_sticky: true
     <div>
       <div style="margin-bottom: 5px;">Dr. Minsoo Park</div>
     </div>
-  </div> -->
+  </div>
 
   <div style="display: flex; align-items: center;">
     <img src="https://github.com/purduelamm/purduelamm.github.io/blob/master/assets/images/pictures/student%20photos/Visiting/Prof_Seungmo_Kim.jpg?raw=true" style="width: 157px; height: 200px; margin-right: 20px; object-fit: cover;"/>
     <div>
       <div style="margin-bottom: 5px;">Dr. Seungmo Kim</div>
     </div>
-  </div>
+  </div> -->
 
   <!-- <div style="display: flex; align-items: center;">
     <img src="https://github.com/purduelamm/purduelamm.github.io/blob/master/assets/images/pictures/student%20photos/Visiting/Youngwoon_Choi.jpeg?raw=true" style="width: 157px; height: 200px; margin-right: 20px; object-fit: cover;"/>
@@ -241,6 +241,7 @@ Dr. Ted Gabor - PhD Graduate <br/>
 
 ## Past Visiting Researchers
 
+Dr. Seungmo Kim - Professor from Korea University of Technology and Education, Korea <br/>
 Dr. Minsoo Park - Professor from Seoul University of Science and Technology, Korea <br/>
 Namho Choe - Director General for Manufacturing Industry, MOTIE, Korea <br/>
 Duygu Ruzgar - Researcher from Bursa Technnical University <br/>
