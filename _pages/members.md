@@ -103,12 +103,6 @@ toc_sticky: true
     </div>
   </div>
 
-  <!-- Add more PhD -YS- -->
-</div>
-
-## MS Students
-
-<div style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 20px;">
   <div style="display: flex; align-items: center;">
     <img src="https://github.com/purduelamm/purduelamm.github.io/blob/master/assets/images/pictures/student%20photos/Master/Dongjun_Yun.jpeg?raw=true" style="width: 157px; height: 200px; margin-right: 20px; object-fit: cover;"/>
     <div>
@@ -118,7 +112,13 @@ toc_sticky: true
       <div><a href="mailto:yun115@purdue.edu">yun115@purdue.edu</a></div>
     </div>
   </div>
-  
+
+  <!-- Add more PhD -YS- -->
+</div>
+
+## MS Students
+
+<div style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 20px;">  
   <div style="display: flex; align-items: center;">
     <img src="https://github.com/purduelamm/purduelamm.github.io/blob/master/assets/images/pictures/student%20photos/Master/Nobin_Myeong.jpeg?raw=true" style="width: 157px; height: 200px; margin-right: 20px; object-fit: cover;"/>
     <div>
