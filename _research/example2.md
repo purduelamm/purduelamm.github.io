@@ -2,7 +2,7 @@
 order: 2
 title: "Example_1"
 excerpt: "Example_2"
-tagline: "[Hojun Lee_2](https://scholar.google.com/citations?user=SLpPgLYAAAAJ&hl=en&oi=sra)<sup>1</sup>"
+# tagline: "[Hojun Lee_2](https://scholar.google.com/citations?user=SLpPgLYAAAAJ&hl=en&oi=sra)<sup>1</sup>"
 header:
   teaser: /assets/images/research/sample_img.jpeg
   overlay_image: /assets/images/research/sample_img.jpeg
