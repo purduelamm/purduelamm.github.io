@@ -251,7 +251,7 @@ Dr. Jangyong Lee - Researcher from Korea Institute of Industrial Technology (KIT
 
 ## Past Visiting Students
 
-Youngwon Choi - Visitng PhD Student (Sungkyunkwan University) 2024-2024 <br/>
+Youngwoon Choi - Visitng PhD Student (Sungkyunkwan University) 2024-2024 <br/>
 Seungjae Han - Visitng PhD Student (Chung-Ang University) 2024-2024 <br/>
 Yunjae Hwang - Visitng PhD Student (UNIST) 2024-2024 <br/>
 Dr. Zhengyang (Kevin) Kang - Visiting PhD Student (Jiangsu U.) 2017-2018 Now at Nanjing Technical University, China <br/>
