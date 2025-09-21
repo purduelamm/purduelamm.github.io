@@ -86,7 +86,7 @@ toc_sticky: true
   <div style="display: flex; align-items: center;">
     <img src="https://github.com/purduelamm/purduelamm.github.io/blob/master/assets/images/pictures/student%20photos/PhD/Yuseop_Sim.png?raw=true" style="width: 157px; height: 200px; margin-right: 20px; object-fit: cover;"/>
     <div>
-      <div style="margin-bottom: 5px;">Yuseop Sim</div>
+      <div style="margin-bottom: 5px;"><a href="https://yuseopsim.github.io/"> Yuseop Sim</a></div>
       <div style="margin-bottom: 5px;">PhD Student</div>
       <div>Email: </div>
       <div><a href="mailto:sim46@purdue.edu">sim46@purdue.edu</a></div>
