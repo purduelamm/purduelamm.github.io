@@ -43,6 +43,7 @@ toc_sticky: true
       <div style="margin-bottom: 5px;">Postdoctoral Researcher</div>
       <div>Email: </div>
       <div><a href="mailto:jang283@purdue.edu">jang283@purdue.edu</a></div>
+    </div>
   </div>
 </div>
 
