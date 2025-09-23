@@ -36,17 +36,14 @@ toc_sticky: true
     </div>
   </div>
 
-<div style="display: flex; align-items: center;">
-  <img src="https://github.com/purduelamm/purduelamm.github.io/blob/master/assets/images/pictures/members/B_Researchers/Junmyoung_Jang.jpg?raw=true" 
-       style="width: 157px; height: 200px; margin-right: 20px; object-fit: cover;"/>
-  <div>
-    <div style="margin-bottom: 5px;">Dr. Junmyoung Jang</div>
-    <div style="margin-bottom: 5px;">Postdoctoral Researcher</div>
-    <div>Email: </div>
-    <div><a href="mailto:jang283@purdue.edu">jang283@purdue.edu</a></div>
+  <div style="display: flex; align-items: center;">
+    <img src="https://github.com/purduelamm/purduelamm.github.io/blob/master/assets/images/pictures/members/B_Researchers/Junmyoung_Jang.jpg?raw=true" style="width: 157px; height: 200px; margin-right: 20px; object-fit: cover;"/>
+    <div>
+      <div style="margin-bottom: 5px;">Dr. Junmyoung Jang</div>
+      <div style="margin-bottom: 5px;">Postdoctoral Researcher</div>
+      <div>Email: </div>
+      <div><a href="mailto:jang283@purdue.edu">jang283@purdue.edu</a></div>
   </div>
-
-  <!-- Add more Post Doc -YS- -->
 </div>
 
 ## PhD Students
@@ -151,7 +148,7 @@ toc_sticky: true
       <div><a href="mailto:fredondo@purdue.edu">fredondo@purdue.edu</a></div>
     </div>
   </div>
-  
+
   <!-- Add more PhD -YS- -->
 </div>
 
