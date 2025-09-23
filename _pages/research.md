@@ -1,6 +1,5 @@
 ---
 title: "Research"
-classes: wide
 permalink: /research/
 header: 
   overlay_image: https://minimalistic-wallpaper.demolab.com/?random
