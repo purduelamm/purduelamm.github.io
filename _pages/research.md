@@ -1,7 +1,7 @@
 ---
 title: "Research"
 classes: wide
-permalink: /research-archive/
+permalink: /research/
 header: 
   overlay_image: https://minimalistic-wallpaper.demolab.com/?random
   overlay_filter: 0.4
@@ -11,4 +11,7 @@ toc: true
 toc_sticky: true
 ---
 
-## Add the contents
+All images in the website are from <a href="https://github.com/DenverCoder1/minimalistic-wallpaper-collection">DenverCoder1</a>.
+{: .notice--info}
+
+## TBD
