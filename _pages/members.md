@@ -13,7 +13,7 @@ toc_sticky: true
 ## Principal Investigator
 
 <div style="display: flex; align-items: center;">
-  <img src="https://github.com/purduelamm/purduelamm.github.io/blob/master/assets/images/pictures/professor%20photos/MartinJun2014.jpg?raw=true" style="width: 157px; height: 200px; margin-right: 20px; object-fit: cover;"/>
+  <img src="https://github.com/purduelamm/purduelamm.github.io/blob/master/assets/images/pictures/members/A_Principal_Inverstigator/Martin_Jun.jpg?raw=true" style="width: 157px; height: 200px; margin-right: 20px; object-fit: cover;"/>
   <div>
     <div style="margin-bottom: 5px;">Dr. Martin Byung-Guk Jun</div>
     <div style="margin-bottom: 5px;">Professor</div>
@@ -27,17 +27,24 @@ toc_sticky: true
 
 <div style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 20px;">
   <div style="display: flex; align-items: center;">
-    <img src="https://github.com/purduelamm/purduelamm.github.io/blob/master/assets/images/pictures/student%20photos/Postdoc/Jiho_Lee.jpeg?raw=true" style="width: 157px; height: 200px; margin-right: 20px; object-fit: cover;"/>
+    <img src="https://github.com/purduelamm/purduelamm.github.io/blob/master/assets/images/pictures/members/B_Researchers/Hyunmin_Park.png?raw=true" style="width: 157px; height: 200px; margin-right: 20px; object-fit: cover;"/>
     <div>
-      <div style="margin-bottom: 5px;">Dr. Jiho Lee</div>
-      <div style="margin-bottom: 5px;">Postdoctoral Research</div>
-      <div style="margin-bottom: 5px;">Associate</div>
+      <div style="margin-bottom: 5px;">Dr. Hyunmin Park</div>
+      <div style="margin-bottom: 5px;">Postdoctoral Researcher</div>
       <div>Email: </div>
-      <div><a href="mailto:lee4503@purdue.edu">lee4503@purdue.edu</a></div>
+      <div><a href="mailto:park2010@purdue.edu">park2010@purdue.edu</a></div>
     </div>
   </div>
 
-  <!-- Add more Post Doc -YS- -->
+<div style="display: flex; align-items: center;">
+  <img src="https://github.com/purduelamm/purduelamm.github.io/blob/master/assets/images/pictures/members/B_Researchers/Junmyoung_Jang.png?raw=true" 
+       style="width: 157px; height: 200px; margin-right: 20px; object-fit: cover;"/>
+  <div>
+    <div style="margin-bottom: 5px;">Dr. Junmyoung Jang</div>
+    <div style="margin-bottom: 5px;">Postdoctoral Researcher</div>
+    <div>Email: </div>
+    <div><a href="mailto:jang283@purdue.edu">jang283@purdue.edu</a></div>
+  </div>
 </div>
 
 ## PhD Students
