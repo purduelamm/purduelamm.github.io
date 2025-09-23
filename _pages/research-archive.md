@@ -1,25 +1,14 @@
 ---
 title: "Research"
-layout: collection
 classes: wide
-permalink: /research/
-collection: research
-sort_by: order
-sort_order: reverse
-entries_layout: grid
-header:
+permalink: /research-archive/
+header: 
   overlay_image: https://minimalistic-wallpaper.demolab.com/?random
   overlay_filter: 0.4
   caption: "Photo credit: [**Unknown**](https://github.com/DenverCoder1/minimalistic-wallpaper-collection)"
-last_modified_at: 2022-12-04T11:59:26-04:00
+last_modified_at: 2022-11-13T11:59:26-04:00
 toc: true
 toc_sticky: true
 ---
 
-<!-- ## Researches
-
-{% for item in site.research %}
-- ![{{ item.title }}]({{ item.image_url }})  
-  **[{{ item.title }}]({{ item.url }})**  
-  {{ item.description }}
-{% endfor %} -->
+## Add the contents
