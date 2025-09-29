@@ -335,6 +335,8 @@ toc_sticky: true
       <div style="margin-bottom: 5px;">Youngwoon Choi</div>
       <div style="margin-bottom: 5px;">Visiting Student (Sungkyunkwan University)</div>
       <div style="margin-bottom: 5px;">2024</div>
+      <div>Email: </div>
+      <div><a href="mailto:woonathome@g.skku.edu">woonathome@g.skku.edu</a></div>
     </div>
   </div>
 
@@ -344,6 +346,8 @@ toc_sticky: true
       <div style="margin-bottom: 5px;">Seungjae Han</div>
       <div style="margin-bottom: 5px;">Visiting Student (Chung-Ang University)</div>
       <div style="margin-bottom: 5px;">2024</div>
+      <div>Email: </div>
+      <div><a href="mailto:sj960506@cau.ac.kr">sj960506@cau.ac.kr</a></div>
     </div>
   </div>
 
@@ -353,6 +357,8 @@ toc_sticky: true
       <div style="margin-bottom: 5px;">Yunjae Hwang</div>
       <div style="margin-bottom: 5px;">Visiting Student (Ulsan National Institute of Science and Technology)</div>
       <div style="margin-bottom: 5px;">2024</div>
+      <div>Email: </div>
+      <div><a href="mailto:i7770syv@unist.ac.kr">i7770syv@unist.ac.kr</a></div>
     </div>
   </div>
 
