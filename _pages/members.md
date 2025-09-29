@@ -202,13 +202,25 @@ toc_sticky: true
 ## Visiting Researchers and Students
 
 <div style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 20px;">
+  
+  <div style="display: flex; align-items: center;">
+    <img src="https://github.com/purduelamm/purduelamm.github.io/blob/master/assets/images/pictures/members/E_Visiting_Researchers_and_Students/Han_Kim.jpg?raw=true" style="width: 157px; height: 200px; margin-right: 20px; object-fit: cover;"/>
+    <div>
+      <div style="margin-bottom: 5px;">Dr. Han Kim</div>
+      <div style="margin-bottom: 5px;">Visiting Scholar from Dongyang Mirae University</div>
+      <div>Email: </div>
+      <div><a href="mailto:haan86@dongyang.ac.kr">haan86@dongyang.ac.kr</a></div>
+    </div>
+  </div>
+
+
   <div style="display: flex; align-items: center;">
     <img src="https://github.com/purduelamm/purduelamm.github.io/blob/master/assets/images/pictures/members/E_Visiting_Researchers_and_Students/Junsik_Nam.png?raw=true" style="width: 157px; height: 200px; margin-right: 20px; object-fit: cover;"/>
     <div>
       <div style="margin-bottom: 5px;">Junsik Nam</div>
       <div style="margin-bottom: 5px;">Visiting Researcher</div>
       <div>Email: </div>
-      <div><a href="mailto:bisik@purdue.edu">nam93@purdue.edu</a></div>
+      <div><a href="mailto:nam93@purdue.edu">nam93@purdue.edu</a></div>
     </div>
   </div>
 
@@ -221,8 +233,6 @@ toc_sticky: true
       <div><a href="mailto:bisik@purdue.edu">bisik@purdue.edu</a></div>
     </div>
   </div>
-    
-
 
   <div style="display: flex; align-items: center;">
     <img src="https://github.com/purduelamm/purduelamm.github.io/blob/master/assets/images/pictures/members/E_Visiting_Researchers_and_Students/Junyoung_Oh.jpg?raw=true" style="width: 157px; height: 200px; margin-right: 20px; object-fit: cover;"/>
@@ -320,7 +330,7 @@ toc_sticky: true
   </div>
 
   <div style="display: flex; align-items: center;">
-    <img src="https://github.com/purduelamm/purduelamm.github.io/blob/master/assets/images/pictures/members/G_Past_Members_(Graduate_and_Postgraduate)/Youngwoon_Choi.png?raw=true" style="width: 157px; height: 200px; margin-right: 20px; object-fit: cover;"/>
+    <img src="https://github.com/purduelamm/purduelamm.github.io/blob/master/assets/images/pictures/members/G_Past_Members_(Graduate_and_Postgraduate)/Youngwoon_Choi.jpeg?raw=true" style="width: 157px; height: 200px; margin-right: 20px; object-fit: cover;"/>
     <div>
       <div style="margin-bottom: 5px;">Youngwoon Choi</div>
       <div style="margin-bottom: 5px;">Visiting Student (Sungkyunkwan University)</div>
@@ -329,7 +339,7 @@ toc_sticky: true
   </div>
 
   <div style="display: flex; align-items: center;">
-    <img src="https://github.com/purduelamm/purduelamm.github.io/blob/master/assets/images/pictures/members/G_Past_Members_(Graduate_and_Postgraduate)/Seungjae_Han.png?raw=true" style="width: 157px; height: 200px; margin-right: 20px; object-fit: cover;"/>
+    <img src="https://github.com/purduelamm/purduelamm.github.io/blob/master/assets/images/pictures/members/G_Past_Members_(Graduate_and_Postgraduate)/Seungjae_Han.jpeg?raw=true" style="width: 157px; height: 200px; margin-right: 20px; object-fit: cover;"/>
     <div>
       <div style="margin-bottom: 5px;">Seungjae Han</div>
       <div style="margin-bottom: 5px;">Visiting Student (Chung-Ang University)</div>
@@ -338,11 +348,22 @@ toc_sticky: true
   </div>
 
   <div style="display: flex; align-items: center;">
-    <img src="https://github.com/purduelamm/purduelamm.github.io/blob/master/assets/images/pictures/members/G_Past_Members_(Graduate_and_Postgraduate)/Yunjae_Hwang.png?raw=true" style="width: 157px; height: 200px; margin-right: 20px; object-fit: cover;"/>
+    <img src="https://github.com/purduelamm/purduelamm.github.io/blob/master/assets/images/pictures/members/G_Past_Members_(Graduate_and_Postgraduate)/Yunjae_Hwang.jpeg?raw=true" style="width: 157px; height: 200px; margin-right: 20px; object-fit: cover;"/>
     <div>
       <div style="margin-bottom: 5px;">Yunjae Hwang</div>
       <div style="margin-bottom: 5px;">Visiting Student (Ulsan National Institute of Science and Technology)</div>
       <div style="margin-bottom: 5px;">2024</div>
+    </div>
+  </div>
+
+  <div style="display: flex; align-items: center;">
+    <img src="https://github.com/purduelamm/purduelamm.github.io/blob/master/assets/images/pictures/members/G_Past_Members_(Graduate_and_Postgraduate)/Jurim_Jeon.jpg?raw=true" style="width: 157px; height: 200px; margin-right: 20px; object-fit: cover;"/>
+    <div>
+      <div style="margin-bottom: 5px;">Jurim Jeon</div>
+      <div style="margin-bottom: 5px;">Visiting Student (Pusan National University)</div>
+      <div style="margin-bottom: 5px;">2024</div>
+      <div>Email: </div>
+      <div><a href="mailto:jeon117@purdue.edu">jeon117@purdue.edu</a></div>
     </div>
   </div>
 
@@ -783,6 +804,16 @@ toc_sticky: true
 <div style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 20px;">
 
   <div style="display: flex; align-items: center;">
+    <img src="https://github.com/purduelamm/purduelamm.github.io/blob/master/assets/images/pictures/members/H_Past_Visiting_Scholars/Seungmo_Kim.jpg?raw=true" style="width: 157px; height: 200px; margin-right: 20px; object-fit: cover;"/>
+    <div>
+      <div style="margin-bottom: 5px;">Dr. Seungmo Kim</div>
+      <div style="margin-bottom: 5px;">Visiting Professor, Korea university of Technology and Education</div>
+      <div>Email: </div>
+      <div><a href="mailto:sybaek@induk.ac.kr">smkim@koreatech.ac.kr</a></div>
+    </div>
+  </div>
+
+  <div style="display: flex; align-items: center;">
     <img src="https://github.com/purduelamm/purduelamm.github.io/blob/master/assets/images/pictures/members/H_Past_Visiting_Scholars/Seungyub_Baek.jpg?raw=true" style="width: 157px; height: 200px; margin-right: 20px; object-fit: cover;"/>
     <div>
       <div style="margin-bottom: 5px;">Dr. Seungyub Baek</div>
@@ -887,6 +918,26 @@ toc_sticky: true
 ## Past Members (Undergraduate)
 
 <div style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 20px;">
+
+  <div style="display: flex; align-items: center;">
+    <img src="https://github.com/purduelamm/purduelamm.github.io/blob/master/assets/images/pictures/members/I_Past_Members_(Undergraduate)/MariBarbosa.jpg?raw=true" style="width: 157px; height: 200px; margin-right: 20px; object-fit: cover;"/>
+    <div>
+      <div style="margin-bottom: 5px;">Mari Barbosa Morais</div>
+      <div style="margin-bottom: 5px;">Mechanical Engineering</div>
+      <div>Email: </div>
+      <div><a href="mailto:barbosm@purdue.edu">Email: barbosm@purdue.edu</a></div>
+    </div>
+  </div>
+
+  <div style="display: flex; align-items: center;">
+    <img src="https://github.com/purduelamm/purduelamm.github.io/blob/master/assets/images/pictures/members/I_Past_Members_(Undergraduate)/Ayuba.jpeg?raw=true" style="width: 157px; height: 200px; margin-right: 20px; object-fit: cover;"/>
+    <div>
+      <div style="margin-bottom: 5px;">Kyenret Yakubu Ayuba</div>
+      <div style="margin-bottom: 5px;">Biomedical Engineering</div>
+      <div>Email: </div>
+      <div><a href="mailto:kayuba@purdue.edu">Email: kayuba@purdue.edu</a></div>
+    </div>
+  </div>
 
   <div style="display: flex; align-items: center;">
     <img src="https://github.com/purduelamm/purduelamm.github.io/blob/master/assets/images/pictures/members/I_Past_Members_(Undergraduate)/Hojun_Lee.png?raw=true" style="width: 157px; height: 200px; margin-right: 20px; object-fit: cover;"/>
