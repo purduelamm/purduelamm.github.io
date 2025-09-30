@@ -63,13 +63,25 @@ $right-badge-padding: 8px !default;   // 배지 내부 여백
 html[data-theme="dark"] .right-badges .badge { background:#1b1b1b; }
 */
 
-/* === Global author-profile spacing & name style === */
+/* === Author name: stacked label + name (global) === */
 .sidebar .author__name {
-  margin-bottom: 16px;          /* 이름 아래 간격 (원하시면 12~24px로 조절) */
   line-height: 1.25;
+  margin-bottom: 16px;      /* 이름 아래 간격 */
+  font-size: 1.10rem;       /* 이름 크기 */
+}
+
+.sidebar .author__name::before {
+  content: "Principal Investigator";  
+  display: block;           /* 라벨을 윗줄로 */
+  font-size: 0.85rem;       /* 라벨 크기(이름보다 작게) */
+  font-weight: 600;
+  letter-spacing: .2px;
+  opacity: .85;
+  margin-bottom: 3px;       /* 라벨-이름 간격 */
 }
 
 .sidebar .author__name a {
+  font-size: inherit;       /* 링크일 때 이름 크기 유지 */
   color: inherit;
-  text-decoration: none;        /* 이름 링크 밑줄 제거 */
+  text-decoration: none;
 }
