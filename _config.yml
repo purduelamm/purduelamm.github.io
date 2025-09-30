@@ -105,9 +105,9 @@ social:
 # Site Author
 author:
   name             : "Martin Byung-Guk Jun"
-  avatar           : ""
-  avatar_shape     : square
-  bio              : ""
+  # avatar           : ""
+  # avatar_shape     : square
+  # bio              : ""
   location         : "West Lafayette, IN"
   email            : "mbgjun@purdue.edu"
   links:
