@@ -259,7 +259,7 @@ toc_sticky: true
   </div>
 
   <div style="display: flex; align-items: center;">
-    <img src="https://github.com/purduelamm/purduelamm.github.io/blob/master/assets/images/pictures/members/F_Undergraduate_Students/Henry.png?raw=true" style="width: 157px; height: 200px; margin-right: 20px; object-fit: cover;"/>
+    <img src="https://github.com/purduelamm/purduelamm.github.io/blob/master/assets/images/pictures/members/F_Undergraduate_Students/Henry.jpg?raw=true" style="width: 157px; height: 200px; margin-right: 20px; object-fit: cover;"/>
     <div>
       <div style="margin-bottom: 5px;">Henry Nathan Lambert</div>
       <div style="margin-bottom: 5px;">Undergraduate Student</div>
@@ -718,7 +718,7 @@ toc_sticky: true
   </div>
 
   <div style="display: flex; align-items: center;">
-    <img src="https://github.com/purduelamm/purduelamm.github.io/blob/master/assets/images/pictures/members/G_Past_Members_(Graduate_and_Postgraduate)/Jaeho_Kong.png?raw=true" style="width: 157px; height: 200px; margin-right: 20px; object-fit: cover;"/>
+    <img src="https://github.com/purduelamm/purduelamm.github.io/blob/master/assets/images/pictures/members/G_Past_Members_(Graduate_and_Postgraduate)/Jaeho_Kong.jpg?raw=true" style="width: 157px; height: 200px; margin-right: 20px; object-fit: cover;"/>
     <div>
       <div style="margin-bottom: 5px;">Jaeho Kong</div>
       <div style="margin-bottom: 5px;">Visiting Student (Kyungpook National University)</div>
