@@ -19,6 +19,6 @@ toc_sticky: false
   <a href="https://engineering.purdue.edu/CORIA"> target="_blank" rel="noopener">
     <img src="https://github.com/purduelamm/purduelamm.github.io/blob/master/assets/images/pictures/logos/CORIA.png?raw=true">
   </a>
-<aside>
+</aside>
 
 To be updated.
