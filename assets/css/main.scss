@@ -7,3 +7,58 @@ search: false
 
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main partials
+
+/* ===========================
+   Right sidebar badges (custom)
+   - HTML 구조:
+     <aside class="sidebar__right sticky">
+       <div class="right-badges">
+         <a class="badge" href="..."><img src="..." alt=""></a>
+         ...
+       </div>
+     </aside>
+   =========================== */
+
+$right-badge-width: 260px !default;   // 사이드바 폭
+$right-badge-height: 100px !default;  // 각 배지 높이(80~120px 등 취향대로)
+$right-badge-gap: 18px !default;      // 배지 사이 간격
+$right-badge-radius: 12px !default;   // 배지 둥근모서리
+$right-badge-padding: 8px !default;   // 배지 내부 여백
+
+@media (min-width: 64em) {
+  .sidebar__right { width: $right-badge-width; }
+
+  .right-badges {
+    display: flex;
+    flex-direction: column;
+    gap: $right-badge-gap;                 // 배지 간격
+  }
+
+  /* 같은 크기의 카드 안에 로고 넣기 */
+  .right-badges .badge {
+    display: block;
+    width: 100%;
+    height: $right-badge-height;           // 모든 배지 높이 통일
+    padding: $right-badge-padding;
+    border-radius: $right-badge-radius;
+    background: #fff;                      // 투명 PNG 대비
+    box-shadow: 0 2px 8px rgba(0,0,0,.06);
+    transition: box-shadow .2s ease, transform .2s ease;
+  }
+
+  .right-badges .badge img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;                   // 비율 유지하며 카드에 맞춤
+    display: block;
+  }
+
+  .right-badges .badge:hover {
+    box-shadow: 0 4px 14px rgba(0,0,0,.10);
+    transform: translateY(-1px);
+  }
+}
+
+/* (선택) 다크 모드 배경 조정 — 스킨에 따라 필요시 사용
+html[data-theme="dark"] .right-badges .badge { background:#1b1b1b; }
+*/
