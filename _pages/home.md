@@ -7,6 +7,7 @@ header:
   caption: "Photo credit: [**Unknown**](https://github.com/DenverCoder1/minimalistic-wallpaper-collection)"
 toc: false
 toc_sticky: false
+classes: home-left
 ---
 
 <aside class="sidebar__right sticky" role="complementary" aria-label="External links">

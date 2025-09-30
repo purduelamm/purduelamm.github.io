@@ -62,3 +62,14 @@ $right-badge-padding: 8px !default;   // 배지 내부 여백
 /* (선택) 다크 모드 배경 조정 — 스킨에 따라 필요시 사용
 html[data-theme="dark"] .right-badges .badge { background:#1b1b1b; }
 */
+
+/* === Global author-profile spacing & name style === */
+.sidebar .author__name {
+  margin-bottom: 16px;          /* 이름 아래 간격 (원하시면 12~24px로 조절) */
+  line-height: 1.25;
+}
+
+.sidebar .author__name a {
+  color: inherit;
+  text-decoration: none;        /* 이름 링크 밑줄 제거 */
+}
