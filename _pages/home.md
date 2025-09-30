@@ -17,7 +17,7 @@ toc_sticky: false
     <a href="https://engineering.purdue.edu/MMRL" target="_blank" rel="noopener">
       <img src="https://github.com/purduelamm/purduelamm.github.io/blob/master/assets/images/pictures/logos/MMRL.jpg?raw=true" alt="MMRL">
     </a>
-    <a href="https://purduelamm.github.io" target="_blank" rel="noopener">
+    <a href="https://engineering.purdue.edu/CORIA" target="_blank" rel="noopener">
       <img src="https://github.com/purduelamm/purduelamm.github.io/blob/master/assets/images/pictures/logos/CORIA.png?raw=true" alt="CORIA">
     </a>
   </div>
