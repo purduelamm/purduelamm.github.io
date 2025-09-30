@@ -5,7 +5,7 @@ header:
   overlay_image: https://minimalistic-wallpaper.demolab.com/?random
   overlay_filter: 0.4
   caption: "Photo credit: [**Unknown**](https://github.com/DenverCoder1/minimalistic-wallpaper-collection)"
-toc: true
+toc: false
 toc_sticky: true
 ---
 
