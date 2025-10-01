@@ -86,11 +86,10 @@ html[data-theme="dark"] .right-badges .badge { background:#1b1b1b; }
   text-decoration: none;
 }
 
-<style>
+
 /* 히어로-본문 간격을 타이트하게 만드는 유틸 클래스 */
 .page.tight-hero .page__hero--overlay { margin-bottom: 16px; } /* Research 페이지 느낌(약 16px) */
 .page.tight-hero .page__content { padding-top: 0; }            /* margin collapse 방지 */
 .page.tight-hero .page__content > h1:first-child,
 .page.tight-hero .page__content > h2:first-child,
 .page.tight-hero .page__content > h3:first-child { margin-top: .2rem; }
-</style>
