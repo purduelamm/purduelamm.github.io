@@ -120,9 +120,9 @@ author:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/orgs/purduelamm/repositories"
-    - label: "CV"
+    - label: "Purdue Profile"
       icon: "fas fa-fw fa-user-tie"
-      url: ""
+      url: "https://engineering.purdue.edu/ME/People/ptProfile?resource_id=156378"
 
 # Site Footer
 footer:
