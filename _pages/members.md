@@ -309,7 +309,7 @@ toc_sticky: true
   <div style="display: flex; align-items: center;">
     <img src="https://github.com/purduelamm/purduelamm.github.io/blob/master/assets/images/pictures/members/G_Past_Members_(Graduate_and_Postgraduate)/Yoonseo_Lee.jpg?raw=true" style="width: 157px; height: 200px; margin-right: 20px; object-fit: cover;"/>
     <div>
-      <div style="margin-bottom: 5px;">Yoonseo Lee</div>
+      <div style="margin-bottom: 5px;">Kristine Yoonseo Lee</div>
       <div style="margin-bottom: 5px;">Visiting Student (Seoul National University)</div>
       <div style="margin-bottom: 5px;">2025</div>
       <div>Email: </div>
