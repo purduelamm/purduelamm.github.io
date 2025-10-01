@@ -4,11 +4,12 @@ permalink: /research/
 last_modified_at: 2025-09-24T11:59:26-04:00
 toc: true
 toc_sticky: true
+classes: home-left tight-hero
 ---
 <style>
   .section { padding:16px 24px 24px; margin-bottom:40px; }
-  .section.gray { background-color:#f5f5f5e5; !important; }
-  .section.white { background-color:#ffffff; !important; }
+  .section.gray { background-color:#f5f5f5e5 !important; }
+  .section.white { background-color:#ffffff !important; }
 
   .section > h2 {
     margin: 0 0 12px 0 !important;

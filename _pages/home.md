@@ -9,7 +9,7 @@ header:
 toc: false
 toc_sticky: false
 author_profile: True
-classes: home-left
+classes: home-left tight-hero
 ---
 
 <aside class="sidebar__right sticky" role="complementary" aria-label="External links">
