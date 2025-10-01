@@ -1,11 +1,7 @@
 ---
 title: "Contact"
 permalink: /contact/
-header: 
-  overlay_image: https://github.com/purduelamm/purduelamm.github.io/blob/master/assets/images/pictures/group%photos/labphoto2.jpg
-  overlay_filter: 0.4
-  caption: "Photo credit: [**Unknown**](https://github.com/DenverCoder1/minimalistic-wallpaper-collection)"
-last_modified_at: 2022-11-13T11:59:26-04:00
+last_modified_at: 2025-10-01T11:59:26-04:00
 toc: true
 toc_sticky: true
 ---
