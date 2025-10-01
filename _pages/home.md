@@ -1,10 +1,11 @@
 ---
 title: "Home"
+layout: single
 permalink: /home/
 header: 
-  overlay_image: https://minimalistic-wallpaper.demolab.com/?random
+  overlay_image: /assets/images/wall/wall01.png
   overlay_filter: 0.4
-  caption: "Photo credit: [**Unknown**](https://github.com/DenverCoder1/minimalistic-wallpaper-collection)"
+  caption: "Photo credit: LAMM"
 toc: false
 toc_sticky: false
 classes: home-left

@@ -27,4 +27,40 @@
   {% endfor %}
 {% endif %}
 
-<script defer src="{{ '/assets/js/random-hero.js' | relative_url }}"></script>
+<script>
+(function () {
+  var hero = document.querySelector('.page__hero--overlay');
+  if (!hero) return;
+
+  var images = [
+    "{{ '/assets/images/wall/wall01.png' | relative_url }}",
+    "{{ '/assets/images/wall/wall02.png' | relative_url }}",
+    "{{ '/assets/images/wall/wall03.png' | relative_url }}",
+    "{{ '/assets/images/wall/wall04.png' | relative_url }}",
+    "{{ '/assets/images/wall/wall05.png' | relative_url }}",
+    "{{ '/assets/images/wall/wall06.png' | relative_url }}",
+    "{{ '/assets/images/wall/wall07.png' | relative_url }}",
+    "{{ '/assets/images/wall/wall08.png' | relative_url }}",
+    "{{ '/assets/images/wall/wall09.png' | relative_url }}",
+    "{{ '/assets/images/wall/wall10.png' | relative_url }}"
+  ];
+
+  var pick = images[Math.floor(Math.random() * images.length)];
+
+  // 히어로에 쓰일 어둡기(없으면 0.4)
+  var filter = 0.4;
+  var s = window.getComputedStyle(hero).backgroundImage;
+  // 필터를 따로 계산하기 어렵다면 고정 0.4로도 충분합니다.
+
+  hero.style.backgroundImage =
+    'linear-gradient(rgba(0,0,0,' + filter + '), rgba(0,0,0,' + filter + ')), url("' + pick + '")';
+
+  // 레이아웃에 <img>가 들어가는 경우 대비
+  var img = hero.querySelector('img');
+  if (img) img.src = pick;
+
+  // 캡션 교체(선택)
+  var cap = hero.querySelector('.page__hero-caption');
+  if (cap) cap.innerHTML = 'Photo credit: <strong>CORIA / MMRL</strong>';
+})();
+</script>
