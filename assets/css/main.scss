@@ -87,7 +87,14 @@ html[data-theme="dark"] .right-badges .badge { background:#1b1b1b; }
 }
 
 
-/* 전역: 히어로-본문 간격 축소 */
+/* 히어로-본문 간격 축소(이미 있다면 값만 조정) */
 .layout--single .page__hero--overlay { margin-bottom: 16px !important; }
-.layout--single .page__content { padding-top: 0 !important; }
-.layout--single .page__content > :first-child { margin-top: .25rem !important; }
+
+/* 부모에 살짝 패딩을 줘서 margin-collapsing 방지 */
+.layout--single .page__content { padding-top: .25rem !important; }
+
+/* 본문에서 '첫 번째 헤딩'의 위 여백 제거 */
+.layout--single .page__content > h1:first-of-type,
+.layout--single .page__content > h2:first-of-type,
+.layout--single .page__content > h3:first-of-type { margin-top: 0 !important; }
+
