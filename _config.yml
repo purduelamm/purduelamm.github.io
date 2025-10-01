@@ -285,6 +285,8 @@ defaults:
       path: ""        # 모든 문서
       type: "pages"
     values:
+      layout: single
+      author_profile: true
       header:
         overlay_image: /assets/images/wall/wall01.png  
         overlay_filter: 0.4

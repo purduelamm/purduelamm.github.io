@@ -8,6 +8,7 @@ header:
   caption: "Photo credit: LAMM"
 toc: false
 toc_sticky: false
+author_profile: True
 classes: home-left
 ---
 
