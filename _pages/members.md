@@ -13,7 +13,7 @@ toc_sticky: true
 ## Principal Investigator
 
 <div style="display: flex; align-items: center;">
-  <img src="https://github.com/purduelamm/purduelamm.github.io/blob/master/assets/images/pictures/members/A_Principal_Inverstigator/Martin_Jun.jpg?raw=true" style="width: 157px; height: 200px; margin-right: 20px; object-fit: cover;"/>
+  <img src="https://github.com/purduelamm/purduelamm.github.io/blob/master/assets/images/pictures/members/A_Principal_Inverstigator/Martin_Jun.jpg?raw=true" style="width: 204px; height: 260px; margin-right: 20px; object-fit: cover;"/>
   <div>
     <div style="margin-bottom: 5px;">Dr. Martin Byung-Guk Jun</div>
     <div style="margin-bottom: 5px;">Professor</div>
