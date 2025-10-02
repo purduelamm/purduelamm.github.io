@@ -161,15 +161,18 @@ figcaption {
   -moz-osx-font-smoothing: grayscale;
 }
 
-/* App-level zoom */
+/* App-level zoom: 브라우저 줌은 상쇄하고, 우리만의 확대만 적용 */
 .app-zoom-wrap { overflow: auto; }
 
 #app-zoom-root {
-  --scale: 1;
-  transform: scale(var(--scale));
+  --user: 1;   /* 우리 쪽 확대 배율(최소 1) */
+  --comp: 1;   /* 브라우저 줌 상쇄 배율(자동 계산) */
+  transform: scale(calc(var(--user) * var(--comp)));
   transform-origin: top center;
-  width: calc(100% / var(--scale));  /* 확대 시 레이아웃 폭 보정 */
-  will-change: transform;            /* 성능 힌트 */
+  /* 스케일에 따른 레이아웃 폭 보정 */
+  width: calc(100% / (var(--user) * var(--comp)));
+  will-change: transform;
 }
+
 
 
