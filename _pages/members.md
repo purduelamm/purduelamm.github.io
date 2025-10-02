@@ -1169,56 +1169,68 @@ classes: home-left tight-hero
 </style>
 
 <script>
-/* Zoom-lock v3: 래퍼 유무와 무관하게 항상 90% 고정 + 브라우저 줌 상쇄/차단 */
+/* v4: robust page-zoom detection (vv.scale / outer/inner / screen/inner) */
 (function () {
-  // 우선 대상 엘리먼트를 확보: #app-zoom-root 있으면 사용, 없으면 .page__content에 class 부여
   let target = document.getElementById('app-zoom-root');
   if (!target) {
     target = document.querySelector('.page__content');
     if (target) target.classList.add('zoom-target');
   }
-  if (!target) return; // 안전장치
+  if (!target) return;
 
-  // 디버그 패널(원치 않으면 이 블록 통째로 삭제 가능)
   let dbg = document.getElementById('zoom-debug');
   if (!dbg) {
     dbg = document.createElement('div');
     dbg.id = 'zoom-debug';
+    dbg.style.cssText = 'position:fixed;right:10px;top:10px;z-index:9999;background:rgba(0,0,0,.6);color:#fff;padding:6px 10px;border-radius:8px;font:12px system-ui,-apple-system,"Segoe UI",Roboto,"Noto Sans KR",Arial,sans-serif;pointer-events:none;';
     document.body.appendChild(dbg);
   }
 
-  // 페이지 줌만 감지(OS 배율 무시). Chrome/Edge는 visualViewport.scale이 정확.
+  // 여러 신호 중 "가장 크게 1에서 벗어난 값"을 채택
   function pageZoom() {
-    if (window.visualViewport && typeof window.visualViewport.scale === 'number') {
-      return window.visualViewport.scale || 1;
+    const cands = [];
+    const vv = (window.visualViewport && typeof window.visualViewport.scale === 'number')
+      ? window.visualViewport.scale : 0;
+    if (vv) cands.push(vv);
+
+    const iw = window.innerWidth || 0;
+    const ow = window.outerWidth || 0;
+    const sw = (window.screen && window.screen.width) ? window.screen.width : 0;
+
+    if (ow && iw) cands.push(ow / iw);     // Chrome 일부에서 유효
+    if (sw && iw) cands.push(sw / iw);     // OS 배율과 무관하게 페이지 줌 변화 반영되는 경우 多
+
+    // 가장 신뢰도 높은 값 고르기(1에서 로그 거리 최대)
+    let best = 1, score = 0;
+    for (const z of cands) {
+      if (!isFinite(z) || z <= 0) continue;
+      const dev = Math.abs(Math.log(z));
+      if (dev > score) { score = dev; best = z; }
     }
-    const ratio = (window.outerWidth && window.innerWidth) ? (window.outerWidth / window.innerWidth) : 1;
-    return +ratio || 1; // Firefox 등 폴백(대략치)
+    // 과도한 노이즈 방지
+    return Math.min(4, Math.max(0.25, best));
   }
 
   function apply() {
-    const z = pageZoom();          // 예: 0.9, 1.0, 1.25
-    const comp = 1 / z;            // 브라우저 줌 상쇄
+    const z = pageZoom();            // 예: 0.9, 1.0, 1.75 ...
+    const comp = 1 / z;              // 브라우저 줌 상쇄
     target.style.setProperty('--comp', comp.toFixed(5));
-    // --user는 CSS에서 0.9로 고정되어 있음(필요시 data-fixed-scale로 바꾸고 싶으면 알려줘!)
-    if (dbg) dbg.textContent = `browser:${Math.round(z*100)}%  fixed:0.9x  comp:${comp.toFixed(2)}x`;
+    target.style.setProperty('--user', (0.9).toFixed(5));  // 항상 90% 고정
+    dbg.textContent = `browser:${Math.round(z*100)}%  fixed:0.9x  comp:${comp.toFixed(2)}x`;
   }
 
-  // 브라우저 줌 변화 감지 → 상쇄 갱신
   (window.visualViewport || window).addEventListener('resize', apply);
   window.addEventListener('resize', apply);
 
-  // Ctrl/⌘ + 휠/키로 페이지 줌 시도 차단(잠금 유지)
   window.addEventListener('wheel', e => {
     if (e.ctrlKey || e.metaKey) e.preventDefault();
   }, { passive: false, capture: true });
 
   window.addEventListener('keydown', e => {
     if (!(e.ctrlKey || e.metaKey)) return;
-    if (['+', '=', '-', '0'].includes(e.key)) e.preventDefault();
+    if (['+','=','-','0'].includes(e.key)) e.preventDefault();
   }, { capture: true });
 
-  // Safari 핀치 제스처 차단
   ['gesturestart','gesturechange','gestureend'].forEach(ev =>
     window.addEventListener(ev, e => e.preventDefault(), { passive: false })
   );
@@ -1226,3 +1238,4 @@ classes: home-left tight-hero
   apply();
 })();
 </script>
+
