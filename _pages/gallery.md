@@ -8,12 +8,6 @@ toc_sticky: true
 classes: home-left tight-hero
 ---
 
-<div class="lamm-gallery" style="max-width:900px;margin:0 auto;">
-  …
-  <figcaption class="gallery-caption">2024-08-13 LAMM Group Photo</figcaption>
-</div>
-
-
 <div style="max-width: 900px; margin: 0 auto;">
 
   <!-- 2024-08-13 -->
