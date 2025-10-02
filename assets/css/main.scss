@@ -139,3 +139,25 @@ h1.page__title {
   font-size: .95rem;
   color: #333;
 }
+
+/* === Global caption typography === */
+:root {
+  --caption-font: system-ui, -apple-system, "Segoe UI", Roboto,
+                  "Noto Sans KR", "Apple SD Gothic Neo", "Malgun Gothic",
+                  "Helvetica Neue", Arial, sans-serif;
+}
+
+.page__content figure figcaption,
+figure > figcaption,
+figcaption {
+  font-family: var(--caption-font);
+  font-weight: 500;        /* 400~600에서 취향대로 */
+  font-size: 1.05rem;      /* 살짝 키움 */
+  line-height: 1.35;
+  letter-spacing: .2px;
+  font-style: normal;      /* Minimal Mistakes의 기본 italic 해제 */
+  color: #1f2937;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
