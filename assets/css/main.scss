@@ -161,16 +161,4 @@ figcaption {
   -moz-osx-font-smoothing: grayscale;
 }
 
-/* App-level zoom: 브라우저 줌은 상쇄하고, 우리만의 확대만 적용 */
-.app-zoom-wrap { overflow: auto; }
-
-#app-zoom-root {
-  --user: 1;   /* 우리 쪽 확대 배율(최소 1) */
-  --comp: 1;   /* 브라우저 줌 상쇄 배율(자동 계산) */
-  transform: scale(calc(var(--user) * var(--comp)));
-  transform-origin: top center;
-  /* 스케일에 따른 레이아웃 폭 보정 */
-  width: calc(100% / (var(--user) * var(--comp)));
-  will-change: transform;
-}
 
