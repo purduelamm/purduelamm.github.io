@@ -1130,16 +1130,15 @@ classes: home-left tight-hero
 </div>
 
 <style>
-  .app-zoom-wrap { overflow: auto; }
-  #app-zoom-root{
-    --user: 1;       /* 우리가 적용할 배율 */
-    --comp: 1;       /* 브라우저 줌 상쇄 배율 */
+  /* 페이지 전체 래퍼에 적용할 잠금 스타일 */
+  #zoom-root-all{
+    --user: 0.9;   /* 항상 90%로 고정 – 필요하면 값만 바꾸세요 */
+    --comp: 1;     /* 브라우저 줌 상쇄 배율(스크립트가 채움) */
     transform: scale(calc(var(--user) * var(--comp)));
     transform-origin: top center;
     width: calc(100% / (var(--user) * var(--comp)));
     will-change: transform;
   }
-  /* (옵션) 오른쪽 위 상태표시로 디버깅 */
   #zoom-debug{
     position: fixed; right: 10px; top: 10px; z-index: 9999;
     background: rgba(0,0,0,.6); color:#fff; padding:6px 10px; border-radius:8px;
@@ -1148,80 +1147,57 @@ classes: home-left tight-hero
   }
 </style>
 
-<style>
-  /* Zoom target: #app-zoom-root가 없으면 .page__content에 적용 */
-  #app-zoom-root,
-  .zoom-target {
-    --user: 0.9;   /* 항상 90% 고정 */
-    --comp: 1;     /* 브라우저 줌 상쇄 배율(스크립트가 채움) */
-    transform: scale(calc(var(--user) * var(--comp)));
-    transform-origin: top center;
-    width: calc(100% / (var(--user) * var(--comp)));
-    will-change: transform;
-  }
-  /* 디버그 패널(확인용, 나중에 삭제해도 됨) */
-  #zoom-debug {
-    position: fixed; right: 10px; top: 10px; z-index: 9999;
-    background: rgba(0,0,0,.6); color:#fff; padding:6px 10px; border-radius:8px;
-    font: 12px system-ui, -apple-system, "Segoe UI", Roboto, "Noto Sans KR", Arial, sans-serif;
-    pointer-events: none;
-  }
-</style>
-
 <script>
-/* v4: robust page-zoom detection (vv.scale / outer/inner / screen/inner) */
+/* Full-page Zoom Lock (always 90%) */
 (function () {
-  let target = document.getElementById('app-zoom-root');
-  if (!target) {
-    target = document.querySelector('.page__content');
-    if (target) target.classList.add('zoom-target');
-  }
-  if (!target) return;
+  // 1) body의 모든 자식을 #zoom-root-all로 감싼다(헤더/본문/사이드바/푸터 포함)
+  if (document.getElementById('zoom-root-all')) return; // 중복 방지
+  const wrap = document.createElement('div');
+  wrap.id = 'zoom-root-all';
+  const kids = Array.from(document.body.childNodes);
+  kids.forEach(n => wrap.appendChild(n));
+  document.body.appendChild(wrap);
 
-  let dbg = document.getElementById('zoom-debug');
-  if (!dbg) {
-    dbg = document.createElement('div');
-    dbg.id = 'zoom-debug';
-    dbg.style.cssText = 'position:fixed;right:10px;top:10px;z-index:9999;background:rgba(0,0,0,.6);color:#fff;padding:6px 10px;border-radius:8px;font:12px system-ui,-apple-system,"Segoe UI",Roboto,"Noto Sans KR",Arial,sans-serif;pointer-events:none;';
-    document.body.appendChild(dbg);
-  }
+  // 디버그(원치 않으면 이 블록 삭제)
+  const dbg = document.createElement('div');
+  dbg.id = 'zoom-debug';
+  document.body.appendChild(dbg); // 래퍼 바깥에 둬서 확대의 영향을 안 받게 함
 
-  // 여러 신호 중 "가장 크게 1에서 벗어난 값"을 채택
+  // 2) 페이지 줌 감지(여러 신호를 종합해서 가장 신뢰값 채택)
   function pageZoom() {
-    const cands = [];
+    const cand = [];
     const vv = (window.visualViewport && typeof window.visualViewport.scale === 'number')
       ? window.visualViewport.scale : 0;
-    if (vv) cands.push(vv);
+    if (vv) cand.push(vv);
 
     const iw = window.innerWidth || 0;
     const ow = window.outerWidth || 0;
     const sw = (window.screen && window.screen.width) ? window.screen.width : 0;
 
-    if (ow && iw) cands.push(ow / iw);     // Chrome 일부에서 유효
-    if (sw && iw) cands.push(sw / iw);     // OS 배율과 무관하게 페이지 줌 변화 반영되는 경우 多
+    if (ow && iw) cand.push(ow / iw);
+    if (sw && iw) cand.push(sw / iw);
 
-    // 가장 신뢰도 높은 값 고르기(1에서 로그 거리 최대)
     let best = 1, score = 0;
-    for (const z of cands) {
+    for (const z of cand) {
       if (!isFinite(z) || z <= 0) continue;
-      const dev = Math.abs(Math.log(z));
+      const dev = Math.abs(Math.log(z));        // 1에서 얼마나 떨어졌는지
       if (dev > score) { score = dev; best = z; }
     }
-    // 과도한 노이즈 방지
     return Math.min(4, Math.max(0.25, best));
   }
 
+  // 3) 적용 + 이벤트
   function apply() {
-    const z = pageZoom();            // 예: 0.9, 1.0, 1.75 ...
-    const comp = 1 / z;              // 브라우저 줌 상쇄
-    target.style.setProperty('--comp', comp.toFixed(5));
-    target.style.setProperty('--user', (0.9).toFixed(5));  // 항상 90% 고정
+    const z = pageZoom();           // 예: 0.9, 1.0, 1.5 ...
+    const comp = 1 / z;             // 브라우저 줌 상쇄
+    wrap.style.setProperty('--comp', comp.toFixed(5));
     dbg.textContent = `browser:${Math.round(z*100)}%  fixed:0.9x  comp:${comp.toFixed(2)}x`;
   }
 
   (window.visualViewport || window).addEventListener('resize', apply);
   window.addEventListener('resize', apply);
 
+  // Ctrl/⌘ + 휠/키로 페이지 줌 시도 차단(잠금 유지)
   window.addEventListener('wheel', e => {
     if (e.ctrlKey || e.metaKey) e.preventDefault();
   }, { passive: false, capture: true });
@@ -1231,6 +1207,7 @@ classes: home-left tight-hero
     if (['+','=','-','0'].includes(e.key)) e.preventDefault();
   }, { capture: true });
 
+  // Safari 핀치 제스처 차단
   ['gesturestart','gesturechange','gestureend'].forEach(ev =>
     window.addEventListener(ev, e => e.preventDefault(), { passive: false })
   );
@@ -1238,4 +1215,5 @@ classes: home-left tight-hero
   apply();
 })();
 </script>
+
 
