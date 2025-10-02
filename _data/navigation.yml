@@ -8,5 +8,7 @@ main:
     url: /members/    
   - title: "Publications"
     url: /publications/  
+  - title: "Gallery"
+    url: /gallery/  
   - title: "Contact"
     url: /contact/ 
