@@ -1148,45 +1148,81 @@ classes: home-left tight-hero
   }
 </style>
 
+<style>
+  /* Zoom target: #app-zoom-root가 없으면 .page__content에 적용 */
+  #app-zoom-root,
+  .zoom-target {
+    --user: 0.9;   /* 항상 90% 고정 */
+    --comp: 1;     /* 브라우저 줌 상쇄 배율(스크립트가 채움) */
+    transform: scale(calc(var(--user) * var(--comp)));
+    transform-origin: top center;
+    width: calc(100% / (var(--user) * var(--comp)));
+    will-change: transform;
+  }
+  /* 디버그 패널(확인용, 나중에 삭제해도 됨) */
+  #zoom-debug {
+    position: fixed; right: 10px; top: 10px; z-index: 9999;
+    background: rgba(0,0,0,.6); color:#fff; padding:6px 10px; border-radius:8px;
+    font: 12px system-ui, -apple-system, "Segoe UI", Roboto, "Noto Sans KR", Arial, sans-serif;
+    pointer-events: none;
+  }
+</style>
+
 <script>
-/* v2: OS 배율 무시 + 페이지 줌만 상쇄 + 90% 고정 */
-(function(){
-  const root = document.getElementById('app-zoom-root');
-  if (!root) return;
+/* Zoom-lock v3: 래퍼 유무와 무관하게 항상 90% 고정 + 브라우저 줌 상쇄/차단 */
+(function () {
+  // 우선 대상 엘리먼트를 확보: #app-zoom-root 있으면 사용, 없으면 .page__content에 class 부여
+  let target = document.getElementById('app-zoom-root');
+  if (!target) {
+    target = document.querySelector('.page__content');
+    if (target) target.classList.add('zoom-target');
+  }
+  if (!target) return; // 안전장치
 
-  // 고정 배율 (data-fixed-scale 없으면 0.9 사용)
-  const target = (()=>{
-    const v = parseFloat(root.dataset.fixedScale || '');
-    return Number.isFinite(v) && v > 0 ? v : 0.9;
-  })();
-
-  // 디버그 표시 (원하면 삭제 가능)
+  // 디버그 패널(원치 않으면 이 블록 통째로 삭제 가능)
   let dbg = document.getElementById('zoom-debug');
   if (!dbg) {
     dbg = document.createElement('div');
     dbg.id = 'zoom-debug';
-    dbg.style.cssText = 'position:fixed;right:10px;top:10px;z-index:9999;background:rgba(0,0,0,.6);color:#fff;padding:6px 10px;border-radius:8px;font:12px system-ui,-apple-system,"Segoe UI",Roboto,"Noto Sans KR",Arial,sans-serif;pointer-events:none;';
     document.body.appendChild(dbg);
   }
 
-  // ★ 페이지 줌만 구하기
-  function pageZoom(){
+  // 페이지 줌만 감지(OS 배율 무시). Chrome/Edge는 visualViewport.scale이 정확.
+  function pageZoom() {
     if (window.visualViewport && typeof window.visualViewport.scale === 'number') {
-      // Chrome/Edge 데스크톱: 페이지 줌을 그대로 반환 (OS 배율과 분리)
       return window.visualViewport.scale || 1;
     }
-    // Fallback: 대략적인 추정 (Firefox 등)
     const ratio = (window.outerWidth && window.innerWidth) ? (window.outerWidth / window.innerWidth) : 1;
-    return +ratio || 1;
+    return +ratio || 1; // Firefox 등 폴백(대략치)
   }
 
-  function apply(){
-    const z = pageZoom();            // 예: 0.9, 1.0, 1.25
-    const comp = 1 / z;              // 상쇄 배율
-    root.style.setProperty('--comp', comp.toFixed(5));
-    root.style.setProperty('--user', target.toFixed(5));  // 항상 0.9 고정
-    dbg.textContent = `browser:${Math.round(z*100)}%  fixed:${target}x  comp:${comp.toFixed(2)}x`;
+  function apply() {
+    const z = pageZoom();          // 예: 0.9, 1.0, 1.25
+    const comp = 1 / z;            // 브라우저 줌 상쇄
+    target.style.setProperty('--comp', comp.toFixed(5));
+    // --user는 CSS에서 0.9로 고정되어 있음(필요시 data-fixed-scale로 바꾸고 싶으면 알려줘!)
+    if (dbg) dbg.textContent = `browser:${Math.round(z*100)}%  fixed:0.9x  comp:${comp.toFixed(2)}x`;
   }
 
-  // 페이지 줌 변화 감지
+  // 브라우저 줌 변화 감지 → 상쇄 갱신
+  (window.visualViewport || window).addEventListener('resize', apply);
+  window.addEventListener('resize', apply);
 
+  // Ctrl/⌘ + 휠/키로 페이지 줌 시도 차단(잠금 유지)
+  window.addEventListener('wheel', e => {
+    if (e.ctrlKey || e.metaKey) e.preventDefault();
+  }, { passive: false, capture: true });
+
+  window.addEventListener('keydown', e => {
+    if (!(e.ctrlKey || e.metaKey)) return;
+    if (['+', '=', '-', '0'].includes(e.key)) e.preventDefault();
+  }, { capture: true });
+
+  // Safari 핀치 제스처 차단
+  ['gesturestart','gesturechange','gestureend'].forEach(ev =>
+    window.addEventListener(ev, e => e.preventDefault(), { passive: false })
+  );
+
+  apply();
+})();
+</script>
