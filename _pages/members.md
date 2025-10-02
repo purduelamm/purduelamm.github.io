@@ -1128,3 +1128,85 @@ classes: home-left tight-hero
 </div>
   </div>
 </div>
+
+<style>
+  .app-zoom-wrap { overflow: auto; }
+  #app-zoom-root{
+    --user: 1;       /* 우리가 적용할 배율 */
+    --comp: 1;       /* 브라우저 줌 상쇄 배율 */
+    transform: scale(calc(var(--user) * var(--comp)));
+    transform-origin: top center;
+    width: calc(100% / (var(--user) * var(--comp)));
+    will-change: transform;
+  }
+  /* (옵션) 오른쪽 위 상태표시로 디버깅 */
+  #zoom-debug{
+    position: fixed; right: 10px; top: 10px; z-index: 9999;
+    background: rgba(0,0,0,.6); color:#fff; padding:6px 10px; border-radius:8px;
+    font: 12px system-ui, -apple-system, "Segoe UI", Roboto, "Noto Sans KR", Arial, sans-serif;
+    pointer-events: none;
+  }
+</style>
+
+<script>
+(function(){
+  const root = document.getElementById('app-zoom-root');
+  if (!root) return;
+
+  const target = (function(){
+    const v = parseFloat(root.dataset.fixedScale || '');
+    return Number.isFinite(v) && v > 0 ? v : 1;   // 기본 1배
+  })();
+
+  // 디버그 박스(원하면 지워도 됨)
+  const dbg = document.createElement('div');
+  dbg.id = 'zoom-debug';
+  document.body.appendChild(dbg);
+
+  // 절대 줌 추정: 크롬/엣지 데스크톱 기준 DPR 변화를 그대로 사용
+  // (Mac 고해상도에서는 OS 배율 보정이 필요할 수 있음 → 아래 osScale 보정 포함)
+  const isMac = /Mac/.test(navigator.platform);
+  const osScale = isMac ? (window.devicePixelRatio > 1 ? window.devicePixelRatio : 1) : 1;
+
+  function browserZoom(){
+    // 페이지 줌(브라우저 메뉴/단축키)을 DPR 변화로 감지
+    const dpr = window.devicePixelRatio || 1;
+    return dpr / osScale; // OS 배율을 나눠서 '페이지 줌'만 분리
+  }
+
+  function apply(){
+    const z = browserZoom();              // 예: 0.9, 1.0, 1.25 ...
+    const comp = 1 / z;                   // 상쇄 배율
+    root.style.setProperty('--comp', comp);
+    root.style.setProperty('--user', target);  // 항상 0.9 고정
+    dbg.textContent = `browser:${(z*100).toFixed(0)}%  fixed:${target}x  comp:${comp.toFixed(2)}x`;
+  }
+
+  // 브라우저 줌이 바뀌면 상쇄 갱신
+  const onResize = () => apply();
+  window.addEventListener('resize', onResize, {passive:true});
+  if (window.visualViewport) window.visualViewport.addEventListener('resize', onResize, {passive:true});
+
+  // Ctrl/⌘ + 휠/키로 브라우저 줌을 시도하면 막기 (캡처 단계 + passive:false)
+  const blockZoomWheel = (e) => {
+    if (e.ctrlKey || e.metaKey) { e.preventDefault(); }
+  };
+  window.addEventListener('wheel', blockZoomWheel, {passive:false, capture:true});
+
+  const blockZoomKeys = (e) => {
+    if (!(e.ctrlKey || e.metaKey)) return;
+    const k = e.key;
+    if (k === '+' || k === '=' || k === '-' || k === '0') {
+      e.preventDefault();
+    }
+  };
+  window.addEventListener('keydown', blockZoomKeys, {capture:true});
+
+  // (Safari 트랙패드 핀치 대응)
+  window.addEventListener('gesturestart', e => { e.preventDefault(); }, {passive:false});
+  window.addEventListener('gesturechange', e => { e.preventDefault(); }, {passive:false});
+  window.addEventListener('gestureend', e => { e.preventDefault(); }, {passive:false});
+
+  apply();
+})();
+</script>
