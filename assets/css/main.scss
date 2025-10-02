@@ -161,16 +161,4 @@ figcaption {
   -moz-osx-font-smoothing: grayscale;
 }
 
-/* Comfortable gutters for the main content column */
-.layout--single .page__content {
-  padding-left: 24px;
-  padding-right: 24px;
-}
-
-@media (max-width: 1024px) {
-  .layout--single .page__content {
-    padding-left: 16px;
-    padding-right: 16px;
-  }
-}
 
