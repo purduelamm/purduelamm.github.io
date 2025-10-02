@@ -7,7 +7,7 @@ toc_sticky: true
 classes: home-left tight-hero
 ---
 <div class="app-zoom-wrap">
-  <div id="app-zoom-root">
+  <div id="app-zoom-root" markdown="1">
 
 ## Principal Investigator
 
