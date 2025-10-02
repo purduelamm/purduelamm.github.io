@@ -6,6 +6,8 @@ toc: true
 toc_sticky: true
 classes: home-left tight-hero
 ---
+<div class="app-zoom-wrap">
+  <div id="app-zoom-root">
 
 ## Principal Investigator
 
@@ -1123,4 +1125,6 @@ classes: home-left tight-hero
     </div>
   </div>
 
+</div>
+  </div>
 </div>

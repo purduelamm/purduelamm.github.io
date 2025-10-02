@@ -161,4 +161,17 @@ figcaption {
   -moz-osx-font-smoothing: grayscale;
 }
 
+/* App-level zoom (no downscale below 1x) */
+.app-zoom-wrap {
+  overflow: auto;                /* 확대 시 스크롤 가능 */
+}
+
+#app-zoom-root {
+  --scale: 1;
+  transform: scale(var(--scale));
+  transform-origin: top center;  /* 위쪽 가운데 기준으로 확대 */
+  /* 확대해도 레이아웃 폭이 유지되도록 보정 */
+  width: calc(100% / var(--scale));
+}
+
 
