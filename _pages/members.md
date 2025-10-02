@@ -1131,20 +1131,19 @@ classes: home-left tight-hero
 
 <style>
   /* 페이지 전체 래퍼에 적용할 잠금 스타일 */
-  #zoom-root-all{
-    --user: 0.9;   /* 항상 90%로 고정 – 필요하면 값만 바꾸세요 */
-    --comp: 1;     /* 브라우저 줌 상쇄 배율(스크립트가 채움) */
-    transform: scale(calc(var(--user) * var(--comp)));
-    transform-origin: top center;
-    width: calc(100% / (var(--user) * var(--comp)));
-    will-change: transform;
-  }
-  #zoom-debug{
-    position: fixed; right: 10px; top: 10px; z-index: 9999;
-    background: rgba(0,0,0,.6); color:#fff; padding:6px 10px; border-radius:8px;
-    font: 12px system-ui, -apple-system, "Segoe UI", Roboto, "Noto Sans KR", Arial, sans-serif;
-    pointer-events: none;
-  }
+  /* main.scss에 있든, 페이지 <style>에 있든 이 부분만 바꿔주세요 */
+#zoom-root-all{
+  --user: 0.9;
+  --comp: 1;
+  transform: scale(calc(var(--user) * var(--comp)));
+  transform-origin: top left;           /* ← top center → top left 로 변경 */
+  width: calc(100% / (var(--user) * var(--comp)));
+  will-change: transform;
+}
+
+/* (선택) 혹시라도 남는 가로 스크롤바 방지용 가드 */
+html, body { overflow-x: hidden; }
+
 </style>
 
 <script>
