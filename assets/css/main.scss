@@ -98,12 +98,25 @@ html[data-theme="dark"] .right-badges .badge { background:#1b1b1b; }
 .layout--single .page__content > h2:first-of-type,
 .layout--single .page__content > h3:first-of-type { margin-top: 0 !important; }
 
+/* 패딩이 폭을 밀고 나가지 않게 */
+.layout--single .page__content { box-sizing: border-box !important; }
+
+/* TOC(오른쪽 사이드바)가 있을 때만 본문 오른쪽에 공간 확보 */
+@media (min-width: 1100px) {
+  .page__inner .sidebar__right { width: 300px; }      /* TOC 실제 폭 */
+  .page__inner:has(.sidebar__right) .page__content {
+    padding-right: 0;                                  /* 겹침 방지 */
+    margin-right: 320px;                               /* TOC 폭 + 여유 */
+  }
+}
+
 .page__hero .page__title,
 .page__lead h1,
 h1.page__title {
   color: #fff;                      /* 흰색 텍스트 */
   text-shadow: 0 3px 12px rgba(0,0,0,.55);  /* 진한 그림자 */
 }
+
 
 /* ===== Gallery grid ===== */
 .gallery-grid {
