@@ -90,8 +90,8 @@ classes: home-left tight-hero
 
   <!-- 2025-06-23 (png) -->
   <figure style="margin:0 0 24px 0; background:rgba(0,0,0,.03); border-radius:12px; overflow:hidden; box-shadow:0 2px 10px rgba(0,0,0,.06);">
-    <a href="{{ '/assets/images/pictures/group photos/20250623.png' | relative_url }}" target="_blank" rel="noopener">
-      <img src="{{ '/assets/images/pictures/group photos/20250623.png' | relative_url }}" alt="2025-06-23 MSEC & NAMRC 2025" style="display:block;width:100%;height:auto;object-fit:cover;" loading="lazy">
+    <a href="{{ '/assets/images/pictures/group photos/20250623.jpg' | relative_url }}" target="_blank" rel="noopener">
+      <img src="{{ '/assets/images/pictures/group photos/20250623.jpg' | relative_url }}" alt="2025-06-23 MSEC & NAMRC 2025" style="display:block;width:100%;height:auto;object-fit:cover;" loading="lazy">
     </a>
     <figcaption style="text-align:center;padding:10px 12px 14px;font-size:.95rem;">2025-06-23 MSEC & NAMRC 2025</figcaption>
   </figure>
