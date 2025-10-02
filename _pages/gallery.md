@@ -3,7 +3,7 @@ title: "Gallery"
 permalink: /gallery/
 layout: single
 last_modified_at: 2025-10-01T11:59:26-04:00
-toc: true
+toc: false
 toc_sticky: true
 classes: home-left tight-hero
 ---
