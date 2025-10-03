@@ -225,7 +225,7 @@ classes: home-left tight-hero
   <div style="display: flex; align-items: center;">
     <img src="https://github.com/purduelamm/purduelamm.github.io/blob/master/assets/images/pictures/members/E_Visiting_Researchers_and_Students/Birhan_Isik.png?raw=true" style="width: 157px; height: 200px; margin-right: 20px; object-fit: cover;"/>
     <div>
-      <div style="margin-bottom: 5px;">Birhan Isik</div>
+      <div style="margin-bottom: 5px;">Dr. Birhan Isik</div>
       <div style="margin-bottom: 5px;">Visiting Researcher</div>
       <div>Email: </div>
       <div><a href="mailto:bisik@purdue.edu">bisik@purdue.edu</a></div>
