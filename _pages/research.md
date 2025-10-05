@@ -30,7 +30,7 @@ classes: home-left tight-hero
     </div>
 
     <div style="display: flex; align-items: center;">
-      <img src="https://github.com/purduelamm/purduelamm.github.io/blob/master/assets/images/research/Research1_SmartManufacturing.png?raw=true" style="max-width: 100%; height: auto; width: 500px; margin-right: 20px; object-fit: contain;" />
+      <img src="https://github.com/purduelamm/purduelamm.github.io/blob/master/assets/images/research/Research1_SmartManufacturing.jpg?raw=true" style="max-width: 100%; height: auto; width: 500px; margin-right: 20px; object-fit: contain;" />
     </div>
   </div>
 </div>
