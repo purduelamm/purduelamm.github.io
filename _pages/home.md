@@ -26,5 +26,12 @@ classes: home-left tight-hero
   </div>
 </aside>
 
+<figure class="align-center" style="margin: 8px 0 24px;">
+  <img 
+    src="{{ '/assets/images/research/Home_main.png' | relative_url }}" 
+    alt="LAMM – JUN LAB overview"
+    loading="lazy" decoding="async"
+    style="width:100%; height:auto; max-width:1100px; border-radius:12px; box-shadow:0 6px 24px rgba(0,0,0,.12);"
+  />
+</figure>
 
-To be updated.
