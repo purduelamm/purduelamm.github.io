@@ -174,4 +174,6 @@ figcaption {
   -moz-osx-font-smoothing: grayscale;
 }
 
-
+@media (max-width: 64em) {
+  .sidebar__right nav.toc { display: none !important; }
+}
