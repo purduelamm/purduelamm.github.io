@@ -178,6 +178,9 @@ figcaption {
   .sidebar__right nav.toc { display: none !important; }
 }
 
+/* 모바일(≤64em)에서 Home의 배너 aside/배지 감추기 */
 @media (max-width: 64em) {
   .sidebar__right.banner-only { display: none !important; }
+  .sidebar__right .right-badges { display: none !important; } /* 안전망 */
 }
+

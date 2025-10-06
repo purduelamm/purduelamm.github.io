@@ -8,35 +8,31 @@ header:
   caption: "Photo credit: LAMM"
 toc: false
 toc_sticky: false
-author_profile: True
+author_profile: true
 classes: home-left tight-hero
 ---
 
-<aside class="sidebar__right sticky" role="complementary" aria-label="External links">
+<!-- 오른쪽 배너: aside는 하나만 두고 banner-only 클래스 부여 -->
+<aside class="sidebar__right sticky banner-only" role="complementary" aria-label="External links">
   <div class="right-badges">
-    <a href="https://www.purdue.edu" target="_blank" rel="noopener">
+    <a class="badge" href="https://www.purdue.edu" target="_blank" rel="noopener">
       <img src="https://github.com/purduelamm/purduelamm.github.io/blob/master/assets/images/pictures/logos/Purdue_H.png?raw=true" alt="Purdue University">
     </a>
-    <a href="https://engineering.purdue.edu/MMRL" target="_blank" rel="noopener">
+    <a class="badge" href="https://engineering.purdue.edu/MMRL" target="_blank" rel="noopener">
       <img src="https://github.com/purduelamm/purduelamm.github.io/blob/master/assets/images/pictures/logos/MMRL.jpg?raw=true" alt="MMRL">
     </a>
-    <a href="https://engineering.purdue.edu/CORIA" target="_blank" rel="noopener">
+    <a class="badge" href="https://engineering.purdue.edu/CORIA" target="_blank" rel="noopener">
       <img src="https://github.com/purduelamm/purduelamm.github.io/blob/master/assets/images/pictures/logos/CORIA.png?raw=true" alt="CORIA">
     </a>
   </div>
 </aside>
 
-<aside class="sidebar__right sticky banner-only" role="complementary" aria-label="External links">
-  <div class="right-badges"> … </div>
-</aside>
-
-
+<!-- 메인 큰 이미지 -->
 <figure class="align-center" style="margin: 8px 0 24px;">
-  <img 
-    src="{{ '/assets/images/research/Home_main.png' | relative_url }}" 
+  <img
+    src="{{ '/assets/images/research/Home_main.png' | relative_url }}?v={{ site.assets_version | default: 1 }}"
     alt="LAMM – JUN LAB overview"
     loading="lazy" decoding="async"
     style="width:100%; height:auto; max-width:1100px; border-radius:12px; box-shadow:0 6px 24px rgba(0,0,0,.12);"
   />
 </figure>
-
