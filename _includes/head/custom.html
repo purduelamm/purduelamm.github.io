@@ -5,6 +5,18 @@
 <!-- Force desktop layout on all pages (mobile too) -->
 {% if page.force_desktop %}
 <script>
+  // 고정: 항상 라이트
+  document.documentElement.setAttribute('data-theme', 'light');
+  try {
+    // 테마가 로컬스토리지를 쓴 경우 대비해서 키 몇 개를 라이트로 덮어쓰기
+    localStorage.setItem('theme', 'light');
+    localStorage.setItem('mm-color-scheme', 'light');
+    localStorage.setItem('pref-theme', 'light');
+    localStorage.setItem('user-color-scheme', 'light');
+  } catch(e) {}
+</script>
+
+<script>
 (function () {
   // 모바일에서만 적용
   var isMobile = window.matchMedia('(hover: none) and (pointer: coarse)').matches

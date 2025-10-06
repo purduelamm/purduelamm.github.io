@@ -190,3 +190,10 @@ html[data-theme="dark"] .sidebar__right.banner-only .right-badges {
   display: none !important;
 }
 
+/* Hide dark-mode toggle everywhere (desktop + mobile nav) */
+.theme-toggle,
+.mode-toggle,
+#mode-toggle,
+button[aria-label="Toggle dark mode"],
+.masthead .theme-toggle,
+.nav__list .theme-toggle { display: none !important; }
