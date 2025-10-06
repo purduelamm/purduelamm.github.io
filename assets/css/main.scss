@@ -177,3 +177,7 @@ figcaption {
 @media (max-width: 64em) {
   .sidebar__right nav.toc { display: none !important; }
 }
+
+@media (max-width: 64em) {
+  .sidebar__right.banner-only { display: none !important; }
+}

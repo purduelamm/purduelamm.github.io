@@ -26,6 +26,11 @@ classes: home-left tight-hero
   </div>
 </aside>
 
+<aside class="sidebar__right sticky banner-only" role="complementary" aria-label="External links">
+  <div class="right-badges"> … </div>
+</aside>
+
+
 <figure class="align-center" style="margin: 8px 0 24px;">
   <img 
     src="{{ '/assets/images/research/Home_main.png' | relative_url }}" 
