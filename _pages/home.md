@@ -12,7 +12,17 @@ author_profile: true
 classes: home-left tight-hero
 ---
 
-<!-- 오른쪽 배너: aside는 하나만 두고 banner-only 클래스 부여 -->
+<!-- 메인 큰 이미지 -->
+<figure class="align-center" style="margin: 0 0 24px;">
+  <img
+    src="{{ '/assets/images/research/Home_main.png' | relative_url }}?v={{ site.assets_version | default: 1 }}"
+    alt="LAMM – JUN LAB overview"
+    loading="lazy" decoding="async"
+    style="width:100%; height:auto; max-width:1100px; border-radius:12px; box-shadow:0 6px 24px rgba(0,0,0,.12);"
+  />
+</figure>
+
+<!-- 오른쪽 배너 -->
 <aside class="sidebar__right sticky banner-only" role="complementary" aria-label="External links">
   <div class="right-badges">
     <a class="badge" href="https://www.purdue.edu" target="_blank" rel="noopener">
@@ -27,12 +37,3 @@ classes: home-left tight-hero
   </div>
 </aside>
 
-<!-- 메인 큰 이미지 -->
-<figure class="align-center" style="margin: 8px 0 24px;">
-  <img
-    src="{{ '/assets/images/research/Home_main.png' | relative_url }}?v={{ site.assets_version | default: 1 }}"
-    alt="LAMM – JUN LAB overview"
-    loading="lazy" decoding="async"
-    style="width:100%; height:auto; max-width:1100px; border-radius:12px; box-shadow:0 6px 24px rgba(0,0,0,.12);"
-  />
-</figure>
