@@ -71,8 +71,8 @@ html[data-theme="dark"] .right-badges .badge { background:#1b1b1b; }
 }
 
 .sidebar .author__name::before {
-  content: "Principal Investigator";  
-  display: block;           /* 라벨을 윗줄로 */
+  content: "Principal Investigator" !important;  
+  display: block !important;           /* 라벨을 윗줄로 */
   font-size: 0.85rem;       /* 라벨 크기(이름보다 작게) */
   font-weight: 600;
   letter-spacing: .2px;
@@ -182,5 +182,11 @@ figcaption {
 @media (max-width: 64em) {
   .sidebar__right.banner-only { display: none !important; }
   .sidebar__right .right-badges { display: none !important; } /* 안전망 */
+}
+
+/* 다크모드가 추가 CSS를 뒤에서 로드해도 확실히 숨기기 */
+html[data-theme="dark"] .sidebar__right.banner-only,
+html[data-theme="dark"] .sidebar__right.banner-only .right-badges {
+  display: none !important;
 }
 

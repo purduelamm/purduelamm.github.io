@@ -5,6 +5,7 @@ last_modified_at: 2025-09-24T11:59:26-04:00
 toc: true
 toc_sticky: true
 classes: home-left tight-hero
+force_desktop: true
 ---
 <style>
   .section { padding:16px 24px 24px; margin-bottom:40px; }
