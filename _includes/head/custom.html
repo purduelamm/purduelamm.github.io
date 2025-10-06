@@ -3,15 +3,15 @@
 <!-- insert favicons. use https://realfavicongenerator.net/ -->
 
 <!-- Force desktop layout on all pages (mobile too) -->
-{% raw %}{% if page.force_desktop %}{% endraw %}
+{% if page.force_desktop %}
 <script>
 (function () {
-  // 모바일에서만 동작(데스크톱에선 패스)
+  // 모바일에서만 적용
   var isMobile = window.matchMedia('(hover: none) and (pointer: coarse)').matches
-    || /Mobi|Android|iPhone|iPad|iPod/i.test(navigator.userAgent);
+      || /Mobi|Android|iPhone|iPad|iPod/i.test(navigator.userAgent);
   if (!isMobile) return;
 
-  var DESKTOP_WIDTH = 1280; // 원하면 1200~1440으로 조정
+  var DESKTOP_WIDTH = 1280; // 필요시 1200~1440로 조정
   var vp = document.querySelector('meta[name="viewport"]');
   if (!vp) { vp = document.createElement('meta'); vp.name = 'viewport'; document.head.appendChild(vp); }
 
@@ -24,7 +24,8 @@
   document.documentElement.classList.add('force-desktop');
 })();
 </script>
-{% raw %}{% endif %}{% endraw %}
+{% endif %}
+
 
 
 <!-- end custom head snippets -->
