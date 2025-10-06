@@ -2,6 +2,32 @@
 
 <!-- insert favicons. use https://realfavicongenerator.net/ -->
 
+<!-- Force desktop layout on all pages (mobile too) -->
+<meta id="mm-viewport" name="viewport" content="width=device-width, initial-scale=1">
+<script>
+(function () {
+  // 데스크탑 기준 폭(px). 1200~1440 사이에서 취향대로 조정 가능
+  var DESKTOP_WIDTH = 1280;
+
+  // 기존 viewport meta 확보
+  var vp = document.querySelector('meta[name="viewport"]');
+  if (!vp) { vp = document.createElement('meta'); vp.name = 'viewport'; document.head.appendChild(vp); }
+
+  // 기기 폭에 맞춰 적당한 초기 배율 계산(너무 작게 보이는 것 방지)
+  var deviceW = Math.max(window.innerWidth || 0, window.screen.width || 0);
+  var scale = (deviceW / DESKTOP_WIDTH);
+  // 안전 범위 클램프
+  if (scale > 1) scale = 1;            // 아주 큰 화면에선 1배율
+  if (scale < 0.25) scale = 0.25;      // 너무 작아지지 않도록 하한
+
+  // 데스크탑 폭 강제
+  vp.setAttribute('content', 'width=' + DESKTOP_WIDTH + ', initial-scale=' + scale + ', user-scalable=yes');
+
+  // (선택) 바디에 클래스 부여해서 필요 시 추가 CSS도 걸 수 있음
+  document.documentElement.classList.add('force-desktop');
+})();
+</script>
+
 <!-- end custom head snippets -->
 
 
