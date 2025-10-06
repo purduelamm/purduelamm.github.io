@@ -43,7 +43,20 @@ classes: home-left tight-hero
       <div><a href="mailto:jang283@purdue.edu">jang283@purdue.edu</a></div>
     </div>
   </div>
+
+  <div style="display: flex; align-items: center;">
+    <img src="https://github.com/purduelamm/purduelamm.github.io/blob/master/assets/images/pictures/members/B_Researchers/Asif_Tanveer.jpg?raw=true" style="width: 157px; height: 200px; margin-right: 20px; object-fit: cover;"/>
+    <div>
+      <div style="margin-bottom: 5px;">Dr. Asif Tanveer</div>
+      <div style="margin-bottom: 5px;">Postdoctoral Researcher</div>
+      <div>Email: </div>
+      <div><a href="mailto:asiftanveer302@gmail.com">asiftanveer302@gmail.com</a></div>
+    </div>
+  </div>
+
 </div>
+
+
 
 ## PhD Students
 
