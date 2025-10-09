@@ -168,9 +168,7 @@ button[aria-label="Toggle dark mode"],
 .masthead .theme-toggle,
 .nav__list .theme-toggle { display: none !important; }
 
-/* ===========================
-   ✅ 본문 폭 줄이기 (핵심)
-   =========================== */
+
 @media (min-width: 1200px) {
   .layout--single .page__inner-wrap {
     max-width: 980px !important;   /* 필요 시 940~1040px 조절 */
@@ -184,4 +182,17 @@ button[aria-label="Toggle dark mode"],
     max-width: 940px !important;
     height: auto !important;
   }
+}
+
+/* Home 등에서 첫 이미지가 author_profile 때문에 아래로 밀리는 현상 방지 */
+.layout--single .page__content .align-center,
+.layout--single .page__content .align-left,
+.layout--single .page__content .align-right {
+  clear: none !important;   /* Minimal Mistakes 기본 clear: both; 무효화 */
+}
+
+/* (선택) 히어로 바로 아래 여백 안정화 */
+.layout--single .page__hero--overlay + .page__inner-wrap {
+  display: flow-root;       /* margin-collapsing 방지 */
+  padding-top: 0 !important;
 }
