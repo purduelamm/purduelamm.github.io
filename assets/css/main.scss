@@ -214,3 +214,8 @@ button[aria-label="Toggle dark mode"],
   .masthead .site-title{ font-size: 1.5rem; }
   .masthead .site-subtitle{ font-size: 0.95rem; }
 }
+
+.page__inner-wrap {
+  max-width: 750px;   /* 원래는 1200~1600px 정도 */
+  margin: 0 auto;      /* 가운데 정렬 */
+}
