@@ -167,32 +167,3 @@ html[data-theme="dark"] .sidebar__right.banner-only .right-badges {
 button[aria-label="Toggle dark mode"],
 .masthead .theme-toggle,
 .nav__list .theme-toggle { display: none !important; }
-
-
-@media (min-width: 1200px) {
-  .layout--single .page__inner-wrap {
-    max-width: 980px !important;   /* 필요 시 940~1040px 조절 */
-    margin: 0 auto !important;
-  }
-  .layout--single .page__content {
-    font-size: 0.95rem;
-    line-height: 1.65;
-  }
-  .layout--single .page__content figure.align-center img {
-    max-width: 940px !important;
-    height: auto !important;
-  }
-}
-
-/* Home 등에서 첫 이미지가 author_profile 때문에 아래로 밀리는 현상 방지 */
-.layout--single .page__content .align-center,
-.layout--single .page__content .align-left,
-.layout--single .page__content .align-right {
-  clear: none !important;   /* Minimal Mistakes 기본 clear: both; 무효화 */
-}
-
-/* (선택) 히어로 바로 아래 여백 안정화 */
-.layout--single .page__hero--overlay + .page__inner-wrap {
-  display: flow-root;       /* margin-collapsing 방지 */
-  padding-top: 0 !important;
-}

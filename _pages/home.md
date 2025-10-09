@@ -28,7 +28,7 @@ classes: home-left tight-hero
 </aside>
 
 <!-- 메인 큰 이미지 -->
-<figure class="align-center" style="margin: 8px 0 24px;">
+<figure class="align-center" style="margin:0 0 24px; clear:none;">
   <img
     src="{{ '/assets/images/research/Home_main.png' | relative_url }}?v={{ site.assets_version | default: 1 }}"
     alt="LAMM – JUN LAB overview"
