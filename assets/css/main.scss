@@ -169,7 +169,7 @@ button[aria-label="Toggle dark mode"],
 .nav__list .theme-toggle { display: none !important; }
 
 /* === Bigger site logo in masthead === */
-:root { --logo-h: 64px; }  /* 기본 약 36px */
+:root { --logo-h: 100px; }  /* 기본 약 36px */
 
 .greedy-nav .site-logo img {
   max-height: var(--logo-h) !important; 
