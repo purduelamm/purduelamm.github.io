@@ -51,7 +51,7 @@ force_desktop: true
       <div style="margin-bottom: 5px;">Dr. Asif Tanveer</div>
       <div style="margin-bottom: 5px;">Postdoctoral Researcher</div>
       <div>Email: </div>
-      <div><a href="mailto:asiftanveer302@gmail.com">asiftanveer302@gmail.com</a></div>
+      <div><a href="mailto:atanvee@purdue.edu">atanvee@purdue.edu</a></div>
     </div>
   </div>
 
