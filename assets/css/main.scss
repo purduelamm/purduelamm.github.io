@@ -255,3 +255,23 @@ button[aria-label="Toggle dark mode"],
 .layout--single .page__content .align-center,
 .layout--single .page__content .align-left,
 .layout--single .page__content .align-right { clear: none !important; }
+
+@media (min-width: 1100px) {
+  /* 좌측 author sidebar + 우측 배너가 모두 있을 때 */
+  .page__inner:has(.sidebar):has(.sidebar__right.banner-only) .page__content {
+    width: calc(100% - 280px - 304px) !important; /* 좌측 280 + 우측 304 */
+    float: left;
+  }
+
+  /* 좌측만 있을 때 */
+  .page__inner:has(.sidebar):not(:has(.sidebar__right.banner-only)) .page__content {
+    width: calc(100% - 280px) !important;
+    float: left;
+  }
+
+  /* 우측만 있을 때 */
+  .page__inner:not(:has(.sidebar)):has(.sidebar__right.banner-only) .page__content {
+    width: calc(100% - 304px) !important;
+    float: left;
+  }
+}
