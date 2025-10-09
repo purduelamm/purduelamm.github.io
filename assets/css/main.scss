@@ -256,22 +256,45 @@ button[aria-label="Toggle dark mode"],
 .layout--single .page__content .align-left,
 .layout--single .page__content .align-right { clear: none !important; }
 
-@media (min-width: 1100px) {
-  /* 좌측 author sidebar + 우측 배너가 모두 있을 때 */
-  .page__inner:has(.sidebar):has(.sidebar__right.banner-only) .page__content {
-    width: calc(100% - 280px - 304px) !important; /* 좌측 280 + 우측 304 */
-    float: left;
+/* === 3-column flex layout: author | content | right banner === */
+@media (min-width: 1100px){
+  /* 컨테이너를 flex로 */
+  .layout--single .page__inner-wrap{
+    display: flex;
+    align-items: flex-start;
+    gap: 24px;            /* 열 사이 간격 */
   }
 
-  /* 좌측만 있을 때 */
-  .page__inner:has(.sidebar):not(:has(.sidebar__right.banner-only)) .page__content {
-    width: calc(100% - 280px) !important;
-    float: left;
+  /* 좌측 author sidebar (기존 .sidebar) */
+  .layout--single .page__inner-wrap > .sidebar{
+    flex: 0 0 280px;      /* 고정 폭 */
+    position: sticky;
+    top: 84px;
+    align-self: flex-start;
   }
 
-  /* 우측만 있을 때 */
-  .page__inner:not(:has(.sidebar)):has(.sidebar__right.banner-only) .page__content {
-    width: calc(100% - 304px) !important;
-    float: left;
+  /* 본문 */
+  .layout--single .page__content{
+    flex: 1 1 auto;       /* 남는 공간 채움 */
+    clear: none !important;
+    float: none !important;
+    width: auto !important;
+    min-width: 0;         /* 긴 내용 줄바꿈 위해 */
+  }
+
+  /* 우측 배너(당신이 넣은 banner-only) */
+  .layout--single .sidebar__right.banner-only{
+    flex: 0 0 280px;      /* 고정 폭 */
+    position: sticky;
+    top: 84px;
+    margin-left: 0;       /* float 때 쓰던 여백 제거 */
   }
 }
+
+/* figure들이 자체 clear 때문에 밀리지 않도록(보강) */
+.layout--single .page__content .align-center,
+.layout--single .page__content .align-left,
+.layout--single .page__content .align-right{
+  clear: none !important;
+}
+
