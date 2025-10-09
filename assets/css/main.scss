@@ -168,11 +168,49 @@ button[aria-label="Toggle dark mode"],
 .masthead .theme-toggle,
 .nav__list .theme-toggle { display: none !important; }
 
-/* === Bigger site logo in masthead === */
-:root { --logo-h: 100px; }  /* 기본 약 36px */
+/* === Bigger site logo + brand text === */
+:root{
+  --logo-h: 100px;      /* 로고 높이 */
+  --brand-title: 1.9rem;/* 'LAMM' 크기 */
+  --brand-tag: 1.05rem; /* 태그라인 크기 */
+}
 
-.greedy-nav .site-logo img {
-  max-height: var(--logo-h) !important; 
+/* 로고 크기 */
+.greedy-nav .site-logo img{
+  max-height: var(--logo-h) !important;
   height: var(--logo-h) !important;
   width: auto !important;
+}
+/* 로고와 텍스트 간격 */
+.greedy-nav .site-logo{ margin-right: 12px; }
+
+/* 상단바 높이 보정 */
+.masthead, .masthead .greedy-nav{
+  min-height: calc(var(--logo-h) + 12px);
+  align-items: center; /* 로고/텍스트 수직 중앙 정렬 */
+}
+
+/* 제목/태그라인 크기/정렬 */
+.masthead .site-title{
+  font-size: var(--brand-title);
+  line-height: 1.1;
+  margin: 0;
+  display: flex;              /* 두 줄(제목+태그라인) 수직 정렬 */
+  flex-direction: column;
+  justify-content: center;
+}
+.masthead .site-title a{ font-size: inherit; }
+
+.masthead .site-subtitle{
+  display: block;
+  font-size: var(--brand-tag);
+  line-height: 1.25;
+  margin-top: 2px;
+  opacity: .95;
+}
+
+/* 작은 화면에서는 살짝 축소 */
+@media (max-width: 992px){
+  .masthead .site-title{ font-size: 1.5rem; }
+  .masthead .site-subtitle{ font-size: 0.95rem; }
 }
