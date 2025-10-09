@@ -197,3 +197,24 @@ html[data-theme="dark"] .sidebar__right.banner-only .right-badges {
 button[aria-label="Toggle dark mode"],
 .masthead .theme-toggle,
 .nav__list .theme-toggle { display: none !important; }
+
+/* === Global: shrink main content width on large screens === */
+@media (min-width: 1200px) {
+  /* 본문 컨테이너 최대폭 (기본≈1200px → 980px) */
+  .page__inner-wrap { 
+    max-width: 980px !important;
+  }
+
+  /* 본문 글자 살짝 작게 (선택) */
+  .page__content {
+    font-size: 0.95rem;
+    line-height: 1.65;
+  }
+
+  /* 중앙 이미지가 컨테이너보다 커 보이지 않도록 (선택) */
+  .page__content figure.align-center img {
+    max-width: 940px !important; /* 컨테이너보다 40px 여유 */
+  }
+}
+
+
