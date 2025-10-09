@@ -10,20 +10,12 @@ search: false
 
 /* ===========================
    Right sidebar badges (custom)
-   - HTML 구조:
-     <aside class="sidebar__right sticky">
-       <div class="right-badges">
-         <a class="badge" href="..."><img src="..." alt=""></a>
-         ...
-       </div>
-     </aside>
    =========================== */
-
-$right-badge-width: 260px !default;   // 사이드바 폭
-$right-badge-height: 100px !default;  // 각 배지 높이(80~120px 등 취향대로)
-$right-badge-gap: 30px !default;      // 배지 사이 간격
-$right-badge-radius: 12px !default;   // 배지 둥근모서리
-$right-badge-padding: 8px !default;   // 배지 내부 여백
+$right-badge-width: 260px !default;
+$right-badge-height: 100px !default;
+$right-badge-gap: 30px !default;
+$right-badge-radius: 12px !default;
+$right-badge-padding: 8px !default;
 
 @media (min-width: 64em) {
   .sidebar__right { width: $right-badge-width; }
@@ -31,17 +23,16 @@ $right-badge-padding: 8px !default;   // 배지 내부 여백
   .right-badges {
     display: flex;
     flex-direction: column;
-    gap: $right-badge-gap;                 // 배지 간격
+    gap: $right-badge-gap;
   }
 
-  /* 같은 크기의 카드 안에 로고 넣기 */
   .right-badges .badge {
     display: block;
     width: 100%;
-    height: $right-badge-height;           // 모든 배지 높이 통일
+    height: $right-badge-height;
     padding: $right-badge-padding;
     border-radius: $right-badge-radius;
-    background: #fff;                      // 투명 PNG 대비
+    background: #fff;
     box-shadow: 0 2px 8px rgba(0,0,0,.06);
     transition: box-shadow .2s ease, transform .2s ease;
   }
@@ -49,7 +40,7 @@ $right-badge-padding: 8px !default;   // 배지 내부 여백
   .right-badges .badge img {
     width: 100%;
     height: 100%;
-    object-fit: contain;                   // 비율 유지하며 카드에 맞춤
+    object-fit: contain;
     display: block;
   }
 
@@ -59,64 +50,50 @@ $right-badge-padding: 8px !default;   // 배지 내부 여백
   }
 }
 
-/* (선택) 다크 모드 배경 조정 — 스킨에 따라 필요시 사용
+/* 다크 모드용 (선택)
 html[data-theme="dark"] .right-badges .badge { background:#1b1b1b; }
 */
 
-/* === Author name: stacked label + name (global) === */
+/* === Author name label === */
 .sidebar .author__name {
   line-height: 1.25;
-  margin-bottom: 16px;      /* 이름 아래 간격 */
-  font-size: 1.10rem;       /* 이름 크기 */
+  margin-bottom: 16px;
+  font-size: 1.10rem;
 }
 
 .sidebar .author__name::before {
-  content: "Principal Investigator" !important;  
-  display: block !important;           /* 라벨을 윗줄로 */
-  font-size: 0.85rem;       /* 라벨 크기(이름보다 작게) */
+  content: "Principal Investigator" !important;
+  display: block !important;
+  font-size: 0.85rem;
   font-weight: 600;
   letter-spacing: .2px;
   opacity: .85;
-  margin-bottom: 3px;       /* 라벨-이름 간격 */
+  margin-bottom: 3px;
 }
 
 .sidebar .author__name a {
-  font-size: inherit;       /* 링크일 때 이름 크기 유지 */
+  font-size: inherit;
   color: inherit;
   text-decoration: none;
 }
 
-
-/* 히어로-본문 간격 축소(이미 있다면 값만 조정) */
+/* === Hero & Content spacing === */
 .layout--single .page__hero--overlay { margin-bottom: 16px !important; }
-
-/* 부모에 살짝 패딩을 줘서 margin-collapsing 방지 */
-.layout--single .page__content { padding-top: .25rem !important; }
-
-/* 본문에서 '첫 번째 헤딩'의 위 여백 제거 */
+.layout--single .page__content { 
+  padding-top: .25rem !important;
+  box-sizing: border-box !important;
+}
 .layout--single .page__content > h1:first-of-type,
 .layout--single .page__content > h2:first-of-type,
 .layout--single .page__content > h3:first-of-type { margin-top: 0 !important; }
 
-/* 패딩이 폭을 밀고 나가지 않게 */
-.layout--single .page__content { box-sizing: border-box !important; }
-
-/* TOC(오른쪽 사이드바)가 있을 때만 본문 오른쪽에 공간 확보 */
-@media (min-width: 1100px) {
-  .page__inner .sidebar__right { width: 300px; }      /* TOC 실제 폭 */
-  .page__inner:has(.sidebar__right) .page__content {
-    padding-right: 0;                                  /* 겹침 방지 */
-    margin-right: 320px;                               /* TOC 폭 + 여유 */
-  }
-}
-
+/* === Hero text color === */
 .page__hero .page__title,
 .page__lead h1,
 h1.page__title {
-  color: #fff;                      /* 흰색 텍스트 */
-  text-shadow: 0 3px 12px rgba(0,0,0,.55);  /* 진한 그림자 */
+  color: #fff;
+  text-shadow: 0 3px 12px rgba(0,0,0,.55);
 }
-
 
 /* ===== Gallery grid ===== */
 .gallery-grid {
@@ -124,9 +101,8 @@ h1.page__title {
   grid-template-columns: repeat(3, minmax(0, 1fr));
   gap: 18px;
 }
-
 @media (max-width: 1024px) {
-  .gallery-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .gallery-grid { grid-template-columns: repeat(2, 1fr); }
 }
 @media (max-width: 640px) {
   .gallery-grid { grid-template-columns: 1fr; }
@@ -139,13 +115,11 @@ h1.page__title {
   overflow: hidden;
   box-shadow: 0 2px 10px rgba(0,0,0,.06);
 }
-
 .gallery-item img {
   display: block;
   width: 100%;
   height: auto;
 }
-
 .gallery-item figcaption {
   text-align: center;
   padding: 8px 10px 12px;
@@ -153,44 +127,40 @@ h1.page__title {
   color: #333;
 }
 
-/* === Global caption typography === */
+/* === Figcaption typography === */
 :root {
   --caption-font: system-ui, -apple-system, "Segoe UI", Roboto,
                   "Noto Sans KR", "Apple SD Gothic Neo", "Malgun Gothic",
                   "Helvetica Neue", Arial, sans-serif;
 }
-
 .page__content figure figcaption,
 figure > figcaption,
 figcaption {
   font-family: var(--caption-font);
-  font-weight: 500;        /* 400~600에서 취향대로 */
-  font-size: 1.05rem;      /* 살짝 키움 */
+  font-weight: 500;
+  font-size: 1.05rem;
   line-height: 1.35;
   letter-spacing: .2px;
-  font-style: normal;      /* Minimal Mistakes의 기본 italic 해제 */
+  font-style: normal;
   color: #1f2937;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
+/* === Hide TOC on mobile === */
 @media (max-width: 64em) {
-  .sidebar__right nav.toc { display: none !important; }
+  .sidebar__right nav.toc,
+  .sidebar__right.banner-only,
+  .sidebar__right .right-badges { display: none !important; }
 }
 
-/* 모바일(≤64em)에서 Home의 배너 aside/배지 감추기 */
-@media (max-width: 64em) {
-  .sidebar__right.banner-only { display: none !important; }
-  .sidebar__right .right-badges { display: none !important; } /* 안전망 */
-}
-
-/* 다크모드가 추가 CSS를 뒤에서 로드해도 확실히 숨기기 */
+/* 다크모드에서도 확실히 감추기 */
 html[data-theme="dark"] .sidebar__right.banner-only,
 html[data-theme="dark"] .sidebar__right.banner-only .right-badges {
   display: none !important;
 }
 
-/* Hide dark-mode toggle everywhere (desktop + mobile nav) */
+/* === Hide dark-mode toggle === */
 .theme-toggle,
 .mode-toggle,
 #mode-toggle,
@@ -198,23 +168,20 @@ button[aria-label="Toggle dark mode"],
 .masthead .theme-toggle,
 .nav__list .theme-toggle { display: none !important; }
 
-/* === Global: shrink main content width on large screens === */
+/* ===========================
+   ✅ 본문 폭 줄이기 (핵심)
+   =========================== */
 @media (min-width: 1200px) {
-  /* 본문 컨테이너 최대폭 (기본≈1200px → 980px) */
-  .page__inner-wrap { 
-    max-width: 980px !important;
+  .layout--single .page__inner-wrap {
+    max-width: 980px !important;   /* 필요 시 940~1040px 조절 */
+    margin: 0 auto !important;
   }
-
-  /* 본문 글자 살짝 작게 (선택) */
-  .page__content {
+  .layout--single .page__content {
     font-size: 0.95rem;
     line-height: 1.65;
   }
-
-  /* 중앙 이미지가 컨테이너보다 커 보이지 않도록 (선택) */
-  .page__content figure.align-center img {
-    max-width: 940px !important; /* 컨테이너보다 40px 여유 */
+  .layout--single .page__content figure.align-center img {
+    max-width: 940px !important;
+    height: auto !important;
   }
 }
-
-
