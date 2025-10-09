@@ -215,11 +215,6 @@ button[aria-label="Toggle dark mode"],
   .masthead .site-subtitle{ font-size: 0.95rem; }
 }
 
-.page__inner-wrap {
-  max-width: 750px;   /* 원래는 1200~1600px 정도 */
-  margin: 0 auto;      /* 가운데 정렬 */
-}
-
 /* === Right banner behaves like a sticky sidebar (TOC와 동일 취급) === */
 @media (min-width: 1100px) {
   /* 배너 자체를 오른쪽에 고정 */
@@ -238,12 +233,25 @@ button[aria-label="Toggle dark mode"],
   }
 }
 
-/* 배너가 본문에 끌려 내려가지 않게: 이미지/블록의 기본 clear 제거 */
-.layout--single .page__content .align-center,
-.layout--single .page__content .align-left,
-.layout--single .page__content .align-right { clear: none !important; }
-
 /* 모바일/태블릿에서는 배너 숨김(이미 있으나 안전망) */
 @media (max-width: 64em) {
   .sidebar__right.banner-only { display: none !important; }
 }
+
+/* 좌측 author sidebar가 있을 때 본문이 아래로 '깨끗이' 내려가는 기본 동작 끄기 */
+@media (min-width: 1100px){
+  .page__inner:has(.sidebar) .page__content {
+    clear: none !important;          /* ← 이게 핵심! */
+    margin-left: 280px !important;   /* 좌측 사이드바 폭 + 여유(조절 가능) */
+  }
+  /* 이미 적용한 우측 배너 여백도 함께 예약 */
+  .page__inner:has(.sidebar__right.banner-only) .page__content {
+    margin-right: 304px !important;  /* 배너폭 280 + 여유 24 */
+  }
+}
+
+
+/* 배너가 본문에 끌려 내려가지 않게: 이미지/블록의 기본 clear 제거 */
+.layout--single .page__content .align-center,
+.layout--single .page__content .align-left,
+.layout--single .page__content .align-right { clear: none !important; }
