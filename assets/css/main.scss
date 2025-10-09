@@ -170,9 +170,9 @@ button[aria-label="Toggle dark mode"],
 
 /* === Bigger site logo + brand text === */
 :root{
-  --logo-h: 100px;      /* 로고 높이 */
-  --brand-title: 1.9rem;/* 'LAMM' 크기 */
-  --brand-tag: 1.05rem; /* 태그라인 크기 */
+  --logo-h: clamp(44px, 8vw, 100px);      /* 뷰포트에 따라 44~100px로 자동 */
+  --brand-title: clamp(1.3rem, 2.2vw, 1.7rem);
+  --brand-tag: clamp(0.8rem, 1.4vw, 1.0rem);
 }
 
 /* 로고 크기 */
