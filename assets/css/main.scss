@@ -166,6 +166,7 @@ html[data-theme="dark"] .sidebar__right.banner-only .right-badges {
 #mode-toggle,
 button[aria-label="Toggle dark mode"],
 .masthead .theme-toggle,
+.masthead .greedy-nav .fa-adjust { display: none !important; }
 .nav__list .theme-toggle { display: none !important; }
 
 /* === Bigger site logo + brand text === */
