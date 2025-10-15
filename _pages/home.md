@@ -22,7 +22,7 @@ classes: home-left tight-hero
       <img src="https://github.com/purduelamm/purduelamm.github.io/blob/master/assets/images/pictures/logos/MMRL.jpg?raw=true" alt="MMRL">
     </a>
     <a class="badge" href="https://engineering.purdue.edu/CORIA" target="_blank" rel="noopener">
-      <img src="https://github.com/purduelamm/purduelamm.github.io/blob/master/assets/images/pictures/logos/CORIA.png?raw=true" alt="CORIA">
+      <img src="https://github.com/purduelamm/purduelamm.github.io/blob/master/assets/images/pictures/logos/CORIA_ex.png?raw=true" alt="CORIA">
     </a>
   </div>
 </aside>
