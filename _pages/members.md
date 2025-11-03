@@ -59,7 +59,7 @@ force_desktop: true
     <img src="https://github.com/purduelamm/purduelamm.github.io/blob/master/assets/images/pictures/members/B_Researchers/Zeehun_Jung.png?raw=true" style="width: 157px; height: 200px; margin-right: 20px; object-fit: cover;"/>
     <div>
       <div style="margin-bottom: 5px;">Zeehun Jung</div>
-      <div style="margin-bottom: 5px;">Administrative Staff</div>
+      <div style="margin-bottom: 5px;">Financial Specialist</div>
       <div>Email: </div>
       <div><a href="mailto:zjung@purdue.edu">zjung@purdue.edu</a></div>
     </div>
