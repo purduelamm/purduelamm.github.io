@@ -56,6 +56,16 @@ force_desktop: true
   </div>
 
   <div style="display: flex; align-items: center;">
+    <img src="https://github.com/purduelamm/purduelamm.github.io/blob/master/assets/images/pictures/members/B_Researchers/Junyoung_Oh.jpg?raw=true" style="width: 157px; height: 200px; margin-right: 20px; object-fit: cover;"/>
+    <div>
+      <div style="margin-bottom: 5px;">Dr. Junyoung Oh</div>
+      <div style="margin-bottom: 5px;">Postdoctoral Researcher</div>
+      <div>Email: </div>
+      <div><a href="mailto:oh415@purdue.edu">oh415@purdue.edu</a></div>
+    </div>
+  </div>
+
+  <div style="display: flex; align-items: center;">
     <img src="https://github.com/purduelamm/purduelamm.github.io/blob/master/assets/images/pictures/members/B_Researchers/Zeehun_Jung.png?raw=true" style="width: 157px; height: 200px; margin-right: 20px; object-fit: cover;"/>
     <div>
       <div style="margin-bottom: 5px;">Zeehun Jung</div>
@@ -256,15 +266,7 @@ force_desktop: true
     </div>
   </div>
 
-  <div style="display: flex; align-items: center;">
-    <img src="https://github.com/purduelamm/purduelamm.github.io/blob/master/assets/images/pictures/members/E_Visiting_Researchers_and_Students/Junyoung_Oh.jpg?raw=true" style="width: 157px; height: 200px; margin-right: 20px; object-fit: cover;"/>
-    <div>
-      <div style="margin-bottom: 5px;">Junyoung Oh</div>
-      <div style="margin-bottom: 5px;">Visiting Student</div>
-      <div>Email: </div>
-      <div><a href="mailto:oh415@purdue.edu">oh415@purdue.edu</a></div>
-    </div>
-  </div>
+  
 </div>
 
 ## Undergraduate Students
