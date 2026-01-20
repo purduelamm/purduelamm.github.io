@@ -296,6 +296,17 @@ force_desktop: true
 <div style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 20px;">
 
   <div style="display: flex; align-items: center;">
+    <img src="https://github.com/purduelamm/purduelamm.github.io/blob/master/assets/images/pictures/members/G_Past_Members_(Graduate_and_Postgraduate)/Junyoung_Oh.jpg?raw=true" style="width: 157px; height: 200px; margin-right: 20px; object-fit: cover;"/>
+    <div>
+      <div style="margin-bottom: 5px;">Junyoung Oh</div>
+      <div style="margin-bottom: 5px;">Visiting Student (Chungnam National University)</div>
+      <div style="margin-bottom: 5px;">2025-2026</div>
+      <div>Email: </div>
+      <div><a href="mailto:oh415@purdue.edu">oh415@purdue.edu</a></div>
+    </div>
+  </div>
+
+  <div style="display: flex; align-items: center;">
     <img src="https://github.com/purduelamm/purduelamm.github.io/blob/master/assets/images/pictures/members/G_Past_Members_(Graduate_and_Postgraduate)/YunSeok_Kang.jpg?raw=true" style="width: 157px; height: 200px; margin-right: 20px; object-fit: cover;"/>
     <div>
       <div style="margin-bottom: 5px;">Yun Seok Kang</div>
