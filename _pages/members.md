@@ -190,8 +190,6 @@ force_desktop: true
     </div>
   </div>
 
-
-
   <div style="display: flex; align-items: center;">
     <img src="https://github.com/purduelamm/purduelamm.github.io/blob/master/assets/images/pictures/members/D_MS_Students/Hayoung_Jeong.jpeg?raw=true" style="width: 157px; height: 200px; margin-right: 20px; object-fit: cover;"/>
     <div>
@@ -209,6 +207,26 @@ force_desktop: true
       <div style="margin-bottom: 5px;">MS Student</div>
       <div>Email: </div>
       <div><a href="mailto:lee3034@purdue.edu">lee3034@purdue.edu</a></div>
+    </div>
+  </div>
+
+  <div style="display: flex; align-items: center;">
+    <img src="https://github.com/purduelamm/purduelamm.github.io/blob/master/assets/images/pictures/members/D_MS_Students/Yonghyun_Lee.png?raw=true" style="width: 157px; height: 200px; margin-right: 20px; object-fit: cover;"/>
+    <div>
+      <div style="margin-bottom: 5px;">Yong Hyun Lee</div>
+      <div style="margin-bottom: 5px;">MS Student</div>
+      <div>Email: </div>
+      <div><a href="mailto:lee3446@purdue.edu">lee3446@purdue.edu</a></div>
+    </div>
+  </div>
+
+  <div style="display: flex; align-items: center;">
+    <img src="https://github.com/purduelamm/purduelamm.github.io/blob/master/assets/images/pictures/members/D_MS_Students/Sungwoo_Bae.png?raw=true" style="width: 157px; height: 200px; margin-right: 20px; object-fit: cover;"/>
+    <div>
+      <div style="margin-bottom: 5px;">Sung Woo Bae</div>
+      <div style="margin-bottom: 5px;">MS Student</div>
+      <div>Email: </div>
+      <div><a href="mailto:bae130@purdue.edu">bae130@purdue.edu</a></div>
     </div>
   </div>
   
@@ -247,6 +265,16 @@ force_desktop: true
       <div style="margin-bottom: 5px;">Visiting Researcher</div>
       <div>Email: </div>
       <div><a href="mailto:bisik@purdue.edu">bisik@purdue.edu</a></div>
+    </div>
+  </div>
+
+  <div style="display: flex; align-items: center;">
+    <img src="https://github.com/purduelamm/purduelamm.github.io/blob/master/assets/images/pictures/members/E_Visiting_Researchers_and_Students/Cheoljin_Park.png?raw=true" style="width: 157px; height: 200px; margin-right: 20px; object-fit: cover;"/>
+    <div>
+      <div style="margin-bottom: 5px;">Dr. Cheol Jin Park</div>
+      <div style="margin-bottom: 5px;">Visiting Researcher</div>
+      <div>Email: </div>
+      <div><a href="mailto:Park1940@purdue.edu">Park1940@purdue.edu</a></div>
     </div>
   </div>
 </div>
@@ -310,7 +338,7 @@ force_desktop: true
       <div style="margin-bottom: 5px;">2024-2025</div>
       <div style="margin-bottom: 5px;">Now at AbbVie, U.S.</div>
       <div>Email: </div>
-      <div><a href="mailto:kang435@purdue.edu">kang435@purdue.edu</a></div>
+      <div><a href="mailto:juri.kang@abbvie.com">juri.kang@abbvie.com</a></div>
     </div>
   </div>
 
