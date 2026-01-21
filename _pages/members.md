@@ -274,7 +274,7 @@ force_desktop: true
       <div style="margin-bottom: 5px;">Dr. Cheoljin Park</div>
       <div style="margin-bottom: 5px;">Visiting Researcher</div>
       <div>Email: </div>
-      <div><a href="mailto:Park1940@purdue.edu">Park1940@purdue.edu</a></div>
+      <div><a href="mailto:park1940@purdue.edu">park1940@purdue.edu</a></div>
     </div>
   </div>
 </div>
