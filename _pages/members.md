@@ -282,7 +282,7 @@ force_desktop: true
     <img src="https://github.com/purduelamm/purduelamm.github.io/blob/master/assets/images/pictures/members/E_Visiting_Researchers_and_Students/Songhyeon_Ju.jpg?raw=true" style="width: 157px; height: 200px; margin-right: 20px; object-fit: cover;"/>
     <div>
       <div style="margin-bottom: 5px;">Songhyeon Ju</div>
-      <div style="margin-bottom: 5px;">Visiting Researcher</div>
+      <div style="margin-bottom: 5px;">Visiting Student</div>
       <div>Email: </div>
       <div><a href="mailto:ju64@purdue.edu">ju64@purdue.edu</a></div>
     </div>
