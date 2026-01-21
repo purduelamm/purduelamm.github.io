@@ -56,16 +56,6 @@ force_desktop: true
   </div>
 
   <div style="display: flex; align-items: center;">
-    <img src="https://github.com/purduelamm/purduelamm.github.io/blob/master/assets/images/pictures/members/B_Researchers/Junyoung_Oh.jpg?raw=true" style="width: 157px; height: 200px; margin-right: 20px; object-fit: cover;"/>
-    <div>
-      <div style="margin-bottom: 5px;">Dr. Junyoung Oh</div>
-      <div style="margin-bottom: 5px;">Postdoctoral Researcher</div>
-      <div>Email: </div>
-      <div><a href="mailto:oh415@purdue.edu">oh415@purdue.edu</a></div>
-    </div>
-  </div>
-
-  <div style="display: flex; align-items: center;">
     <img src="https://github.com/purduelamm/purduelamm.github.io/blob/master/assets/images/pictures/members/B_Researchers/Zeehun_Jung.png?raw=true" style="width: 157px; height: 200px; margin-right: 20px; object-fit: cover;"/>
     <div>
       <div style="margin-bottom: 5px;">Zeehun Jung</div>
@@ -82,15 +72,7 @@ force_desktop: true
 ## PhD Students
 
 <div style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 20px;">
-  <div style="display: flex; align-items: center;">
-    <img src="https://github.com/purduelamm/purduelamm.github.io/blob/master/assets/images/pictures/members/C_PhD_Students/Fengfeng_Zhou.png?raw=true" style="width: 157px; height: 200px; margin-right: 20px; object-fit: cover;"/>
-    <div>
-      <div style="margin-bottom: 5px;">Fengfeng Zhou</div>
-      <div style="margin-bottom: 5px;">PhD Student</div>
-      <div>Email: </div>
-      <div><a href="mailto:zhou966@purdue.edu">zhou966@purdue.edu</a></div>
-    </div>
-  </div>
+ 
   
   <div style="display: flex; align-items: center;">
     <img src="https://github.com/purduelamm/purduelamm.github.io/blob/master/assets/images/pictures/members/C_PhD_Students/Siying_Chen.png?raw=true" style="width: 157px; height: 200px; margin-right: 20px; object-fit: cover;"/>
@@ -198,15 +180,7 @@ force_desktop: true
     </div>
   </div>
 
-  <div style="display: flex; align-items: center;">
-    <img src="https://github.com/purduelamm/purduelamm.github.io/blob/master/assets/images/pictures/members/D_MS_Students/Juri_Kang.jpeg?raw=true" style="width: 157px; height: 200px; margin-right: 20px; object-fit: cover;"/>
-    <div>
-      <div style="margin-bottom: 5px;">Juri Kang</div>
-      <div style="margin-bottom: 5px;">MS Student</div>
-      <div>Email: </div>
-      <div><a href="mailto:kang435@purdue.edu">kang435@purdue.edu</a></div>
-    </div>
-  </div>
+
 
   <div style="display: flex; align-items: center;">
     <img src="https://github.com/purduelamm/purduelamm.github.io/blob/master/assets/images/pictures/members/D_MS_Students/Hayoung_Jeong.jpeg?raw=true" style="width: 157px; height: 200px; margin-right: 20px; object-fit: cover;"/>
@@ -266,7 +240,15 @@ force_desktop: true
     </div>
   </div>
 
-  
+  <div style="display: flex; align-items: center;">
+    <img src="https://github.com/purduelamm/purduelamm.github.io/blob/master/assets/images/pictures/members/E_Visiting_Researchers_and_Students/Junyoung_Oh.jpg?raw=true" style="width: 157px; height: 200px; margin-right: 20px; object-fit: cover;"/>
+    <div>
+      <div style="margin-bottom: 5px;">Junyoung Oh</div>
+      <div style="margin-bottom: 5px;">Visiting Student</div>
+      <div>Email: </div>
+      <div><a href="mailto:oh415@purdue.edu">oh415@purdue.edu</a></div>
+    </div>
+  </div>
 </div>
 
 ## Undergraduate Students
@@ -305,6 +287,30 @@ force_desktop: true
       <div style="margin-bottom: 5px;">2025-2026</div>
       <div>Email: </div>
       <div><a href="mailto:oh415@purdue.edu">oh415@purdue.edu</a></div>
+    </div>
+  </div>
+
+   <div style="display: flex; align-items: center;">
+    <img src="https://github.com/purduelamm/purduelamm.github.io/blob/master/assets/images/pictures/members/G_Past_Members_(Graduate_and_Postgraduate)/Fengfeng_Zhou.png?raw=true" style="width: 157px; height: 200px; margin-right: 20px; object-fit: cover;"/>
+    <div>
+      <div style="margin-bottom: 5px;">Dr. Fengfeng Zhou</div>
+      <div style="margin-bottom: 5px;">PhD Graduate</div>
+      <div style="margin-bottom: 5px;">2021-2025</div>
+      <div style="margin-bottom: 5px;">Now at Louisiana, U.S.</div>
+      <div>Email: </div>
+      <div><a href="mailto:fzhou@latech.edu">fzhou@latech.edu</a></div>
+    </div>
+  </div>
+
+  <div style="display: flex; align-items: center;">
+    <img src="https://github.com/purduelamm/purduelamm.github.io/blob/master/assets/images/pictures/members/G_Past_Members_(Graduate_and_Postgraduate)/Juri_Kang.jpeg?raw=true" style="width: 157px; height: 200px; margin-right: 20px; object-fit: cover;"/>
+    <div>
+      <div style="margin-bottom: 5px;">Juri Kang</div>
+      <div style="margin-bottom: 5px;">MS Graduate</div>
+      <div style="margin-bottom: 5px;">2024-2025</div>
+      <div style="margin-bottom: 5px;">Now at AbbVie, U.S.</div>
+      <div>Email: </div>
+      <div><a href="mailto:kang435@purdue.edu">kang435@purdue.edu</a></div>
     </div>
   </div>
 
