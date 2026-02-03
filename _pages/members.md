@@ -128,7 +128,7 @@ force_desktop: true
     <img src="https://github.com/purduelamm/purduelamm.github.io/blob/master/assets/images/pictures/members/C_PhD_Students/Dongjun_Yun.jpeg?raw=true" style="width: 157px; height: 200px; margin-right: 20px; object-fit: cover;"/>
     <div>
       <div style="margin-bottom: 5px;">Dongjun Yun</div>
-      <div style="margin-bottom: 5px;">MS Student</div>
+      <div style="margin-bottom: 5px;">PhD Student</div>
       <div>Email: </div>
       <div><a href="mailto:yun115@purdue.edu">yun115@purdue.edu</a></div>
     </div>
