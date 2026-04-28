@@ -355,6 +355,19 @@ force_desktop: true
 <div style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 20px;">
 
   <div style="display: flex; align-items: center;">
+    <img src="https://github.com/purduelamm/purduelamm.github.io/blob/master/assets/images/pictures/members/G_Past_Members_(Graduate_and_Postgraduate)/Hyunmin_Park.jpg?raw=true" style="width: 157px; height: 200px; margin-right: 20px; object-fit: cover;"/>
+    <div>
+      <div style="margin-bottom: 5px;">Dr. Hyunmin Park</div>
+      <div style="margin-bottom: 5px;">Visiting Research</div>
+      <div style="margin-bottom: 5px;">2025–2026</div>
+      <div style="margin-bottom: 5px;">Now at Ulsan University</div>
+      <div>Email: </div>
+      <div><a href="mailto:park2010@purdue.edu">park2010@purdue.edu</a></div>
+    </div>
+  </div>
+
+
+  <div style="display: flex; align-items: center;">
     <img src="https://github.com/purduelamm/purduelamm.github.io/blob/master/assets/images/pictures/members/G_Past_Members_(Graduate_and_Postgraduate)/Junyoung_Oh.jpg?raw=true" style="width: 157px; height: 200px; margin-right: 20px; object-fit: cover;"/>
     <div>
       <div style="margin-bottom: 5px;">Dr. Junyoung Oh</div>
@@ -365,7 +378,7 @@ force_desktop: true
     </div>
   </div>
 
-   <div style="display: flex; align-items: center;">
+  <div style="display: flex; align-items: center;">
     <img src="https://github.com/purduelamm/purduelamm.github.io/blob/master/assets/images/pictures/members/G_Past_Members_(Graduate_and_Postgraduate)/Fengfeng_Zhou.png?raw=true" style="width: 157px; height: 200px; margin-right: 20px; object-fit: cover;"/>
     <div>
       <div style="margin-bottom: 5px;">Dr. Fengfeng Zhou</div>
