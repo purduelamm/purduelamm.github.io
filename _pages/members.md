@@ -293,26 +293,6 @@ force_desktop: true
     </div>
   </div>
 
-  <div style="display: flex; align-items: center;">
-    <img src="https://github.com/purduelamm/purduelamm.github.io/blob/master/assets/images/pictures/members/E_Visiting_Researchers_and_Students/Cheoljin_Park.jpg?raw=true" style="width: 157px; height: 200px; margin-right: 20px; object-fit: cover;"/>
-    <div>
-      <div style="margin-bottom: 5px;">Dr. Cheoljin Park</div>
-      <div style="margin-bottom: 5px;">Visiting Researcher</div>
-      <div>Email: </div>
-      <div><a href="mailto:park1940@purdue.edu">park1940@purdue.edu</a></div>
-    </div>
-  </div>
-
-  <div style="display: flex; align-items: center;">
-    <img src="https://github.com/purduelamm/purduelamm.github.io/blob/master/assets/images/pictures/members/E_Visiting_Researchers_and_Students/Songhyeon_Ju.jpg?raw=true" style="width: 157px; height: 200px; margin-right: 20px; object-fit: cover;"/>
-    <div>
-      <div style="margin-bottom: 5px;">Songhyeon Ju</div>
-      <div style="margin-bottom: 5px;">Visiting Researcher</div>
-      <div>Email: </div>
-      <div><a href="mailto:ju64@purdue.edu">ju64@purdue.edu</a></div>
-    </div>
-  </div>
-
 
   <div style="display: flex; align-items: center;">
     <img src="https://github.com/purduelamm/purduelamm.github.io/blob/master/assets/images/pictures/members/E_Visiting_Researchers_and_Students/Huichan_Park.jpg?raw=true" style="width: 157px; height: 200px; margin-right: 20px; object-fit: cover;"/>
