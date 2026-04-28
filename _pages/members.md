@@ -37,16 +37,7 @@ force_desktop: true
     </div>
   </div>
 
-   <div style="display: flex; align-items: center;">
-    <img src="https://github.com/purduelamm/purduelamm.github.io/blob/master/assets/images/pictures/members/B_Researchers/Moonseop_Kim.jpg?raw=true" style="width: 157px; height: 200px; margin-right: 20px; object-fit: cover;"/>
-    <div>
-      <div style="margin-bottom: 5px;">Dr. Moonseop Kim</div>
-      <div style="margin-bottom: 5px;">Postdoctoral Researcher</div>
-      <div>Email: </div>
-      <div><a href="mailto:kim2122@purdue.edu">kim2122@purdue.edu</a></div>
-    </div>
-  </div>
-
+   
   <div style="display: flex; align-items: center;">
     <img src="https://github.com/purduelamm/purduelamm.github.io/blob/master/assets/images/pictures/members/B_Researchers/Asif_Tanveer.jpg?raw=true" style="width: 157px; height: 200px; margin-right: 20px; object-fit: cover;"/>
     <div>
@@ -67,6 +58,18 @@ force_desktop: true
       <div><a href="mailto:oh415@purdue.edu">oh415@purdue.edu</a></div>
     </div>
   </div>
+
+
+ <div style="display: flex; align-items: center;">
+    <img src="https://github.com/purduelamm/purduelamm.github.io/blob/master/assets/images/pictures/members/B_Researchers/Moonseop_Kim.jpg?raw=true" style="width: 157px; height: 200px; margin-right: 20px; object-fit: cover;"/>
+    <div>
+      <div style="margin-bottom: 5px;">Dr. Moonseop Kim</div>
+      <div style="margin-bottom: 5px;">Postdoctoral Researcher</div>
+      <div>Email: </div>
+      <div><a href="mailto:kim2122@purdue.edu">kim2122@purdue.edu</a></div>
+    </div>
+  </div>
+
 
   <div style="display: flex; align-items: center;">
     <img src="https://github.com/purduelamm/purduelamm.github.io/blob/master/assets/images/pictures/members/B_Researchers/Zeehun_Jung.png?raw=true" style="width: 157px; height: 200px; margin-right: 20px; object-fit: cover;"/>
