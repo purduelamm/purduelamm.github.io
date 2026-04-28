@@ -292,6 +292,58 @@ force_desktop: true
       <div><a href="mailto:ju64@purdue.edu">ju64@purdue.edu</a></div>
     </div>
   </div>
+
+  <div style="display: flex; align-items: center;">
+    <img src="https://github.com/purduelamm/purduelamm.github.io/blob/master/assets/images/pictures/members/E_Visiting_Researchers_and_Students/Cheoljin_Park.jpg?raw=true" style="width: 157px; height: 200px; margin-right: 20px; object-fit: cover;"/>
+    <div>
+      <div style="margin-bottom: 5px;">Dr. Cheoljin Park</div>
+      <div style="margin-bottom: 5px;">Visiting Researcher</div>
+      <div>Email: </div>
+      <div><a href="mailto:park1940@purdue.edu">park1940@purdue.edu</a></div>
+    </div>
+  </div>
+
+  <div style="display: flex; align-items: center;">
+    <img src="https://github.com/purduelamm/purduelamm.github.io/blob/master/assets/images/pictures/members/E_Visiting_Researchers_and_Students/Songhyeon_Ju.jpg?raw=true" style="width: 157px; height: 200px; margin-right: 20px; object-fit: cover;"/>
+    <div>
+      <div style="margin-bottom: 5px;">Songhyeon Ju</div>
+      <div style="margin-bottom: 5px;">Visiting Researcher</div>
+      <div>Email: </div>
+      <div><a href="mailto:ju64@purdue.edu">ju64@purdue.edu</a></div>
+    </div>
+  </div>
+
+
+  <div style="display: flex; align-items: center;">
+    <img src="https://github.com/purduelamm/purduelamm.github.io/blob/master/assets/images/pictures/members/E_Visiting_Researchers_and_Students/Huichan_Park.jpg?raw=true" style="width: 157px; height: 200px; margin-right: 20px; object-fit: cover;"/>
+    <div>
+      <div style="margin-bottom: 5px;">Huichan Park </div>
+      <div style="margin-bottom: 5px;">Visiting Student</div>
+      <div>Email: </div>
+      <div><a href="mailto:parkhc97@g.skku.edu">parkhc97@g.skku.edu</a></div>
+    </div>
+  </div>
+
+
+  <div style="display: flex; align-items: center;">
+    <img src="https://github.com/purduelamm/purduelamm.github.io/blob/master/assets/images/pictures/members/E_Visiting_Researchers_and_Students/JongWoo_Han.jpg?raw=true" style="width: 157px; height: 200px; margin-right: 20px; object-fit: cover;"/>
+    <div>
+      <div style="margin-bottom: 5px;">JongWoo Han</div>
+      <div style="margin-bottom: 5px;">Visiting Student</div>
+      <div>Email: </div>
+      <div><a href="mailto:han1036@purdue.edu">han1036@purdue.edu</a></div>
+    </div>
+  </div>
+
+  <div style="display: flex; align-items: center;">
+    <img src="https://github.com/purduelamm/purduelamm.github.io/blob/master/assets/images/pictures/members/E_Visiting_Researchers_and_Students/Yulseok_Byun.jpg?raw=true" style="width: 157px; height: 200px; margin-right: 20px; object-fit: cover;"/>
+    <div>
+      <div style="margin-bottom: 5px;">Yulseok Byun</div>
+      <div style="margin-bottom: 5px;">Visiting Student</div>
+      <div>Email: </div>
+      <div><a href="mailto:byunys2000@cau.ac.kr">byunys2000@cau.ac.kr</a></div>
+    </div>
+  </div>
 </div>
 
 ## Undergraduate Students
