@@ -360,7 +360,7 @@ force_desktop: true
       <div style="margin-bottom: 5px;">Dr. Hyunmin Park</div>
       <div style="margin-bottom: 5px;">Visiting Research</div>
       <div style="margin-bottom: 5px;">2025–2026</div>
-      <div style="margin-bottom: 5px;">Now at Ulsan University</div>
+      <div style="margin-bottom: 5px;">Now at University of Ulsan</div>
       <div>Email: </div>
       <div><a href="mailto:park2010@purdue.edu">park2010@purdue.edu</a></div>
     </div>
