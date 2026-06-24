@@ -316,7 +316,19 @@ force_desktop: true
 
 <div style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 20px;">
 
- 
+ <div style="display: flex; align-items: center;">
+    <img src="https://github.com/purduelamm/purduelamm.github.io/blob/master/assets/images/pictures/members/G_Past_Members_(Graduate_and_Postgraduate)/Moonseop_Kim.jpeg?raw=true" style="width: 157px; height: 200px; margin-right: 20px; object-fit: cover;"/>
+    <div>
+      <div style="margin-bottom: 5px;">Dr. Moonseop Kim</div>
+      <div style="margin-bottom: 5px;">Visiting Research</div>
+      <div style="margin-bottom: 5px;">2025–2026</div>
+      <div style="margin-bottom: 5px;">Now at Samsung Electronics, Korea</div>
+      <div>Email: </div>
+      <div><a href="mailto:kim2122@purdue.edu">kim2122@purdue.edu</a></div>
+    </div>
+  </div>
+
+
   <div style="display: flex; align-items: center;">
     <img src="https://github.com/purduelamm/purduelamm.github.io/blob/master/assets/images/pictures/members/G_Past_Members_(Graduate_and_Postgraduate)/Nobin_Myeong.jpeg?raw=true" style="width: 157px; height: 200px; margin-right: 20px; object-fit: cover;"/>
     <div>
