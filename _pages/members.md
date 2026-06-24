@@ -203,7 +203,7 @@ force_desktop: true
       <div style="margin-bottom: 5px;">Yoonjae Jun</div>
       <div style="margin-bottom: 5px;">MS Student</div>
       <div>Email: </div>
-      <div><a href="mailto:bae130@purdue.edu">bae130@purdue.edu</a></div>
+      <div><a href="mailto:jun35@purdue.edu">jun35@purdue.edu</a></div>
     </div>
   </div>
   
