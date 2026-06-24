@@ -196,6 +196,16 @@ force_desktop: true
       <div><a href="mailto:bae130@purdue.edu">bae130@purdue.edu</a></div>
     </div>
   </div>
+
+  <div style="display: flex; align-items: center;">
+    <img src="https://github.com/purduelamm/purduelamm.github.io/blob/master/assets/images/pictures/members/D_MS_Students/Yoonjae_Jun.jpg?raw=true" style="width: 157px; height: 200px; margin-right: 20px; object-fit: cover;"/>
+    <div>
+      <div style="margin-bottom: 5px;">Yoonjae Jun</div>
+      <div style="margin-bottom: 5px;">MS Student</div>
+      <div>Email: </div>
+      <div><a href="mailto:bae130@purdue.edu">bae130@purdue.edu</a></div>
+    </div>
+  </div>
   
   <!-- Add more MS -YS- -->
 </div>
