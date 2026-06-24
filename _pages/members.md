@@ -149,31 +149,13 @@ force_desktop: true
   </div>
  
   
+  
   <!-- Add more PhD -YS- -->
 </div>
 
 ## MS Students
 
 <div style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 20px;">  
-  <div style="display: flex; align-items: center;">
-    <img src="https://github.com/purduelamm/purduelamm.github.io/blob/master/assets/images/pictures/members/D_MS_Students/Nobin_Myeong.jpeg?raw=true" style="width: 157px; height: 200px; margin-right: 20px; object-fit: cover;"/>
-    <div>
-      <div style="margin-bottom: 5px;">Nobin Myeong</div>
-      <div style="margin-bottom: 5px;">MS Student</div>
-      <div>Email: </div>
-      <div><a href="mailto:nmyeong@purdue.edu">nmyeong@purdue.edu</a></div>
-    </div>
-  </div>
-  
-  <div style="display: flex; align-items: center;">
-    <img src="https://github.com/purduelamm/purduelamm.github.io/blob/master/assets/images/pictures/members/D_MS_Students/Junho_Sohn.jpeg?raw=true" style="width: 157px; height: 200px; margin-right: 20px; object-fit: cover;"/>
-    <div>
-      <div style="margin-bottom: 5px;">Junho Sohn</div>
-      <div style="margin-bottom: 5px;">MS Student</div>
-      <div>Email: </div>
-      <div><a href="mailto:sohn39@purdue.edu">sohn39@purdue.edu</a></div>
-    </div>
-  </div>
 
   <div style="display: flex; align-items: center;">
     <img src="https://github.com/purduelamm/purduelamm.github.io/blob/master/assets/images/pictures/members/D_MS_Students/Hayoung_Jeong.jpeg?raw=true" style="width: 157px; height: 200px; margin-right: 20px; object-fit: cover;"/>
@@ -333,6 +315,32 @@ force_desktop: true
 ## Past members (Graduate and Post graduate)
 
 <div style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 20px;">
+
+ 
+  <div style="display: flex; align-items: center;">
+    <img src="https://github.com/purduelamm/purduelamm.github.io/blob/master/assets/images/pictures/members/G_Past_Members_(Graduate_and_Postgraduate)/Nobin_Myeong.jpeg?raw=true" style="width: 157px; height: 200px; margin-right: 20px; object-fit: cover;"/>
+    <div>
+      <div style="margin-bottom: 5px;">Nobin Myeong</div>
+      <div style="margin-bottom: 5px;">MS Graduate</div>
+      <div style="margin-bottom: 5px;">2024–2026</div>
+      <div style="margin-bottom: 5px;">Now at ROK Army, Korea</div>
+      <div>Email: </div>
+      <div><a href="mailto:nmyeong@purdue.edu">nmyeong@purdue.edu</a></div>
+    </div>
+  </div>
+  
+  <div style="display: flex; align-items: center;">
+    <img src="https://github.com/purduelamm/purduelamm.github.io/blob/master/assets/images/pictures/members/G_Past_Members_(Graduate_and_Postgraduate)/Junho_Sohn.jpeg?raw=true" style="width: 157px; height: 200px; margin-right: 20px; object-fit: cover;"/>
+    <div>
+      <div style="margin-bottom: 5px;">Junho Sohn</div>
+      <div style="margin-bottom: 5px;">MS Graduate</div>
+      <div style="margin-bottom: 5px;">2024–2026</div>
+      <div style="margin-bottom: 5px;">Now at ROK Army, Korea</div>
+      <div>Email: </div>
+      <div><a href="mailto:sohn39@purdue.edu">sohn39@purdue.edu</a></div>
+    </div>
+  </div>
+
 
   <div style="display: flex; align-items: center;">
     <img src="https://github.com/purduelamm/purduelamm.github.io/blob/master/assets/images/pictures/members/G_Past_Members_(Graduate_and_Postgraduate)/Hyunmin_Park.jpg?raw=true" style="width: 157px; height: 200px; margin-right: 20px; object-fit: cover;"/>
