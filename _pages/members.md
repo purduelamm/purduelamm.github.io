@@ -316,7 +316,7 @@ force_desktop: true
     <div>
       <div style="margin-bottom: 5px;">Dr. Changheon Han</div>
       <div style="margin-bottom: 5px;">PhD Graduate</div>
-      <div style="margin-bottom: 5px;">-2026</div>
+      <div style="margin-bottom: 5px;">2022-2026</div>
       <div style="margin-bottom: 5px;">Purdue University</div>
       <div>Email: </div>
       <div><a href="mailto:han711@purdue.edu">han711@purdue.edu</a></div>
