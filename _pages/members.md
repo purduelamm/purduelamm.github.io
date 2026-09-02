@@ -143,7 +143,7 @@ force_desktop: true
       <div><a href="mailto:yoon358@purdue.edu">yoon358@purdue.edu</a></div>
     </div>
   </div>
-  
+
   <div style="display: flex; align-items: center;">
     <img src="https://github.com/purduelamm/purduelamm.github.io/blob/master/assets/images/pictures/members/C_PhD_Students/Dogyu_Ru.png?raw=true" style="width: 157px; height: 200px; margin-right: 20px; object-fit: cover;"/>
     <div>
@@ -163,9 +163,7 @@ force_desktop: true
       <div><a href="mailto:song1053@purdue.edu">song1053@purdue.edu</a></div>
     </div>
   </div>
-  
-  
-  <!-- Add more PhD -YS- -->
+    <!-- Add more PhD -YS- -->
 </div>
 
 ## MS Students
