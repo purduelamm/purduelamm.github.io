@@ -23,7 +23,8 @@ force_desktop: true
 </div>
 
 ## Researchers
-   
+
+<div style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 20px;">
   <div style="display: flex; align-items: center;">
     <img src="https://github.com/purduelamm/purduelamm.github.io/blob/master/assets/images/pictures/members/B_Researchers/Asif_Tanveer.jpg?raw=true" style="width: 157px; height: 200px; margin-right: 20px; object-fit: cover;"/>
     <div>
@@ -65,7 +66,7 @@ force_desktop: true
       <div><a href="mailto:zjung@purdue.edu">zjung@purdue.edu</a></div>
     </div>
   </div>
-</div>
+
 
 
 
