@@ -320,6 +320,18 @@ force_desktop: true
 <div style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 20px;">
 
   <div style="display: flex; align-items: center;">
+    <img src="https://github.com/purduelamm/purduelamm.github.io/blob/master/assets/images/pictures/members/G_Past_Members_(Graduate_and_Postgraduate)/Changheon_Han.png?raw=true" style="width: 157px; height: 200px; margin-right: 20px; object-fit: cover;"/>
+    <div>
+      <div style="margin-bottom: 5px;">Dr. Changheon Han</div>
+      <div style="margin-bottom: 5px;">PhD Graduate</div>
+      <div style="margin-bottom: 5px;">-2026</div>
+      <div style="margin-bottom: 5px;">Purdue University</div>
+      <div>Email: </div>
+      <div><a href="mailto:han711@purdue.edu">han711@purdue.edu</a></div>
+    </div>
+  </div>
+  
+  <div style="display: flex; align-items: center;">
     <img src="https://github.com/purduelamm/purduelamm.github.io/blob/master/assets/images/pictures/members/E_Visiting_Researchers_and_Students/Huichan_Park.jpg?raw=true" style="width: 157px; height: 200px; margin-right: 20px; object-fit: cover;"/>
     <div>
       <div style="margin-bottom: 5px;">Huichan Park </div>
