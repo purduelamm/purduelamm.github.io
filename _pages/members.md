@@ -181,7 +181,7 @@ force_desktop: true
   </div>
 
   <div style="display: flex; align-ite: center;">
-    <img src="https://github.com/purduelamm/purduelamm.github.io/blob/master/assets/images/pictures/members/D__Students/Yonghyun_Lee.png?raw=true" style="width: 157px; height: 200px; margin-right: 20px; object-fit: cover;"/>
+    <img src="https://github.com/purduelamm/purduelamm.github.io/blob/master/assets/images/pictures/members/D_MS_Students/Yonghyun_Lee.png?raw=true" style="width: 157px; height: 200px; margin-right: 20px; object-fit: cover;"/>
     <div>
       <div style="margin-bottom: 5px;">Yonghyun Lee</div>
       <div style="margin-bottom: 5px;"> Student</div>
@@ -191,7 +191,7 @@ force_desktop: true
   </div>
 
   <div style="display: flex; align-ite: center;">
-    <img src="https://github.com/purduelamm/purduelamm.github.io/blob/master/assets/images/pictures/members/D__Students/Sungwoo_Bae.jpg?raw=true" style="width: 157px; height: 200px; margin-right: 20px; object-fit: cover;"/>
+    <img src="https://github.com/purduelamm/purduelamm.github.io/blob/master/assets/images/pictures/members/D_MS_Students/Sungwoo_Bae.jpg?raw=true" style="width: 157px; height: 200px; margin-right: 20px; object-fit: cover;"/>
     <div>
       <div style="margin-bottom: 5px;">Sungwoo Bae</div>
       <div style="margin-bottom: 5px;">MS Student</div>
