@@ -290,6 +290,44 @@ force_desktop: true
 
 ## Past members (Graduate and Post graduate)
 
+<div style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 20px;">
+
+  <div style="display: flex; align-items: center;">
+    <img src="https://github.com/purduelamm/purduelamm.github.io/blob/master/assets/images/pictures/members/E_Visiting_Researchers_and_Students/Huichan_Park.jpg?raw=true" style="width: 157px; height: 200px; margin-right: 20px; object-fit: cover;"/>
+    <div>
+      <div style="margin-bottom: 5px;">Huichan Park </div>
+      <div style="margin-bottom: 5px;">Visiting Student (Sungkyunkwan University)</div>
+      <div style="margin-bottom: 5px;">2026</div>
+      <div>Email: </div>
+      <div><a href="mailto:parkhc97@g.skku.edu">parkhc97@g.skku.edu</a></div>
+    </div>
+  </div>
+
+
+
+  <div style="display: flex; align-items: center;">
+    <img src="https://github.com/purduelamm/purduelamm.github.io/blob/master/assets/images/pictures/members/G_Past_Members_(Graduate_and_Postgraduate)/JongWoo_Han.jpg?raw=true" style="width: 157px; height: 200px; margin-right: 20px; object-fit: cover;"/>
+    <div>
+      <div style="margin-bottom: 5px;">JongWoo Han</div>
+      <div style="margin-bottom: 5px;">Visiting Student (Ulsan National Institute of Science and Technology)</div>
+      <div style="margin-bottom: 5px;">2026</div>
+      <div>Email: </div>
+      <div><a href="mailto:han1036@purdue.edu">han1036@purdue.edu</a></div>
+    </div>
+  </div>
+
+
+  <div style="display: flex; align-items: center;">
+    <img src="https://github.com/purduelamm/purduelamm.github.io/blob/master/assets/images/pictures/members/G_Past_Members_(Graduate_and_Postgraduate)/Yulseok_Byun.jpg?raw=true" style="width: 157px; height: 200px; margin-right: 20px; object-fit: cover;"/>
+    <div>
+      <div style="margin-bottom: 5px;">Yulseok Byun</div>
+      <div style="margin-bottom: 5px;">Visiting Student (Chung-Ang University)</div>
+      <div style="margin-bottom: 5px;">2026</div>
+      <div>Email: </div>
+      <div><a href="mailto:byunys2000@cau.ac.kr">byunys2000@cau.ac.kr</a></div>
+    </div>
+  </div>
+  
 <div style="display: flex; align-items: center;">
     <img src="https://github.com/purduelamm/purduelamm.github.io/blob/master/assets/images/pictures/members/G_Past_Members_(Graduate_and_Postgraduate)/Junmyoung_Jang.jpg?raw=true" style="width: 157px; height: 200px; margin-right: 20px; object-fit: cover;"/>
     <div>
@@ -302,10 +340,6 @@ force_desktop: true
     </div>
   </div>
 
-
-
-
-<div style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 20px;">
 
  <div style="display: flex; align-items: center;">
     <img src="https://github.com/purduelamm/purduelamm.github.io/blob/master/assets/images/pictures/members/G_Past_Members_(Graduate_and_Postgraduate)/Moonseop_Kim.jpg?raw=true" style="width: 157px; height: 200px; margin-right: 20px; object-fit: cover;"/>
