@@ -83,16 +83,6 @@ force_desktop: true
       <div><a href="mailto:chen2122@purdue.edu">chen2122@purdue.edu</a></div>
     </div>
   </div>
-  
-  <div style="display: flex; align-items: center;">
-    <img src="https://github.com/purduelamm/purduelamm.github.io/blob/master/assets/images/pictures/members/C_PhD_Students/Changheon_Han.png?raw=true" style="width: 157px; height: 200px; margin-right: 20px; object-fit: cover;"/>
-    <div>
-      <div style="margin-bottom: 5px;">Changheon Han</div>
-      <div style="margin-bottom: 5px;">PhD Student</div>
-      <div>Email: </div>
-      <div><a href="mailto:han711@purdue.edu">han711@purdue.edu</a></div>
-    </div>
-  </div>
 
   <div style="display: flex; align-items: center;">
     <img src="https://github.com/purduelamm/purduelamm.github.io/blob/master/assets/images/pictures/members/C_PhD_Students/Hojun_Lee.png?raw=true" style="width: 157px; height: 200px; margin-right: 20px; object-fit: cover;"/>
@@ -180,16 +170,6 @@ force_desktop: true
 
 <div style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 20px;">  
 
-  <div style="display: flex; align-items: center;">
-    <img src="https://github.com/purduelamm/purduelamm.github.io/blob/master/assets/images/pictures/members/D_MS_Students/Hayoung_Jeong.jpeg?raw=true" style="width: 157px; height: 200px; margin-right: 20px; object-fit: cover;"/>
-    <div>
-      <div style="margin-bottom: 5px;">Hayoung Jeong</div>
-      <div style="margin-bottom: 5px;">MS Student</div>
-      <div>Email: </div>
-      <div><a href="mailto:jeong214@purdue.edu">jeong214@purdue.edu</a></div>
-    </div>
-  </div>
- 
   <div style="display: flex; align-items: center;">
     <img src="https://github.com/purduelamm/purduelamm.github.io/blob/master/assets/images/pictures/members/D_MS_Students/HanGyeom_Lee.png?raw=true" style="width: 157px; height: 200px; margin-right: 20px; object-fit: cover;"/>
     <div>
